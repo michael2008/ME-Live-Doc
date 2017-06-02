@@ -157,15 +157,15 @@ You need to add a license to activate full corresponding functionalities
 of ME-Live! before use.
 
 Open the browser on the ME-Live! workstation (Edge and Chrome are
-preferable) to visit *http://localhost/admin*. Note that you need to
+preferable) to visit ``http://localhost/admin``. Note that you need to
 install MeshExpert supporting software, the **MeshExpert Suite**, before
 adding a license if the workstation is assembled by yourself. As for
 installation of MeshExpert Suite, please refer to `User
 Guide <https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide>`__
 for ME Live!
 
-Once you opened *http://localhost/admin*, you can upload your license
-file via the "Adding License" page as shown below. If you haven't obtain
+Once you opened ``http://localhost/admin``, you can upload your license
+file via the "**Adding License**" page as shown below. If you haven't obtain
 a license yet, please contact *service@datamesh.com* for a trial or
 commercial license.
 
@@ -179,7 +179,7 @@ commercial license.
    Adding License
 
 
-Upon finished, you will see your license information in the "License"
+Upon finished, you will see your license information in the "**License**"
 tab as demonstrated below, which reveals the detailed information about
 your licensing.
 
