@@ -52,15 +52,15 @@ development environment for the host. It’s recommended to use
 high-performance desktop host and the basic hardware requirements are as
 follows:
 
-+-------------------+----------------------------------------------+
-| Item              | Requirements                                 |
-+===================+==============================================+
-| Cpu               | Intel i5/i7 Quad, AMD Ryzen 1600 or higher   |
-+-------------------+----------------------------------------------+
-| Memory            | 8GB+                                         |
-+-------------------+----------------------------------------------+
-| Hard disk space   | 100GB+; SSD recommended                      |
-+-------------------+----------------------------------------------+
++-----------------------+----------------------------------------------+
+| Item                  | Requirements                                 |
++=======================+==============================================+
+| **CPU**               | Intel i5/i7 Quad, AMD Ryzen 1600 or higher   |
++-----------------------+----------------------------------------------+
+| **Memory**            | 8GB+                                         |
++-----------------------+----------------------------------------------+
+| **Hard disk space**   | 100GB+; SSD recommended                      |
++-----------------------+----------------------------------------------+
 
 As for Live RIG hardware configuration and installation configuration,
 please refer to `RIG Installation in Usage Guide for ME
