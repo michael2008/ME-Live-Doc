@@ -90,11 +90,11 @@ use it.
 RIG kit offered by DataMesh has been equipped with all necessary
 software in advance.
 
-The assembly process of RIG kit is demonstrated in the ":ref:`fig_rig-assembly`" and steps are as follows:
+The assembly process of RIG kit is demonstrated in Picture ":ref:`fig_rig-assembly`" and steps are as follows:
 
 .. _fig_rig-assembly:
 .. figure:: images/getting-started-rig-assembly-diagram.png
-   :height: 450
+   :width: 50
    :align: center
    :alt: Rig Assembly Diagram
    :figclass: align-center
@@ -166,7 +166,7 @@ for ME Live!
 
 Once you opened ``http://localhost/admin``, you can upload your license
 file via the "**Adding License**" page as shown below. If you haven't obtain
-a license yet, please contact *service@datamesh.com* for a trial or
+a license yet, please contact service@datamesh.com for a trial or
 commercial license.
 
 .. _fig_rig-adding-license:
