@@ -279,7 +279,7 @@ Coding
 
 -  Copy and paste the following codes to the script.
 
-.. code:: c#
+.. code-block:: c#
 
     using System.Collections;
     using UnityEngine;
