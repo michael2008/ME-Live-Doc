@@ -34,8 +34,7 @@ Hardware Requirement
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
 | Device                  | Quantity           | Purpose                                                   | Remark     |
 +=========================+====================+===========================================================+============+
-| **Live Workstation host**   | One set            | Install MeshExpert suite and                           | Required   |
-|                              |                   | establish Live Workstation                             |            |
+| **Live Workstation host**   | One set            | Install MeshExpert suite and establish Live Workstation   | Required   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
 | **Live Rig**                | One set            | Synthesize the 3D hologrms                                | Required   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
