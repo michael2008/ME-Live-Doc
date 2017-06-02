@@ -34,17 +34,18 @@ Hardware Requirement
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
 | Device                  | Quantity           | Purpose                                                   | Remark     |
 +=========================+====================+===========================================================+============+
-| Live Workstation host   | One set            | Install MeshExpert suite and establish Live Workstation   | Required   |
+| **Live Workstation host**   | One set            | Install MeshExpert suite and                           | Required   |
+|                              |                   | establish Live Workstation                             |            |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
-| Live Rig                | One set            | Synthesize the 3D hologrms                                | Required   |
+| **Live Rig**                | One set            | Synthesize the 3D hologrms                                | Required   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
-| HoloLens                | At least one set   | Debug and release your mix-reality apps                   | Required   |
+| **HoloLens**               | At least one set   | Debug and release your mix-reality apps                   | Required   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
-| Surface                 | Optional           | Debug and release UWP apps                                | Optional   |
+| **Surface**                 | Optional           | Debug and release UWP apps                                | Optional   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
-| IPhone/IPad             | Optional           | Debug and release iOS virtual-reality apps                | Optional   |
+| **iPhone/iPad**             | Optional           | Debug and release iOS virtual-reality apps                | Optional   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
-| Android                 | Optional           | Debug and release Android apps                            | Optional   |
+| **Android**                 | Optional           | Debug and release Android apps                            | Optional   |
 +-------------------------+--------------------+-----------------------------------------------------------+------------+
 
 Live Workstation can directly, without MeshExpert Suite, serve as the
