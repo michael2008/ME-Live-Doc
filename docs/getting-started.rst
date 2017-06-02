@@ -94,7 +94,7 @@ The assembly process of RIG kit is demonstrated in the :ref:`_fig_rig-assembly` 
 
 .. _fig_rig-assembly:
 .. figure:: images/getting-started-rig-assembly-diagram.png
-   :height: 500
+   :height: 450
    :align: center
    :alt: Rig Assembly Diagram
    :figclass: align-center
@@ -124,7 +124,7 @@ DataMesh has been equipped with all necessary software in advance.
 Steps of access to work station are as follows(see in Picture :ref:`_fig_rig-workstation-connection-diagram`):
 
 .. _fig_rig-workstation-connection-diagram:
-.. figure:: images/workstation-connection-diagram.png
+.. figure:: images/getting-started-workstation-connection-diagram.png
    :width: 500
    :align: center
    :alt: Workstation Connection Diagram
@@ -169,13 +169,29 @@ file via the "Adding License" page as shown below. If you haven't obtain
 a license yet, please contact *service@datamesh.com* for a trial or
 commercial license.
 
- Adding License
+.. _fig_rig-adding-license:
+.. figure:: images/getting-started-adding-license.png
+   :width: 500
+   :align: center
+   :alt: Adding License
+   :figclass: align-center
+   
+   Adding License
+
 
 Upon finished, you will see your license information in the "License"
 tab as demonstrated below, which reveals the detailed information about
 your licensing.
 
- License Information
+.. _fig_rig-license-information:
+.. figure:: images/getting-started-license-information.png
+   :width: 500
+   :align: center
+   :alt: License Information
+   :figclass: align-center
+   
+   License Information
+
 
 Experience Mixed-Reality
 ========================
