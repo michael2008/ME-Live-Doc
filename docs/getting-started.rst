@@ -90,7 +90,7 @@ use it.
 RIG kit offered by DataMesh has been equipped with all necessary
 software in advance.
 
-The assembly process of RIG kit is demonstrated in the :ref:`_fig_rig-assembly` and steps are as follows:
+The assembly process of RIG kit is demonstrated in the ":ref:`fig_rig-assembly`" and steps are as follows:
 
 .. _fig_rig-assembly:
 .. figure:: images/getting-started-rig-assembly-diagram.png
@@ -121,7 +121,7 @@ It's recommended to use the work station device offered by DataMesh to
 gain access to the best experience. The work station device offered by
 DataMesh has been equipped with all necessary software in advance.
 
-Steps of access to work station are as follows(see in Picture :ref:`_fig_rig-workstation-connection-diagram`):
+Steps of access to work station are as follows(see in Picture ":ref:`fig_rig-workstation-connection-diagram`"):
 
 .. _fig_rig-workstation-connection-diagram:
 .. figure:: images/getting-started-workstation-connection-diagram.png
