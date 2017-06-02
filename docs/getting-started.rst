@@ -94,7 +94,7 @@ The assembly process of RIG kit is demonstrated in Picture ":ref:`fig_rig-assemb
 
 .. _fig_rig-assembly:
 .. figure:: images/getting-started-rig-assembly-diagram.png
-   :width: 150
+   :width: 200
    :align: center
    :alt: Rig Assembly Diagram
    :figclass: align-center
