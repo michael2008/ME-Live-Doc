@@ -90,12 +90,11 @@ use it.
 RIG kit offered by DataMesh has been equipped with all necessary
 software in advance.
 
-The assembly process of RIG kit is demonstrated in the "Rig Assembly
-Diagram" and steps are as follows:
+The assembly process of RIG kit is demonstrated in the ":ref:`_fig_rig-assembly`" and steps are as follows:
 
 .. _fig_rig-assembly:
 .. figure:: images/getting-started-rig-assembly-diagram.png
-   :height: 600
+   :height: 500
    :align: center
    :alt: Rig Assembly Diagram
    :figclass: align-center
@@ -122,10 +121,17 @@ It's recommended to use the work station device offered by DataMesh to
 gain access to the best experience. The work station device offered by
 DataMesh has been equipped with all necessary software in advance.
 
-Steps of access to work station are as follows(see in Picture "ME Live!
-Workstation Connection Diagram"):
+Steps of access to work station are as follows(see in Picture ":ref:`_fig_rig-workstation-connection-diagram`"):
 
- ME Live! Workstation Connection Diagram
+.. _fig_rig-workstation-connection-diagram:
+.. figure:: images/gworkstation-connection-diagram.png
+   :width: 500
+   :align: center
+   :alt: Workstation Connection Diagram
+   :figclass: align-center
+   
+   Workstation Connection Diagram
+
 
 1. Connect output interface of HDMI of the camera to input interface of
    HDMI of work station's video card by using the HDMI connecting
