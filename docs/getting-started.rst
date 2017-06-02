@@ -93,7 +93,15 @@ software in advance.
 The assembly process of RIG kit is demonstrated in the "Rig Assembly
 Diagram" and steps are as follows:
 
- Rig Assembly Diagram
+.. _fig_rig-assembly:
+.. figure:: images/getting-started-rig-assembly-diagram.png
+   :height: 600
+   :align: center
+   :alt: Rig Assembly Diagram
+   :figclass: align-center
+
+   Rig Assembly Diagram
+
 
 1. Fix HoloLens on the dedicated fixed mount.
 
