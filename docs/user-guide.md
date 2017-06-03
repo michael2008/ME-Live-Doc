@@ -380,7 +380,6 @@ Steps of moving spatial anchors are as follows:
   > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
 
 * Gaze at Rotate"Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
-
   > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and revolve the object in the direction of three axis.
 
 After adjusting WorldAnchor, Air Tap at the blank area outside the enclosed box, you will exit the Anchor edit model and enclosed box and crystalline will disappear. At the same time, the position of the galaxy will be stored and the galaxy will return to the position if spatial recognition is commensurate after starting HoloLens.
