@@ -1,7 +1,9 @@
 ## Overview
+
 ME-Live! includes a complete set of hardwares, supporting softwares and apps. This guide will firstly give you the detailed specifications of hardware devices and their installation instructions; then it will introduce you how to use the system, including license installation and management, management of HoloLens device and app installation and management; lastly it will show some built-in demo apps.
 
 ## System Structure
+
 ME-Live! is made up of two parts:
 
 * **Live Rig**: a set of movable video device with a function of getting  video and location information of the real world.
@@ -21,9 +23,13 @@ ME-Live! is made up of two parts:
 ME-Live! contains two mains parts, collaboration and live streaming. The collaboration within multiple devices which is achieved by delivering messages between these devices through HoloServer, makes real-time synchronization of scenes on these devices a reality.  Through camera shooting and collecting real-life scenes as well as getting the mapping of spatial position by HoloLens on the tripod at the same time, live streaming of scenes can be achieved as long as scenes and mapping are input to Live Controller in Workstation to carry out real-time 3D synthesis and then output onto screens through HDMI interface.
 
 ## RIG Installation
+
 ### Function
+
 Rig is used for obtaining the real-world images and location information and further delivering them to Workstation in order to carry out real-time synthesis.
+
 ### Composition
+
 ME-Live! Rig is constituted of the following main components:
 * Digital camera/vidicon
 * HoloLens
@@ -33,6 +39,7 @@ ME-Live! Rig is constituted of the following main components:
 > Note: HoloLens here is responsible for providing site position information. You can replace it with other devices which also can provide position information if you want. Besides, If you don't need real-time synchronization of site position information, such as fixing the camera stand, you can completely leave HoloLens alone.
 
 ### Assembly
+
 Assembly is aimed to fixing the complete set of device firmly, so as to reduce unstable factors during usage, such as shaking.
 Ways of assembly and connection depend on the site requirements and devices you choose. If you want to choose some non-recommended devices, you should know how to connect them together.
 
@@ -58,6 +65,7 @@ The assembly process of Rig Suite is depicted in the picture below and steps are
 
 
 ### Installation of Relevant Rig Software
+
 A special app need to be installed on HoloLens in order to send necessary messages to Workstation. This program is generally used as it can be a match for any ME-Live! Workstation app developed by METoolkit. You can find the app from MeshExpert suite or download the corresponding version from our website.
 
 You can install the app by using MeshExpert manager.
@@ -65,7 +73,9 @@ You can install the app by using MeshExpert manager.
 > Note: Please confirm whether the app version is a match for the version of METoolkit in use.
 
 ## Workstation Installation
+
 ### Hardware Requirements
+
 To meet the need of 3D synthesis and recording of ME-Live!, Workstation is required to be capable of certain demanding calculations. The MeshExpert Suite offered by DataMesh is preferred.
 
 If you need to assemble Workstation by yourselves, please refer to the following recommended hardware specifications.
@@ -80,6 +90,7 @@ If you need to assemble Workstation by yourselves, please refer to the following
 | **Operating system** | Windows 10 64bit                         | 1. only 64-digit system installation supported. 2. Early Windows versions, such as Windows 7/8 and Server, are not supported at present. |
 
 ### Assembly Steps
+
 Workstation access steps are as follows:
 
 <p align="center">
@@ -94,6 +105,7 @@ Workstation access steps are as follows:
 5. Add Router's Wi-Fi to HoloLens.
 
 ### Usage Guide for MeshExpert Installer
+
 Installation steps are as follows:
 1. Open MeshExpert Installer.exe and install according to guide.  If an old version has ever been installed, please unload it.
 2. Restart the system or open Start MeshExpert in DataMesh Catalog on Start Menu to restart service.
@@ -135,6 +147,7 @@ After adding, click License in the left column after the page forwarded, then yo
 </p>
 
 ### Managing
+
 You can manage your License on License interface, including update, delete and online subscription renewal.
 
 <p align="center">
@@ -144,6 +157,7 @@ You can manage your License on License interface, including update, delete and o
 If your original License has been expired or you have already bought a new License, you can update it through License Update. You can delete your current License through delete.
 
 ## Device Management
+
 You can manage HoloLens, app release and installation and License functions through Management which is comprised of some Windows Device Portal API
 
 ### Adding
@@ -192,6 +206,7 @@ If the device is not paired at first time, just input user name and password.
 If you forget the password, you can reset it by clicking Forget your account.
 
 ### Status Checking
+
 Visit `http://localhost/admin`, click Device in the left and check the current status of device connected to Holo-Server. Possible status values are Online and Offline.
 
 <p align="center">
@@ -199,6 +214,7 @@ Visit `http://localhost/admin`, click Device in the left and check the current s
 </p>
 
 ### Removal
+
 Click Delete to strip the device of occupation of license.
 
 <p align="center">
@@ -207,6 +223,7 @@ Click Delete to strip the device of occupation of license.
 
 
 ## App Management
+
 ### Release
 Visit `http://localhost/admin` and choose Application. Release apps that have been packaged in App Center for the convenience of managing and installing them in HoloLens.
 
@@ -239,6 +256,7 @@ After installation, uploaded apps can be displayed in Application
 </p>
 
 ### Upgrade
+
 On Application page, click Update which calls for uploading apps with the same name but not of the same version. The program will check it and change the version in Application.
 
 <p align="center">
@@ -248,6 +266,7 @@ On Application page, click Update which calls for uploading apps with the same n
 Update is in support of replacing apps with the same name.
 
 ### Delete
+
 Click Delete to remove apps.
 
 <p align="center">
@@ -255,6 +274,7 @@ Click Delete to remove apps.
 </p>
 
 ### Install and uninstall
+
 Click More to start, stop, restart, install, uninstall, upgrade sand change configuration.
 
 * Start
@@ -296,13 +316,16 @@ Click More to start, stop, restart, install, uninstall, upgrade sand change conf
   </p>
 
 ## Uninstall
+
 Find Uninstall in DataMesh Catalog on Start menu and click it to uninstall it. If you cannot find Uninstall on Start menu, please enter installation directory to find Uninstall.exe, and uninstall it by double click the Uninstall.exe.
 
 > Note: Uninstall MeshExpert will result in removal of all data, including app data and License.  If these data are very important to you, please make sure that you already backed it up.
 
 
 ## Built-in Apps
+
 ### SolarSystemExplorer
+
 We have installed a built-in app as an example for your reference.  In this example, we have achieved the most fundamental sharing and scene synchronization of spatial anchors.
 We will introduce you the details about how to use this app in the following part:
 Open SolarSystemExplorer App, you will see the whole solar system in front of your eyes:
