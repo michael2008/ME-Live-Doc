@@ -12,9 +12,9 @@ the `-model_resolution` flag, which will cause the model to store historical dat
 
 ## API documentation
 
-A detailed documentation of each API endpoint is listed below. 
+A detailed documentation of each API endpoint is listed below.
 
-All endpoints ending in `/metrics/{metric-name}/` can accept the optional `start` and `end` query parameters 
+All endpoints ending in `/metrics/{metric-name}/` can accept the optional `start` and `end` query parameters
 that represent the start and end time of the requested timeseries. The result
 will be a list of (Timestamp, Value) pairs in the time range [start, end].
 `start` and `end` are strings formatted according to RFC3339. If `start` is not
@@ -25,8 +25,8 @@ then all data later than `start` will be returned.
 
 `/api/v1/model/metrics/`: Returns a list of available cluster-level metrics.
 
-`/api/v1/model/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value) 
-pairs for the requested cluster-level metric, between the time range specified by `start` and `end`. 
+`/api/v1/model/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value)
+pairs for the requested cluster-level metric, between the time range specified by `start` and `end`.
 
 ### Node-level Metrics
 `/api/v1/model/nodes/`: Returns a list of all available nodes.
@@ -34,16 +34,16 @@ pairs for the requested cluster-level metric, between the time range specified b
 `/api/v1/model/nodes/{node-name}/metrics/`: Returns a list of available
 node-level metrics.
 
-`/api/v1/model/nodes/{node-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value) 
-pairs for the requested node-level metric, within the time range specified by `start` and `end`. 
+`/api/v1/model/nodes/{node-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value)
+pairs for the requested node-level metric, within the time range specified by `start` and `end`.
 
-### Namespace-level Metrics 
+### Namespace-level Metrics
 `/api/v1/model/namespaces/`: Returns a list of all available namespaces.
 
 `/api/v1/model/namespaces/{namespace-name}/metrics/`: Returns a list of available namespace-level metrics.
 
-`/api/v1/model/namespaces/{namespace-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value) 
-pairs for the requested namespace-level metric, within the time range specified by `start` and `end`. 
+`/api/v1/model/namespaces/{namespace-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value)
+pairs for the requested namespace-level metric, within the time range specified by `start` and `end`.
 
 
 ### Pod-level Metrics
@@ -51,8 +51,8 @@ pairs for the requested namespace-level metric, within the time range specified 
 
 `/api/v1/model/namespaces/{namespace-name}/pods/{pod-name}/metrics/`: Returns a list of available pod-level metrics
 
-`/api/v1/model/namespaces/{namespace-name}/pods/{pod-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value) 
-pairs for the requested pod-level metric, within the time range specified by `start` and `end`. 
+`/api/v1/model/namespaces/{namespace-name}/pods/{pod-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value)
+pairs for the requested pod-level metric, within the time range specified by `start` and `end`.
 
 ### Container-level Metrics
 Container metrics and stats are accessible for both containers that belong to
@@ -62,16 +62,16 @@ pods, as well as for free containers running in each node.
 
 `/api/v1/model/namespaces/{namespace-name}/pods/{pod-name}/containers/{container-name}/metrics/`: Returns a list of available container-level metrics
 
-`/api/v1/model/namespaces/{namespace-name}/pods/{pod-name}/containers/{container-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value) 
-pairs for the requested container-level metric, within the time range specified by `start` and `end`. 
+`/api/v1/model/namespaces/{namespace-name}/pods/{pod-name}/containers/{container-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value)
+pairs for the requested container-level metric, within the time range specified by `start` and `end`.
 
 `/api/v1/model/nodes/{node-name}/freecontainers/`: Returns a list of all available free containers under a given node.
 
 `/api/v1/model/nodes/{node-name}/freecontainers/{container-name}/metrics/`: Returns a list of available container-level metrics
 
-`/api/v1/model/nodes/{node-name}/freecontainers/{container-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value) 
-pairs for the requested container-level metric, within the time range specified by `start` and `end`. 
+`/api/v1/model/nodes/{node-name}/freecontainers/{container-name}/metrics/{metric-name}?start=X&end=Y`: Returns a set of (Timestamp, Value)
+pairs for the requested container-level metric, within the time range specified by `start` and `end`.
 
 ### Metric Types
 
-All metrics available in the [storage schema](storage-schema.md) are also available through the api.
+All metrics available in the [storage schema](model.md) are also available through the api.
