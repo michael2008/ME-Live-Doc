@@ -203,24 +203,24 @@ Now you can build and install the app to HoloLens to see the results.
       * **Server Port:** the port number of the service on the workstation, defaults to 8823.
 4. Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
 
-    ```C#
-    private void OnTapUpload(int count)
-    {
-        CursorController.Instance.isBusy = true;
-        SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
-        {
-            CursorController.Instance.isBusy = false;
-            if (success)
-            {
-                CursorController.Instance.ShowInfo("Upload Anchor Success!");
-            }
-            else
-            {
-                CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
-            }
-        });
-    }
-    ```
+  ```C#
+  private void OnTapUpload(int count)
+  {
+      CursorController.Instance.isBusy = true;
+      SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
+      {
+          CursorController.Instance.isBusy = false;
+          if (success)
+          {
+              CursorController.Instance.ShowInfo("Upload Anchor Success!");
+          }
+          else
+          {
+              CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
+          }
+      });
+  }
+  ```
 
 5. In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapUpload()**:
     ```C#
