@@ -192,7 +192,7 @@ If the device is not paired at first time, just input user name and password.
 If you forget the password, you can reset it by clicking Forget your account.
 
 ### Status Checking
-Visit http://localhost/admin, click Device in the left and check the current status of device connected to Holo-Server. Possible status values are Online and Offline.
+Visit `http://localhost/admin`, click Device in the left and check the current status of device connected to Holo-Server. Possible status values are Online and Offline.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625625/4a950c7c-4627-11e7-888c-03b4cb11c6b7.png" width="500">
@@ -208,7 +208,7 @@ Click Delete to strip the device of occupation of license.
 
 ## App Management
 ### Release
-Visit http://localhost/admin and choose Application. Release apps that have been packaged in App Center for the convenience of managing and installing them in HoloLens.
+Visit `http://localhost/admin` and choose Application. Release apps that have been packaged in App Center for the convenience of managing and installing them in HoloLens.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625837/ece6545e-4627-11e7-8299-d80eb9b3b4bc.png" width="500">
@@ -256,54 +256,51 @@ Click Delete to remove apps.
 
 ### Install and uninstall
 Click More to start, stop, restart, install, uninstall, upgrade sand change configuration.
+
 * Start
-  <p align="center">
-  <img src="https://cloud.githubusercontent.com/assets/17921380/26627563/77ef3778-462d-11e7-9c27-b881caa7fddd.png" width="500">
-  </p>
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/17921380/26627563/77ef3778-462d-11e7-9c27-b881caa7fddd.png" width="500">
+</p>
 
 * Stop
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26627577/89a66f7c-462d-11e7-879d-e8d73ada8df6.png" width="500">
 </p>
 
 * Restart
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26627658/c74de0f8-462d-11e7-8374-15d7f9c778d5.png" width="500">
 </p>
 
 * Install
-
-When users choose app programs to be installed, the system will change parameters of configuration documents in installation packages after installation, such as Rout\ LocalAppData \ ChengDu_1.2.1.0_x86__pzq3xp76mxafg \ LocalState\ config.ini. Namely field values of Server_Url, Share_Anchor_Url are Ip numbers of the current Server.
-
+When users choose app programs to be installed, the system will change parameters of configuration documents in installation packages after installation, such as `Rout\LocalAppData\ChengDu_1.2.1.0_x86__pzq3xp76mxafg\LocalState\config.ini`. Namely field values of `Server_Url`, `Share_Anchor_Url` are Ip numbers of the current Server.
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
 </p>
 
 * Uninstall
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
 </p>
 
 * Upgrade
-  When the installed apps in holoLens calls for update, we shall click Update and update them to the latest versions in Application.
-
+When the installed apps in holoLens calls for update, we shall click Update and update them to the latest versions in Application.
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658751/d1a45e3a-469e-11e7-80c8-4da0764c278e.png" width="500">
 </p>
 
 * Configuration
-  If  the current Server Ip of users  changes, we shall click Configure to change the field value of Server_Url, Share_Anchor_Url.
-
+If  the current Server Ip of users  changes, we shall click Configure to change the field value of Server_Url, Share_Anchor_Url.
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658793/02051f24-469f-11e7-868f-d77ccb526029.png" width="500">
 </p>
 
 ## Uninstall
 Find Uninstall in DataMesh Catalog on Start menu and click it to uninstall it. If you cannot find Uninstall on Start menu, please enter installation directory to find Uninstall.exe, and uninstall it by double click the Uninstall.exe.
-> Remark: Uninstall MeshExpert will result in removal of all data, including app data and License.  If these data are very important to you, please make sure that you already backed it up.
+
+> Note: Uninstall MeshExpert will result in removal of all data, including app data and License.  If these data are very important to you, please make sure that you already backed it up.
+
+
 ## Built-in Apps
 ### SolarSystemExplorer
 We have installed a built-in app as an example for your reference.  In this example, we have achieved the most fundamental sharing and scene synchronization of spatial anchors.
@@ -331,30 +328,36 @@ You can revolve and scale the whole scene at any time. As long as you click and 
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658941/e06c5930-469f-11e7-901d-6177ec15f10a.png" width="500">
 </p>
 
-You can speak “Open Menu” to find the concealed menu so as to adjust and share World Anchor. The operation is divided into three parts “move WorldAnchor”, “upload WorldAnchor” and “downloads WorldAnchor.” which is to acquire and synchronize information from Server; “upload WorldAnchor” is to upload to Server with world anchors in the current HoloLens as criteria. “Move WorldAnchor” is to carry out upload to synchronize adjusted scenes to Server after adjusting the position of scenes at present.
+You can speak "Open Menu" to find the concealed menu so as to adjust and share World Anchor. The operation is divided into three parts "move WorldAnchor", "upload WorldAnchor" and "downloads WorldAnchor".  which is to acquire and synchronize information from Server; "upload WorldAnchor" is to upload to Server with world anchors in the current HoloLens as criteria. "Move WorldAnchor" is to carry out upload to synchronize adjusted scenes to Server after adjusting the position of scenes at present.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658969/f8634742-469f-11e7-88d9-2a8726b6d73b.png" width="500">
 </p>
 
 Steps of moving spatial anchors are as follows:
-1) Enter Anchor adjustment model by “Change Anchor” in the concealed menu. Then you will see the whole galaxy with an enclosed box outside and a blue crystalline is displayed on the benchmark position to demonstrate  position of the galaxy Anchor.
+
+1. Enter Anchor adjustment model by "Change Anchor" in the concealed menu. Then you will see the whole galaxy with an enclosed box outside and a blue crystalline is displayed on the benchmark position to demonstrate  position of the galaxy Anchor.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658986/12510950-46a0-11e7-8ec7-9a0d7127d59f.png" width="500">
 </p>
 
-2) Fix your eyes on enclosed box and Air Tap, The object’s enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
+2. Fix your eyes on enclosed box and Air Tap, The object’s enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
 </p>
 
-3) Fix your eyes on “Gaze” Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
-i. If there is no environmental net in the currently-gazed position, then the object will float in the direction of eyes three meters away.
-ii. Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
-4) Gaze at “Move” Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
+3. Fix your eyes on “Gaze" Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
+
+  * If there is no environmental net in the currently-gazed position, then the object will float in the direction of eyes three meters away.
+  * Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
+
+4. Gaze at “Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
 iii. When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
-5) Gaze at Rotate”Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
-iv. When using HoloLens, please operate the object in a manner of clicking and moving together and revolve the object in the direction of three axis.
+
+5. Gaze at Rotate"Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
+
+  * When using HoloLens, please operate the object in a manner of clicking and moving together and revolve the object in the direction of three axis.
+
 After adjusting WorldAnchor, Air Tap at the blank area outside the enclosed box, you will exit the Anchor edit model and enclosed box and crystalline will disappear. At the same time, the position of the galaxy will be stored and the galaxy will return to the position if spatial recognition is commensurate after starting HoloLens.
