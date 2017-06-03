@@ -31,6 +31,7 @@ Rig is used for obtaining the real-world images and location information and fur
 ### Composition
 
 ME-Live! Rig is constituted of the following main components:
+
 * Digital camera/vidicon
 * HoloLens
 * Tripod
@@ -52,6 +53,7 @@ Ways of assembly and connection depend on the site requirements and devices you 
 
 
 The assembly process of Rig Suite is depicted in the picture below and steps are as follows:
+
 1. Fix HoloLens on the stand which is specifically designed for HoloLens.
 2. Install fixed module of hot shoe at the bottom of the stand.
 3. Place tripod and fix digital camera on the head of tripod.
