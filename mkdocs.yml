@@ -1,4 +1,4 @@
-site_name: "MeshExpert Live! Documentation"
+site_name: "MeshExpert Live!"
 site_url: http://www.datamesh.com
 site_description: A Mixed-Reality Show Product.
 repo_url: https://github.com/michael2008/ME-Live-Doc
@@ -8,8 +8,12 @@ theme: 'mkdocs'
 
 pages:
     - 'Home': 'index.md'
-    - 'Getting Started': 'model.md'
-    - 'Source Configuration': 'source-configuration.md'
+    - 'Getting Started': 'getting-started.md'
+    - 'Product Specifications': 'sproduct-specifications.md'
+    - 'User Guide': 'user-guide.md'
+    - 'Developer Guide': 'developer-guide.md'
+    - 'METoolkit Developer Manual': 'metoolkit-manual.md'
+    - 'Trouble Shooting': 'trouble-shooting.md'
 
 # Options
 extra:
