@@ -16,12 +16,12 @@ For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](m
 
 * [Home][home]
 * [Getting Started][getting_started]
-  - [Main Features](getting-started.md#main-features)
-  - [Quick Installation](getting-started.md#quick-installation)
-  - [Experience Mixed-Reality](getting-started.md#experience-mixed-reality)
+    - [Main Features](getting-started.md#main-features)
+    - [Quick Installation](getting-started.md#quick-installation)
+    - [Experience Mixed-Reality](getting-started.md#experience-mixed-reality)
 * [Product Specifications][product_spec]
-  - [Licensing Options](product-specifications.md#licensing-options)
-  - [Apply for Trail](product-specifications.md#apply-for-trail)
+    - [Licensing Options](product-specifications.md#licensing-options)
+    - [Apply for Trail](product-specifications.md#apply-for-trail)
 * [User Guide][user_guide]
   - [Overview][user_guide_overview]
   - [System Structure][user_guide_system_structure]
