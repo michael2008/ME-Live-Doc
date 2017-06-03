@@ -194,92 +194,92 @@ Now you can build and install the app to HoloLens to see the results.
 1. Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#workstation-installation "Workstation Guide")).
 2. In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
 3. Check Inspector View and set the parameters:
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
-</p>
-    * **App Id:** the unique ID of the app in 4-bytes integer.
-    * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
-    * **Server Host:** the workstation's IP address.
-    * **Server Port:** the port number of the service on the workstation, defaults to 8823.
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
+   </p>
+   * **App Id:** the unique ID of the app in 4-bytes integer.
+     * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
+     * **Server Host:** the workstation's IP address.
+     * **Server Port:** the port number of the service on the workstation, defaults to 8823.
 4. Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
-```C#
-private void OnTapUpload(int count)
-{
-    CursorController.Instance.isBusy = true;
-    SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
-    {
-        CursorController.Instance.isBusy = false;
-        if (success)
-        {
-            CursorController.Instance.ShowInfo("Upload Anchor Success!");
-        }
-        else
-        {
-            CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
-        }
-    });
-}
-```
+  ```C#
+  private void OnTapUpload(int count)
+  {
+      CursorController.Instance.isBusy = true;
+      SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
+      {
+          CursorController.Instance.isBusy = false;
+          if (success)
+          {
+              CursorController.Instance.ShowInfo("Upload Anchor Success!");
+          }
+          else
+          {
+              CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
+          }
+      });
+  }
+  ```
 5. In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapUpload()**:
-```C#
-private IEnumerator WaitForInit()
-{
-    MEHoloEntrance entrance = MEHoloEntrance.Instance;
-    while (!entrance.HasInit)
-    {
-        yield return null;
-    }
+  ```C#
+  private IEnumerator WaitForInit()
+  {
+      MEHoloEntrance entrance = MEHoloEntrance.Instance;
+      while (!entrance.HasInit)
+      {
+          yield return null;
+      }
 
-    // Todo: Begin your logic
-    inputManager = MultiInputManager.Instance;
-    inputManager.cbTap += OnTapUpload;
-}
-```
+      // Todo: Begin your logic
+      inputManager = MultiInputManager.Instance;
+      inputManager.cbTap += OnTapUpload;
+  }
+  ```
 6. Build and then install the app on HoloLens to check the results.
 7. After the app started, follow the steps below to **upload an Anchor**:
-  * First check if the positions of objects are desirable.
-  * Air Tap at any place.
-  * Now the uploading process should have begun, and the focal icon would turn into "Loading" status.
-  * Upon success, the focal icon would restore to normal and a success hint will appear.
+    * First check if the positions of objects are desirable.
+    * Air Tap at any place.
+    * Now the uploading process should have begun, and the focal icon would turn into "Loading" status.
+    * Upon success, the focal icon would restore to normal and a success hint will appear.
 
 
 ### Download Anchor
 
 1. To download an anchor from the workstation, you need to make sure you have already uploaded an anchor following the instructions in previous section.
 2. Open "**SceneAnchorSample**" class to add the "**OnTapDownload()**" method below:
-```C#
-private void OnTapDownload(int count)
-{
-    CursorController.Instance.isBusy = true;
-    SceneAnchorController.Instance.DownloadAnchor((bool success, string error) =>
-    {
-        CursorController.Instance.isBusy = false;
-        if (success)
-        {
-            CursorController.Instance.ShowInfo("Download Anchor Success!");
-        }
-        else
-        {
-            CursorController.Instance.ShowInfo("Download Error! reason is: " + error);
-        }
-    });
-}
-```
+  ```C#
+  private void OnTapDownload(int count)
+  {
+      CursorController.Instance.isBusy = true;
+      SceneAnchorController.Instance.DownloadAnchor((bool success, string error) =>
+      {
+          CursorController.Instance.isBusy = false;
+          if (success)
+          {
+              CursorController.Instance.ShowInfo("Download Anchor Success!");
+          }
+          else
+          {
+              CursorController.Instance.ShowInfo("Download Error! reason is: " + error);
+          }
+      });
+  }
+  ```
 3. In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapDownload()**:
-```C#
-private IEnumerator WaitForInit()
-{
-    MEHoloEntrance entrance = MEHoloEntrance.Instance;
-    while (!entrance.HasInit)
-    {
-        yield return null;
-    }
+  ```C#
+  private IEnumerator WaitForInit()
+  {
+      MEHoloEntrance entrance = MEHoloEntrance.Instance;
+      while (!entrance.HasInit)
+      {
+          yield return null;
+      }
 
-    // Todo: Begin your logic
-    inputManager = MultiInputManager.Instance;
-    inputManager.cbTap += OnTapDownload;
-}
-```
+      // Todo: Begin your logic
+      inputManager = MultiInputManager.Instance;
+      inputManager.cbTap += OnTapDownload;
+  }
+  ```
 4. Build and then install the app to HoloLens.
 5. After the app started, follow the steps below to **download an Anchor**:
   * Air Tap at any place.
@@ -315,72 +315,72 @@ Now we test the the binding of callback function, using Click and Navigation as 
 1. Create an object in Hierarchy view named "**App**"
 2. Add a new module named "**InputSample**" to the "**App**" object, and save.
 3. Open the "**InputSample**" module to add the following codes:
-```C#
-using System.Collections;
-using UnityEngine;
-using DataMesh.AR;
-using DataMesh.AR.Anchor;
-using DataMesh.AR.Interactive;
-public class InputSample : MonoBehaviour
-{
-    public Transform targetObject;
-    private MultiInputManager inputManager;
-    void Start()
-    {
-        inputManager = MultiInputManager.Instance;
-        StartCoroutine(WaitForInit());
-    }
-    private IEnumerator WaitForInit()
-    {
-        MEHoloEntrance entrance = MEHoloEntrance.Instance;
-        while (!entrance.HasInit)
-        {
-            yield return null;
-        }
-        // Todo: Begin your logic
-        BindinputManager(true);
-    }
-    private void OnNavigationEnd(Vector3 delta)
-    {
-        Debug.Log("Navigation End");
-    }
-    private void OnNavigationStart(Vector3 delta)
-    {
-        Debug.Log("Navigation Start");
-    }
-    private void OnNavigationUpdate(Vector3 delta)
-    {
-        Debug.Log("Navigation Update");
-        targetObject.Rotate(new Vector3(0, 1, 0), -delta.x);
-    }
-    void OnTapped(int tapCount)
-    {
-        Debug.Log("Tapped Event");
-        targetObject.GetComponent<MeshRenderer>().material.color = new Color(1, 0, 0);
-    }
-    public void BindinputManager(bool bind)
-    {
-        inputManager.ChangeToNavigationRecognizer();
-        if (!bind)
-        {
-            Debug.Log("unbind gesture");
-            inputManager.cbTap -= OnTapped;
-            inputManager.cbNavigationStart -= OnNavigationStart;
-            inputManager.cbNavigationUpdate -= OnNavigationUpdate;
-            inputManager.cbNavigationEnd -= OnNavigationEnd;
-            return;
-        }
-        else
-        {
-            Debug.Log("bind gesture");
-            inputManager.cbTap += OnTapped;
-            inputManager.cbNavigationStart += OnNavigationStart;
-            inputManager.cbNavigationUpdate += OnNavigationUpdate;
-            inputManager.cbNavigationEnd += OnNavigationEnd;
-        }
-    }
-}
-```
+  ```C#
+  using System.Collections;
+  using UnityEngine;
+  using DataMesh.AR;
+  using DataMesh.AR.Anchor;
+  using DataMesh.AR.Interactive;
+  public class InputSample : MonoBehaviour
+  {
+      public Transform targetObject;
+      private MultiInputManager inputManager;
+      void Start()
+      {
+          inputManager = MultiInputManager.Instance;
+          StartCoroutine(WaitForInit());
+      }
+      private IEnumerator WaitForInit()
+      {
+          MEHoloEntrance entrance = MEHoloEntrance.Instance;
+          while (!entrance.HasInit)
+          {
+              yield return null;
+          }
+          // Todo: Begin your logic
+          BindinputManager(true);
+      }
+      private void OnNavigationEnd(Vector3 delta)
+      {
+          Debug.Log("Navigation End");
+      }
+      private void OnNavigationStart(Vector3 delta)
+      {
+          Debug.Log("Navigation Start");
+      }
+      private void OnNavigationUpdate(Vector3 delta)
+      {
+          Debug.Log("Navigation Update");
+          targetObject.Rotate(new Vector3(0, 1, 0), -delta.x);
+      }
+      void OnTapped(int tapCount)
+      {
+          Debug.Log("Tapped Event");
+          targetObject.GetComponent<MeshRenderer>().material.color = new Color(1, 0, 0);
+      }
+      public void BindinputManager(bool bind)
+      {
+          inputManager.ChangeToNavigationRecognizer();
+          if (!bind)
+          {
+              Debug.Log("unbind gesture");
+              inputManager.cbTap -= OnTapped;
+              inputManager.cbNavigationStart -= OnNavigationStart;
+              inputManager.cbNavigationUpdate -= OnNavigationUpdate;
+              inputManager.cbNavigationEnd -= OnNavigationEnd;
+              return;
+          }
+          else
+          {
+              Debug.Log("bind gesture");
+              inputManager.cbTap += OnTapped;
+              inputManager.cbNavigationStart += OnNavigationStart;
+              inputManager.cbNavigationUpdate += OnNavigationUpdate;
+              inputManager.cbNavigationEnd += OnNavigationEnd;
+          }
+      }
+  }
+  ```
 4. Drag the "**Cube**" in the scene to the "**targetObject Column**" of "**InputSample**" of "**App**" in the Hierarchy View.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26666376/2005d95e-46d2-11e7-85f3-9dfce47fe2b2.png" width="320">
@@ -458,20 +458,19 @@ SpeechManager offers voice control of Hololens. Developers could add keywords as
    <img src="https://cloud.githubusercontent.com/assets/7636848/26667234/beab6a98-46d6-11e7-8b32-44c49ef880ea.png" width="320">
    </p>
 4. Call **AddKeywords()** method of SpeechManager to add keywords and associated action method for voice commands.
-
-```C#
-void Start ()
-{
-    SpeechManager.Instance.Init(); // manually initialize since we do not check the AutoTurnOn box
-    SpeechManager.Instance.AddKeywords("Open Menu", OpenMenuAction);
-    SpeechManager.Instance.TurnOn(); // now enable voice commands recognition
-}
-
-public void OpenMenuAction ()
-{
-    Debug.Log("Recognize command: Open Menu");
-}
-```
+  ```C#
+  void Start ()
+  {
+      SpeechManager.Instance.Init(); // manually initialize since we do not check the AutoTurnOn box
+      SpeechManager.Instance.AddKeywords("Open Menu", OpenMenuAction);
+      SpeechManager.Instance.TurnOn(); // now enable voice commands recognition
+  }
+  
+  public void OpenMenuAction ()
+  {
+      Debug.Log("Recognize command: Open Menu");
+  }
+  ```
 
 > Note: The codes above add a voice command "**Open Menu**", and in its action part, we print a log message. SpeechManager currently supports both **English** and **Chinese**. You can add a command in Chinese to try it out yourself.
 
@@ -501,22 +500,19 @@ Cursor helps users to get accurate gazing positions, much like a mouse cursor. I
 ### More about CursorController
 
 1. Developers can manually turn the CursorController on or off by the following codes:
-
-```C#
-    CursorController.Instance.TurnOn();  // Enable CursorController
-    CursorController.Instance.TurnOff(); // Disable CursorController
-```
+  ```C#
+      CursorController.Instance.TurnOn();  // Enable CursorController
+      CursorController.Instance.TurnOff(); // Disable CursorController
+  ```
 2. You can display some textual information on the Cursor using:
-
-```C#
-    string str = "ShowStringInfo";
-    CursorController.Instance.ShowInfo(str);
-```
+  ```C#
+      string str = "ShowStringInfo";
+      CursorController.Instance.ShowInfo(str);
+  ```
 3. Cursor could be used to report a "**busy**" status to users. That is, developers can set the status of a cursor to "busy" so that the cursor would turn into a "**loading**" icon to send a "busy" message to the user.
-
-```C#
-    CursorController.Instance.isBusy = true;
-```
+  ```C#
+      CursorController.Instance.isBusy = true;
+  ```
 > Note: The code above sets the Cursor to a "busy" status. However, this status is merely a visual display and the app is not interrupted at all, which means users could still operate under the busy status. To actually block user operations, you need extra codes to do it.
 
 ## BlockMenu Module
