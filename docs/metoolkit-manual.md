@@ -1059,16 +1059,16 @@ namespace DataMesh.AR.Samples.SpectatorView
 }
 ```
 * Now you can release an "**.exe**" application for the Workstation.
-  * Open "**Edit > Project Settings > Quality**" window in Unity.
-  * Choose "**Simple**" under "**Levels**", and choose "**Don't Sync**" under "**V Sync Count**" in "**Other**". Do this for "**Good**"、"**Beautiful**"、"**Fantastic**" levels.
-  * Open "**File > Build Settings**" window.
-  * Click "**Add Open Scenes**" to add Scene from **LiveSample**.
-  * Change **Platform** to be "**PC, Mac & Linux Standalone**" and click "**Switch Platform**".
-  * Choose "**Windows**" for "**Target Platform**" and "**x86_64**" for "**Architecture**".
-  * Click "**Player Settings**" and click "**PC, Mac & Linux Standalone**" on **Inspector panel**.
-  * Expand "**Other Settings**".
-  * Choose "**.NET 2.0**" for "**API Compatibility level**" under "**Optimization**".
-  * Go back to "**Build Settings**" window and click "**build**". Create a new folder and name it with app name, and save.
+    * Open "**Edit > Project Settings > Quality**" window in Unity.
+    * Choose "**Simple**" under "**Levels**", and choose "**Don't Sync**" under "**V Sync Count**" in "**Other**". Do this for "**Good**"、"**Beautiful**"、"**Fantastic**" levels.
+    * Open "**File > Build Settings**" window.
+    * Click "**Add Open Scenes**" to add Scene from **LiveSample**.
+    * Change **Platform** to be "**PC, Mac & Linux Standalone**" and click "**Switch Platform**".
+    * Choose "**Windows**" for "**Target Platform**" and "**x86_64**" for "**Architecture**".
+    * Click "**Player Settings**" and click "**PC, Mac & Linux Standalone**" on **Inspector panel**.
+    * Expand "**Other Settings**".
+    * Choose "**.NET 2.0**" for "**API Compatibility level**" under "**Optimization**".
+    * Go back to "**Build Settings**" window and click "**build**". Create a new folder and name it with app name, and save.
 
 ### Try Live
 
@@ -1409,27 +1409,21 @@ var lectures = await api.GetLectures(token);
 var lectures = api.GetLectures(token);
 ```
 
-> Detailed lecture information is required for some method, which can be retrieved from the lecture list.
-
-> ```c#
-> //get a certain lecture
-> var lecture = lectures[0];
->
-> //get a lecutre's content
-> var lectureContent = lecture.LectureContent[0];
->
-> //get the name of the video
-> var videoName = lectureContent.VideoName;
->
-> //get screenshot prefix
-> var screenshotPrefix = lectureContent.ScreenshotPrefix;
->
-> //get the name of the model
-> var modelName = lectureContent.ModelName;
->
-> //get hls url
-> var hlsUrl = lecture.HlsBaseUrl + "/" + lectureContent.HlsSubLocation + "/" + lectureContent.HlsName;
-> ```
+Detailed lecture information is required for some method, which can be retrieved from the lecture list.
+```c#
+//get a certain lecture
+var lecture = lectures[0];
+//get a lecutre's content
+var lectureContent = lecture.LectureContent[0];
+//get the name of the video
+var videoName = lectureContent.VideoName;
+//get screenshot prefix
+var screenshotPrefix = lectureContent.ScreenshotPrefix;
+//get the name of the model
+var modelName = lectureContent.ModelName;
+//get hls url
+var hlsUrl = lecture.HlsBaseUrl + "/" + lectureContent.HlsSubLocation + "/" + lectureContent.HlsName;
+```
 
 #### Video Download
 
