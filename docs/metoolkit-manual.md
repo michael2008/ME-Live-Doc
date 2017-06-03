@@ -194,13 +194,12 @@ Now you can build and install the app to HoloLens to see the results.
 2. In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
 3. Check Inspector View and set the parameters:
    <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
+    <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
    </p>
    * **App Id:** the unique ID of the app in 4-bytes integer.
    * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
    * **Server Host:** the workstation's IP address.
    * **Server Port:** the port number of the service on the workstation, defaults to 8823.
-
 4. Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
 ```C#
 private void OnTapUpload(int count)
@@ -246,9 +245,7 @@ private IEnumerator WaitForInit()
 ### Download Anchor
 
 1. To download an anchor from the workstation, you need to make sure you have already uploaded an anchor following the instructions in previous section.
-
 2. Open "**SceneAnchorSample**" class to add the "**OnTapDownload()**" method below:
-
 ```C#
 private void OnTapDownload(int count)
 {
@@ -267,9 +264,7 @@ private void OnTapDownload(int count)
     });
 }
 ```
-
 3. In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapDownload()**:
-
 ```C#
 private IEnumerator WaitForInit()
 {
@@ -284,9 +279,7 @@ private IEnumerator WaitForInit()
     inputManager.cbTap += OnTapDownload;
 }
 ```
-
 4. Build and then install the app to HoloLens.
-
 5. After the app started, follow the steps below to **download an Anchor**:
   * Air Tap at any place.
   * The downloading process would automatically start, and the focal icon will turn into "Loading" status.
@@ -319,11 +312,8 @@ Please refer to the following procedure to create a demo app
 Now we test the the binding of callback function, using Click and Navigation as an example.
 
 1. Create an object in Hierarchy view named "**App**"
-
 2. Add a new module named "**InputSample**" to the "**App**" object, and save.
-
 3. Open the "**InputSample**" module to add the following codes:
-
 ```C#
 using System.Collections;
 using UnityEngine;
@@ -390,15 +380,11 @@ public class InputSample : MonoBehaviour
     }
 }
 ```
-
 4. Drag the "**Cube**" in the scene to the "**targetObject Column**" of "**InputSample**" of "**App**" in the Hierarchy View.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26666376/2005d95e-46d2-11e7-85f3-9dfce47fe2b2.png" width="320">
 </p>
-
 5. Release the Project to HoloLens or start it directly in Unity.
-
 > Note: If you run the app in Unity on PC, the **Alt+J/K/L/I/U/O** keys on PC would be mapped to the Navigation gesture on HoloLens. And if you have bound the **Manipulation** gesture, the corresponding keys on PC would be **Shift+J/K/L/I/U/O**.
 
 ### Switch between Navigation and Manipulation
@@ -467,11 +453,9 @@ SpeechManager offers voice control of Hololens. Developers could add keywords as
 1. Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Holograms 101E](https://developer.microsoft.com/en-us/windows/mixed-reality/holograms_101e "Holograms 101E")" by Microsoft).
 2. Set up METoolkit modules (refer to the ME-HoloEntrance instructions).
 3. Do not check the "**Auto Turn On**" box, and we need to enable or disable voice control manually.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26667234/beab6a98-46d6-11e7-8b32-44c49ef880ea.png" width="320">
 </p>
-
 4. Call **AddKeywords()** method of SpeechManager to add keywords and associated action method for voice commands.
 
 ```C#
@@ -499,23 +483,16 @@ Cursor helps users to get accurate gazing positions, much like a mouse cursor. I
 ### Use of CursorController
 
 1. Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Holograms 101E](https://developer.microsoft.com/en-us/windows/mixed-reality/holograms_101e "Holograms 101E")" by Microsoft).
-
 2. Set up METoolkit modules (refer to the ME-HoloEntrance instructions), and make sure to check **Cursor** and **Input** modules in MEHoloEntrance.
-
 3. Create a CursorController module, check "**AutoTurnOn**" in **CursorController** ( or leave it unchecked and manually enable the Cursor in code):
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26668235/585635e8-46db-11e7-83be-2f674aeb3497.png" width="320">
 </p>
-
 4. Create a new **Cube** positioned right ahead of the camera. Run it with Unity and you will see a hand-shaped Icon when the camera focused on the cube. This depends on the **Collider** of the Cube, that is, when the collider is touched the hand-shaped icon appears.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26668237/5b900036-46db-11e7-99a0-ecb854d17490.png" width="320">
 </p>
-
 5. When the focus moved away from the Cube, the cursor would restore to normal.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26668239/5daaa1dc-46db-11e7-9004-ce9c7c8893a7.png" width="500">
 </p>
@@ -528,20 +505,17 @@ Cursor helps users to get accurate gazing positions, much like a mouse cursor. I
     CursorController.Instance.TurnOn();  // Enable CursorController
     CursorController.Instance.TurnOff(); // Disable CursorController
 ```
-
 2. You can display some textual information on the Cursor using:
 
 ```C#
     string str = "ShowStringInfo";
     CursorController.Instance.ShowInfo(str);
 ```
-
 3. Cursor could be used to report a "**busy**" status to users. That is, developers can set the status of a cursor to "busy" so that the cursor would turn into a "**loading**" icon to send a "busy" message to the user.
 
 ```C#
     CursorController.Instance.isBusy = true;
 ```
-
 > Note: The code above sets the Cursor to a "busy" status. However, this status is merely a visual display and the app is not interrupted at all, which means users could still operate under the busy status. To actually block user operations, you need extra codes to do it.
 
 ## BlockMenu Module
@@ -553,13 +527,9 @@ BlockMenu provides a block-based main menu. Compared with other menu forms, it i
 BlockMenu has the following main functionalities:
 
 1. Show four square buttons centered at the gaze point, which ensure the shortest moving distances at all four directions.
-
 2. Any menu button can be further expanded to sub-menus. Once the cursor moves over a button, it will automatically expand if it has sub-menus.
-
 3. Sub-menus would automatically fold if the cursor moves away from it, to avoid a flood of buttons.
-
 4. The main menu would also be automatically closed after a short period of time. Of course, manual close is also ok.
-
 5. Menu buttons can display pictures and texts.
 
 
@@ -636,13 +606,10 @@ It's easy to add a menu to the scene, as you can drag the previously saved menu 
 
 1. Find and choose "**MEHolo/BlockMenuManager**" in the Hierarchy View.
 2. Locate the saved menu data from the Project view, and drag it to the "**Menu Data List**" property in the Inspector view of BlockMenuManager.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26671007/92102f72-46e6-11e7-9cce-16f5d737a88a.png" width="600">
 </p>
-
 3. Now you can see that the menu data have been imported.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26671008/92e2dd0a-46e6-11e7-9f7e-d166beca32fc.png" width="320">
 </p>
@@ -651,11 +618,8 @@ It's easy to add a menu to the scene, as you can drag the previously saved menu 
 ### Use a Menu
 
 1. Create an object named "**App**" in Hierarchy view.
-
 2. Add a new module with name "**BlockMenuSample**" and then save.
-
 3. Open the "**BlockMenuSample**" module to add the following codes:
-
 ```C#
 using System.Collections;
 using UnityEngine;
@@ -704,11 +668,8 @@ public class MenuSample : MonoBehaviour
     }
 }
 ```
-
 4. Now you can build and install the app to HoloLens to see the results.
-
 > Note: You can also use our demo code directly at "**Assets/DataMesh/Samples/Menu**".
-
 5. How to operate the menu? You can Air Tap at any place to open the main menu. And if you gaze at the left-upper corner of any menu buttons, it will open its sub-menu if present, and if you Air Tap at the same time you the hint text will show up.
 
 ## Collaboration Module
@@ -750,11 +711,8 @@ In the Hierarchy view, locate the "**MEHolo/CollaborationManager**" and check it
 ### Try Collaboration
 
 1. Create an object named "**MainApp**" in Hierarchy view.
-
 2. Add a new module "**CollaborationSample**" and then save.
-
 3. Open the "**CollaborationSample**" to add the following codes:
-
 ```C#
 using System.Collections;
 using UnityEngine;
@@ -915,9 +873,7 @@ namespace DataMesh.AR.Samples.Collaboration
 
 }
 ```
-
 4. Now you can build and install the app on HoloLens to see the results.
-
 5. After the app started, you will see a cube. Air Tap the cube to change its color, and the color would be synchronized to other connected devices through the Workstation. For instance, you can view the synchronized change of color in Unity editor if the app is running.
 
 <p align="center">
@@ -986,16 +942,13 @@ In the Hierarchy view, locate the "**MEHolo/LiveController**" and check it. In t
 </p>
 
 * **Listen Port**: set to 8099.
-* **Output Path**: the storage place for video recordings, e.g. "C:\\HologramCapture\\LiveSample\\" (Note the double slashes and the trailing slashes)
+* **Output Path**: the storage place for video recordings, e.g. "`C:\\HologramCapture\\LiveSample\\`" (Note the double slashes and the trailing slashes)
 
 ### Edit Live Scene
 
 1. Create an object named "**MainApp**" in Hierarchy view.
-
 2. Add a new module "**LiveSample**" and then save.
-
 3. Open the "**LiveSample**" to add the following codes:
-
 ```C#
 using System.Collections;
 using UnityEngine;
@@ -1109,7 +1062,6 @@ namespace DataMesh.AR.Samples.SpectatorView
     }
 }
 ```
-
 4. Now you can release an "**.exe**" application for the Workstation.
   * Open "**Edit > Project Settings > Quality**" window in Unity.
   * Choose "**Simple**" under "**Levels**", and choose "**Don't Sync**" under "**V Sync Count**" in "**Other**". Do this for "**Good**"、"**Beautiful**"、"**Fantastic**" levels.
@@ -1125,35 +1077,25 @@ namespace DataMesh.AR.Samples.SpectatorView
 ### Try Live
 
 1. Start SpectatorView App on the Hololens of the Rig.
-
 2. Start "**.exe**" program on the Workstation.
-
 3. There will be an operation panel on the screen:
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26675734/9d10dc26-46f7-11e7-9d8f-947fce61e37e.png" width="500">
 </p>
-
 4. Click the "**Connect HoloLens Spectator View**" button on the right-side panel. Then the program would try to connect to the HoloLens on the Rig.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26675735/9e7cf0fe-46f7-11e7-85cf-b5425560f28d.png" width="80">
 </p>
-
 5. If the connection succeeded, an echo text "**HoloLens connected**" would show up. Otherwise, "**HoloLens offline**" would appear. When connection failed, retry from the first step.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26675738/a0084f86-46f7-11e7-8c83-321b2373211e.png" width="320">
 </p>
-
 6. With a successful connection, the program will try to synchronize automatically, and the "**Start Follow**" button would turn blue. You will see from the monitor screen that the real-time Holo Graphics are captured.
-
 7. If you want to synchronize with another HoloLens, you need to:
   * First click "**Stop Follow**" to stop synchronization.
   * Then Click "**Download Anchor**".
   * Upon success, the position of the HoloGraphics would change and the synchronization would start automatically.
   * If an alert of anchor not positioned appears, it means the spacial information scanned by the two HoloLens is different. You need to move the HoloLens to do a rescan until the alert disappears.
-
 8. There is a MR preview window in the upper right corner. You can click the "**Full Screen**" button to make it display in Full-Screen Mode, and to exit press the "**Esc**" key on the keyboard. You can also click "**hide/show Preview**" to hide or show the Preview window.
 9. To record a MR video, click "**Begin Capture**". And a red "**REC**" sign would appear on the window as an indication. To finish recording, click "**Stop Capture**", and you can see the video file at the path you configured previously.
 10. To capture a screenshot, click "**Take Snap**" to save the captured picture to the same path for video recordings.
@@ -1193,21 +1135,16 @@ Name it **config.ini** and put it in "**StreamingAssets**" folder.
 ### Use AppConfig
 
 1. Check whether there is a "**config.ini**" file in local "**StreamingAssets**" directory. If not, create it from the example above.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26676698/73aaa76e-46fb-11e7-8d4b-f4ce31389a03.png" width="500">
 </p>
-
 2. To get the configured data, call the **GetConfig(string)** method of AppConfig in your scripts.
-
 ```C#
     void Start () {
         string AppID =  AppConfig.Instance.GetConfig("Server_Url");
     }
 ```
-
 3. There is an overloaded method **GetConfig(string, string)**. The first parameter is the key of configurations, and the second parameter is the default value to return if the method is unable to locate the config value by the given key.
-
 ```C#
     void Start () {
         string AppID =  AppConfig.Instance.GetConfig("Server_Url"，"127.0.0.1");
@@ -1224,13 +1161,10 @@ The aim of MEHolo SDK is to provide methods and APIs that developers can use to 
 
 1. Open Unity and import `MEHolo SDK Unity package` directly from Assets->Import Package->Custom Package to any sub-catalog of Assets files.
 2. For MEHoloSDK-Plugins-Unity, change all DLL files to be in support of Editor and Standalone platform only.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/4099195/26666994/85def26c-46d5-11e7-93f4-48cb566ea468.png" width="500">
 </p>
-
 3. For MEHoloSDK-Plugins-UWP, change all DLL files to be in support of WSAPlayer only.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/4099195/26667023/aaaaa58c-46d5-11e7-9076-0006ff5181a1.png" width="500">
 </p>
@@ -1242,7 +1176,6 @@ The aim of MEHolo SDK is to provide methods and APIs that developers can use to 
 This method is used to upload images to HoloCloud-Share.
 
 1. By using the given file path
-
 ```c#
 //UWP
 public async Task<HoloServerResp<string>> UploadImage(string fileName, string filePath, int appId, string token, string tags)
@@ -1254,7 +1187,6 @@ public HoloServerResp<string> UploadImage(string fileName, string filePath, int 
 {
 }
 ```
-
 **Parameters**
 
 |   Name   |  Type  |       Description       |
@@ -1264,18 +1196,14 @@ public HoloServerResp<string> UploadImage(string fileName, string filePath, int 
 |  appId   |  int   |     the project id      |
 |  token   | string |    the access token     |
 |   tags   | string |          tags           |
-
 > Demo code
-
 ```c#
 //UWP
 var resultUWP = await api.UploadImage("name", path, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 //Unity
 var resultUnity = api.UploadImage("name", path, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 ```
-
 2. Upload directly
-
 ```c#
 //UWP
 public async Task<HoloServerResp<string>> UploadImage(string fileName, byte[] fileBytes, int appId, string token, string tags)
@@ -1287,7 +1215,6 @@ public HoloServerResp<string> UploadImage(string fileName, byte[] fileBytes, int
 {
 }
 ```
-
 **Parameters**
 
 |   Name    |    Type    |       Description        |
@@ -1297,9 +1224,7 @@ public HoloServerResp<string> UploadImage(string fileName, byte[] fileBytes, int
 |   appId   |    int     |      the project id      |
 |   token   |   string   |     the access token     |
 |   tags    |   string   |           tags           |
-
 > Demo code
-
 ```c#
 var bytes = File.ReadAllBytes(filePath);
 //UWP
