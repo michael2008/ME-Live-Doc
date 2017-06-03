@@ -1088,10 +1088,10 @@ namespace DataMesh.AR.Samples.SpectatorView
    </p>
 * With a successful connection, the program will try to synchronize automatically, and the "**Start Follow**" button would turn blue. You will see from the monitor screen that the real-time Holo Graphics are captured.
 * If you want to synchronize with another HoloLens, you need to:
-  * First click "**Stop Follow**" to stop synchronization.
-  * Then Click "**Download Anchor**".
-  * Upon success, the position of the HoloGraphics would change and the synchronization would start automatically.
-  * If an alert of anchor not positioned appears, it means the spacial information scanned by the two HoloLens is different. You need to move the HoloLens to do a rescan until the alert disappears.
+    - First click "**Stop Follow**" to stop synchronization.
+    - Then Click "**Download Anchor**".
+    - Upon success, the position of the HoloGraphics would change and the synchronization would start automatically.
+    - If an alert of anchor not positioned appears, it means the spacial information scanned by the two HoloLens is different. You need to move the HoloLens to do a rescan until the alert disappears.
 * There is a MR preview window in the upper right corner. You can click the "**Full Screen**" button to make it display in Full-Screen Mode, and to exit press the "**Esc**" key on the keyboard. You can also click "**hide/show Preview**" to hide or show the Preview window.
 * To record a MR video, click "**Begin Capture**". And a red "**REC**" sign would appear on the window as an indication. To finish recording, click "**Stop Capture**", and you can see the video file at the path you configured previously.
 * To capture a screenshot, click "**Take Snap**" to save the captured picture to the same path for video recordings.
