@@ -17,20 +17,19 @@ Through an integrated entrypoint provided by METoolkit, users are able to import
 
 ### Choose Modules
 
-1. After MEHolo being created, click MEHoloEntrance object again to see the Inspector Panel, and you will see the contents have been updated.
+* After MEHolo being created, click MEHoloEntrance object again to see the Inspector Panel, and you will see the contents have been updated.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26625025/7330e036-4625-11e7-8024-9fa691d44e9a.png" height="130">
    </p>
-2. Here you can choose what modules to use, and uncheck those you don't need.
-3. **NOTE:** there are module dependencies such that the use of some modules demands some other modules to be present. For instance, when Live module is checked, Anchor and Input modules will be checked automatically and can not be unchecked.
-4. As for the detailed usage of these modules, please refer to their corresponding instructions later in this section.
+* Here you can choose what modules to use, and uncheck those you don't need.
+* **NOTE:** there are module dependencies such that the use of some modules demands some other modules to be present. For instance, when Live module is checked, Anchor and Input modules will be checked automatically and can not be unchecked.
+* As for the detailed usage of these modules, please refer to their corresponding instructions later in this section.
 
 ### Code Integration
 
 MEHoloEntrance will automatically run and initialize after the app started. But before initialization, the system is not ready for use. Therefore, developers should check the 'HasInit' property in code and wait until its value turned to 'true' before any other operations.
 
 Demo codes are as follows:
-
 ```C#
 using System.Collections;
 using UnityEngine;
@@ -62,10 +61,10 @@ public class MainApp : MonoBehaviour
 
 SceneAnchorController provides the following functions:
 
-* Manage the spatial scenes scanned by HoloLens.
-* Manage the spatial anchor, WorldAnchor, including creation, modification, deletion, storage, etc.
-* Include a set of user interfaces to operate spatial anchors where users can adjust the position and angle of each Anchor by gesture.
-* Anchor upload and download (through the workstation).
++ Manage the spatial scenes scanned by HoloLens.
++ Manage the spatial anchor, WorldAnchor, including creation, modification, deletion, storage, etc.
++ Include a set of user interfaces to operate spatial anchors where users can adjust the position and angle of each Anchor by gesture.
++ Anchor upload and download (through the workstation).
 
 > Note that HoloLens can use the raw WorldAnchors and other devices need to simulate the anchor.
 
@@ -73,10 +72,10 @@ Next, let us create our first demo app following the procedures below.
 
 ### Prepare Your Project
 
-1. Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Holograms 101E](https://developer.microsoft.com/en-us/windows/mixed-reality/holograms_101e "Holograms 101E")" by Microsoft).
-2. Create three objects: Cube, Sphere, Cylinder, and place them in a position where the camera can capture.
-3. Set up METoolkit modules (refer to the ME-HoloEntrance instructions in the previous section).
-4. Confirm to check Anchor, Input and Cursor Modules in HoloEntrance.
+* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Holograms 101E](https://developer.microsoft.com/en-us/windows/mixed-reality/holograms_101e "Holograms 101E")" by Microsoft).
+* Create three objects: Cube, Sphere, Cylinder, and place them in a position where the camera can capture.
+* Set up METoolkit modules (refer to the ME-HoloEntrance instructions in the previous section).
+* Confirm to check Anchor, Input and Cursor Modules in HoloEntrance.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26660808/039b6628-46ad-11e7-926d-03080e78ebd7.png" width="250">
@@ -92,27 +91,27 @@ In the Hierachy View, find **MEHolo/AnchorManager** object and choose it, and yo
 
 ### Setting up Anchor
 
-1. Choose an Anchor Object (such as Cube) you want to add, and then add "**AnchorDefinition**" in the Inspector Panel.
+* Choose an Anchor Object (such as Cube) you want to add, and then add "**AnchorDefinition**" in the Inspector Panel.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26661436/4855bf40-46b0-11e7-8b58-ab70794a3307.png" width="250">
    </p>
-2. Enter a name for the Anchor.
+* Enter a name for the Anchor.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26661439/4abcac26-46b0-11e7-89a4-c9edbd670cb5.png" width="320">
    </p>
-3. Choose the object in the scene and you will see a blue **bounds** which indicates the Anchor scope. By dragging the ball handles, you can change the size of the bounds.
+* Choose the object in the scene and you will see a blue **bounds** which indicates the Anchor scope. By dragging the ball handles, you can change the size of the bounds.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26661440/4beae40a-46b0-11e7-90c8-e0cbb1e0f52e.png" width="320">
    </p>
 > Note: the size of the bounds is only used for showing the Anchor when it is moved. It has no practical significance and can be set according to your preferences.
-4. Now the Anchor of one object is set, please set the Anchors of the other two objects yourself with the same procedures.
+
+* Now the Anchor of one object is set, please set the Anchors of the other two objects yourself with the same procedures.
 
 ### Write a Test Demo
 
-1. Create an object of name "**App**" in Hierarchy view.
-2. Add a new module with name "**SceneAnchorSample**" and save.
-3. Open the "**SceneAnchorSample**" module to add the following codes:
-
++ Create an object of name "**App**" in Hierarchy view.
++ Add a new module with name "**SceneAnchorSample**" and save.
++ Open the "**SceneAnchorSample**" module to add the following codes:
 ```C#
 using System.Collections;
 using UnityEngine;
@@ -162,24 +161,24 @@ Now you can build and install the app to HoloLens to see the results.
 
 ### Editing Anchor
 
-1. After starting the app in HoloLens, you shall see three objects in front of you.
-2. Air Tap at any place to enter the Anchor adjustment mode. Now every anchor you created would show up with bounds and with a blue crystalline at the base position indicating the position of the Anchor.
+* After starting the app in HoloLens, you shall see three objects in front of you.
+* Air Tap at any place to enter the Anchor adjustment mode. Now every anchor you created would show up with bounds and with a blue crystalline at the base position indicating the position of the Anchor.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26663242/fb0911cc-46bb-11e7-918d-e88e1368d0f9.png" width="500">
    </p>
-3. Gaze at the bounds box of an object, and then Air Tap it. The box would change color and glitter indicating a selection of the object. Upon selection, three square buttons would show up above the crystalline.
+* Gaze at the bounds box of an object, and then Air Tap it. The box would change color and glitter indicating a selection of the object. Upon selection, three square buttons would show up above the crystalline.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26663244/fd39a7fe-46bb-11e7-86f3-bc637b64c3e4.png" width="320">
    </p>
-4. Fix your eyes with the cursor on the middle "**Gaze**" Button and Air Tap. You will enter the "**Eye Move Mode**" where the spatial grid would appear. In this mode, the object would move alone with the focal point (the cursor) and when stops it would land on the spatial grid.
+* Fix your eyes with the cursor on the middle "**Gaze**" Button and Air Tap. You will enter the "**Eye Move Mode**" where the spatial grid would appear. In this mode, the object would move alone with the focal point (the cursor) and when stops it would land on the spatial grid.
 > Note: if there is no spatial grid covering the focal point, the object would float at 3 meters away from the currently gazed position. To exit the "**Eye Move Mode**", do another Air Tap.
-5. When the choose buttons appear, gaze at the left "**Move**" Button and Air Tap, then you will enter the "**Manual Move Mode**" and three moving axes would show up under the crystalline.
+* When the choose buttons appear, gaze at the left "**Move**" Button and Air Tap, then you will enter the "**Manual Move Mode**" and three moving axes would show up under the crystalline.
   * when using HoloLens, you can "Tap your finger down and Move" to move the object in the space.
   * when used on a computer, a keyboard hint would show up alone with the axes (as demonstrated in the following picture). Following the hint, you can move the object around using the "**UIOJKL**" keys on your keyboard.
     <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/7636848/26663246/fee543b0-46bb-11e7-84e2-f0e5f6707172.png" width="320">
     </p>
-6. When gaze at the right "**Rotate**" Button and Air Tap, you will enter the "**Manual Rotate Mode**" where the a rotating sign would surround the the crystalline.
+* When gaze at the right "**Rotate**" Button and Air Tap, you will enter the "**Manual Rotate Mode**" where the a rotating sign would surround the the crystalline.
   * when using HoloLens, you can **"Tap your finger down and Move"** to rotate the object in the space.
   * when used on a computer, you can follow the hint to use the "**UIOJKL**" keys to help you rotate the object.
     <p align="center">
