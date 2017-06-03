@@ -4,16 +4,16 @@ Through an integrated entrypoint provided by METoolkit, users are able to import
 
 ### Preparing for Use
 
-1. Import METoolkit to Unity Project.
-2. Go to folder **"DataMesh/ARModule/Entrance/"** and drag MEHoloEntrance bundle into Unity scenes.
-3. Choose MEHoloEntrance in the scene and click **"Create All MEHolo Module"** button on Inspector Panel.
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26624483/969b2aba-4623-11e7-90b3-ba3cada24aba.png" height="200">
-   </p>
-4. MEHolo objects will be automatically generated in the scene, which includes all the modules in Toolkit.
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26624496/a1a00f34-4623-11e7-865c-c36f8eb30768.png" height="200">
-   </p>
+* Import METoolkit to Unity Project.
+* Go to folder **"DataMesh/ARModule/Entrance/"** and drag MEHoloEntrance bundle into Unity scenes.
+* Choose MEHoloEntrance in the scene and click **"Create All MEHolo Module"** button on Inspector Panel.
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26624483/969b2aba-4623-11e7-90b3-ba3cada24aba.png" height="200">
+</p>
+* MEHolo objects will be automatically generated in the scene, which includes all the modules in Toolkit.
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26624496/a1a00f34-4623-11e7-865c-c36f8eb30768.png" height="200">
+</p>
 
 ### Choose Modules
 
