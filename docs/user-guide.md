@@ -359,28 +359,28 @@ You can speak "Open Menu" to find the concealed menu so as to adjust and share W
 
 Steps of moving spatial anchors are as follows:
 
-1. Enter Anchor adjustment model by "Change Anchor" in the concealed menu. Then you will see the whole galaxy with an enclosed box outside and a blue crystalline is displayed on the benchmark position to demonstrate  position of the galaxy Anchor.
+* Enter Anchor adjustment model by "Change Anchor" in the concealed menu. Then you will see the whole galaxy with an enclosed box outside and a blue crystalline is displayed on the benchmark position to demonstrate  position of the galaxy Anchor.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658986/12510950-46a0-11e7-8ec7-9a0d7127d59f.png" width="500">
 </p>
 
-2. Fix your eyes on enclosed box and Air Tap, The object's enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
+* Fix your eyes on enclosed box and Air Tap, The object's enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
 </p>
 
-3. Fix your eyes on "Gaze" Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
+* Fix your eyes on "Gaze" Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
 
-  * If there is no environmental net in the currently-gazed position, then the object will float in the direction of eyes three meters away.
-  * Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
+    - If there is no environmental net in the currently-gazed position, then the object will float in the direction of eyes three meters away.
+    - Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
 
-4. Gaze at "Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
-   iii. When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
+* Gaze at "Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
+  > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
 
-5. Gaze at Rotate"Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
+* Gaze at Rotate"Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
 
-  * When using HoloLens, please operate the object in a manner of clicking and moving together and revolve the object in the direction of three axis.
+  > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and revolve the object in the direction of three axis.
 
 After adjusting WorldAnchor, Air Tap at the blank area outside the enclosed box, you will exit the Anchor edit model and enclosed box and crystalline will disappear. At the same time, the position of the galaxy will be stored and the galaxy will return to the position if spatial recognition is commensurate after starting HoloLens.
