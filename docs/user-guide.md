@@ -87,11 +87,11 @@ Workstation access steps are as follows:
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
-1. Connect output interface of HDMI of the camera to input interface of HDMI of Workstation’s video card by using the HDMI connecting wire (Micro HDMI - HDMI).
+1. Connect output interface of HDMI of the camera to input interface of HDMI of Workstation's video card by using the HDMI connecting wire (Micro HDMI - HDMI).
 2. Connect Micro USB interface to USB3.0 interface of Workstation (optional for the convenience of USB debugging and charging) by using USB wire（Micro USB - USB）.
 3. Connect Lan interface of Workstation to that of Router by using netting wire.
-4. Connect output interface of HDMI of Workstation’s video card to screen on which pictures are required to be displayed by using HDMI connecting wire.（HDMI - HDMI）
-5. Add Router’s Wi-Fi to HoloLens.
+4. Connect output interface of HDMI of Workstation's video card to screen on which pictures are required to be displayed by using HDMI connecting wire.（HDMI - HDMI）
+5. Add Router's Wi-Fi to HoloLens.
 
 ### Usage Guide for MeshExpert Installer
 Installation steps are as follows:
@@ -342,7 +342,7 @@ Steps of moving spatial anchors are as follows:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658986/12510950-46a0-11e7-8ec7-9a0d7127d59f.png" width="500">
 </p>
 
-2. Fix your eyes on enclosed box and Air Tap, The object’s enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
+2. Fix your eyes on enclosed box and Air Tap, The object's enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
