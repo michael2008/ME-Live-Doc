@@ -191,9 +191,9 @@ Now you can build and install the app to HoloLens to see the results.
 
 ### Upload Anchor
 
-1. Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#workstation-installation "Workstation Guide")).
-2. In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
-3. Check Inspector View and set the parameters:
+- Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#workstation-installation "Workstation Guide")).
+- In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
+- Check Inspector View and set the parameters:
     <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
     </p>
@@ -201,28 +201,28 @@ Now you can build and install the app to HoloLens to see the results.
       * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
       * **Server Host:** the workstation's IP address.
       * **Server Port:** the port number of the service on the workstation, defaults to 8823.
-4. Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
+- Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
 
-    ```C#
-    private void OnTapUpload(int count)
+```C#
+private void OnTapUpload(int count)
+{
+    CursorController.Instance.isBusy = true;
+    SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
     {
-        CursorController.Instance.isBusy = true;
-        SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
+        CursorController.Instance.isBusy = false;
+        if (success)
         {
-            CursorController.Instance.isBusy = false;
-            if (success)
-            {
-                CursorController.Instance.ShowInfo("Upload Anchor Success!");
-            }
-            else
-            {
-                CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
-            }
-        });
-    }
-    ```
+            CursorController.Instance.ShowInfo("Upload Anchor Success!");
+        }
+        else
+        {
+            CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
+        }
+    });
+}
+```
 
-5. In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapUpload()**:
+- In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapUpload()**:
 
 ```C#
 private IEnumerator WaitForInit()
@@ -239,8 +239,8 @@ private IEnumerator WaitForInit()
 }
 ```
 
-6. Build and then install the app on HoloLens to check the results.
-7. After the app started, follow the steps below to **upload an Anchor**:
+- Build and then install the app on HoloLens to check the results.
+- After the app started, follow the steps below to **upload an Anchor**:
     * First check if the positions of objects are desirable.
     * Air Tap at any place.
     * Now the uploading process should have begun, and the focal icon would turn into "Loading" status.
