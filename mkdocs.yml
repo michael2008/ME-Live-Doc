@@ -4,7 +4,7 @@ site_description: A Mixed-Reality Show Product.
 repo_url: https://github.com/michael2008/ME-Live-Doc
 copyright: "Copyright (C) 2016-2017 DataMesh Inc."
 docs_dir: docs
-theme: 'material'
+theme: 'mkdocs'
 
 pages:
     - 'Home': 'index.md'
