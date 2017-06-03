@@ -7,13 +7,10 @@ Through an integrated entrypoint provided by METoolkit, users are able to import
 1. Import METoolkit to Unity Project.
 2. Go to folder **"DataMesh/ARModule/Entrance/"** and drag MEHoloEntrance bundle into Unity scenes.
 3. Choose MEHoloEntrance in the scene and click **"Create All MEHolo Module"** button on Inspector Panel.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26624483/969b2aba-4623-11e7-90b3-ba3cada24aba.png" height="200">
 </p>
-
 4. MEHolo objects will be automatically generated in the scene, which includes all the modules in Toolkit.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26624496/a1a00f34-4623-11e7-865c-c36f8eb30768.png" height="200">
 </p>
@@ -21,11 +18,9 @@ Through an integrated entrypoint provided by METoolkit, users are able to import
 ### Choose Modules
 
 1. After MEHolo being created, click MEHoloEntrance object again to see the Inspector Panel, and you will see the contents have been updated.
-
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26625025/7330e036-4625-11e7-8024-9fa691d44e9a.png" height="130">
 </p>
-
 2. Here you can choose what modules to use, and uncheck those you don't need.
 3. **NOTE:** there are module dependencies such that the use of some modules demands some other modules to be present. For instance, when Live module is checked, Anchor and Input modules will be checked automatically and can not be unchecked.
 4. As for the detailed usage of these modules, please refer to their corresponding instructions later in this section.
@@ -208,8 +203,8 @@ Now you can build and install the app to HoloLens to see the results.
 </p>
 
 > Note:
->  * when an object is selected, you can Air Tap at a blank area to unselect the object.
->  * when no object is selected, you can Air Tap at a blank area to exit the **Anchor Editing Mode**, where the surrounding boxes and crystalline would all disappear, and the positions of objects will be saved so that on next boot all the positions would be automatically restored if the space matches.
+> * when an object is selected, you can Air Tap at a blank area to unselect the object.
+> * when no object is selected, you can Air Tap at a blank area to exit the **Anchor Editing Mode**, where the surrounding boxes and crystalline would all disappear, and the positions of objects will be saved so that on next boot all the positions would be automatically restored if the space matches.
 
 ### Upload Anchor
 
@@ -223,7 +218,7 @@ Now you can build and install the app to HoloLens to see the results.
 <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
 </p>
 
-  * **App Id:** the unique ID of the app in 4-bytes integer.
+* **App Id:** the unique ID of the app in 4-bytes integer.
   * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
   * **Server Host:** the workstation's IP address.
   * **Server Port:** the port number of the service on the workstation, defaults to 8823.
@@ -774,7 +769,7 @@ In the Hierarchy view, locate the "**MEHolo/CollaborationManager**" and check it
 <img src="https://cloud.githubusercontent.com/assets/7636848/26671867/a053753c-46e9-11e7-8d3b-5766473a184b.png" width="320">
 </p>
 
-  * **App Id:** the unique ID of the app in 4-bytes integer.
+* **App Id:** the unique ID of the app in 4-bytes integer.
   * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
   * **Server Host:** the workstation's IP address.
   * **Server Port:** the port number of the service on the workstation, defaults to 8823.
@@ -992,7 +987,7 @@ In the Hierarchy view, locate the "**MEHolo/AnchorManager**" and check it. In th
 <img src="https://cloud.githubusercontent.com/assets/7636848/26675721/96b98882-46f7-11e7-8774-25e0fb300d26.png" width="320">
 </p>
 
-  * **App Id:** the unique ID of the app in 4-bytes integer.
+* **App Id:** the unique ID of the app in 4-bytes integer.
   * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
   * **Server Host:** the workstation's IP address.
   * **Server Port:** the port number of the service on the workstation, defaults to 8823.
