@@ -61,6 +61,7 @@ public class MainApp : MonoBehaviour
 ### Functionalities
 
 SceneAnchorController provides the following functions:
+
 * Manage the spatial scenes scanned by HoloLens.
 * Manage the spatial anchor, WorldAnchor, including creation, modification, deletion, storage, etc.
 * Include a set of user interfaces to operate spatial anchors where users can adjust the position and angle of each Anchor by gesture.
@@ -193,9 +194,9 @@ Now you can build and install the app to HoloLens to see the results.
 1. Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#workstation-installation "Workstation Guide")).
 2. In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
 3. Check Inspector View and set the parameters:
-   <p align="center">
+<p align="center">
     <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
-   </p>
+</p>
    * **App Id:** the unique ID of the app in 4-bytes integer.
    * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
    * **Server Host:** the workstation's IP address.
@@ -381,9 +382,9 @@ public class InputSample : MonoBehaviour
 }
 ```
 4. Drag the "**Cube**" in the scene to the "**targetObject Column**" of "**InputSample**" of "**App**" in the Hierarchy View.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26666376/2005d95e-46d2-11e7-85f3-9dfce47fe2b2.png" width="320">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26666376/2005d95e-46d2-11e7-85f3-9dfce47fe2b2.png" width="320">
+   </p>
 5. Release the Project to HoloLens or start it directly in Unity.
 > Note: If you run the app in Unity on PC, the **Alt+J/K/L/I/U/O** keys on PC would be mapped to the Navigation gesture on HoloLens. And if you have bound the **Manipulation** gesture, the corresponding keys on PC would be **Shift+J/K/L/I/U/O**.
 
@@ -453,9 +454,9 @@ SpeechManager offers voice control of Hololens. Developers could add keywords as
 1. Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Holograms 101E](https://developer.microsoft.com/en-us/windows/mixed-reality/holograms_101e "Holograms 101E")" by Microsoft).
 2. Set up METoolkit modules (refer to the ME-HoloEntrance instructions).
 3. Do not check the "**Auto Turn On**" box, and we need to enable or disable voice control manually.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26667234/beab6a98-46d6-11e7-8b32-44c49ef880ea.png" width="320">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26667234/beab6a98-46d6-11e7-8b32-44c49ef880ea.png" width="320">
+   </p>
 4. Call **AddKeywords()** method of SpeechManager to add keywords and associated action method for voice commands.
 
 ```C#
@@ -485,17 +486,17 @@ Cursor helps users to get accurate gazing positions, much like a mouse cursor. I
 1. Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Holograms 101E](https://developer.microsoft.com/en-us/windows/mixed-reality/holograms_101e "Holograms 101E")" by Microsoft).
 2. Set up METoolkit modules (refer to the ME-HoloEntrance instructions), and make sure to check **Cursor** and **Input** modules in MEHoloEntrance.
 3. Create a CursorController module, check "**AutoTurnOn**" in **CursorController** ( or leave it unchecked and manually enable the Cursor in code):
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26668235/585635e8-46db-11e7-83be-2f674aeb3497.png" width="320">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26668235/585635e8-46db-11e7-83be-2f674aeb3497.png" width="320">
+   </p>
 4. Create a new **Cube** positioned right ahead of the camera. Run it with Unity and you will see a hand-shaped Icon when the camera focused on the cube. This depends on the **Collider** of the Cube, that is, when the collider is touched the hand-shaped icon appears.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26668237/5b900036-46db-11e7-99a0-ecb854d17490.png" width="320">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26668237/5b900036-46db-11e7-99a0-ecb854d17490.png" width="320">
+   </p>
 5. When the focus moved away from the Cube, the cursor would restore to normal.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26668239/5daaa1dc-46db-11e7-9004-ce9c7c8893a7.png" width="500">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26668239/5daaa1dc-46db-11e7-9004-ce9c7c8893a7.png" width="500">
+   </p>
 
 ### More about CursorController
 
@@ -606,13 +607,13 @@ It's easy to add a menu to the scene, as you can drag the previously saved menu 
 
 1. Find and choose "**MEHolo/BlockMenuManager**" in the Hierarchy View.
 2. Locate the saved menu data from the Project view, and drag it to the "**Menu Data List**" property in the Inspector view of BlockMenuManager.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26671007/92102f72-46e6-11e7-9cce-16f5d737a88a.png" width="600">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26671007/92102f72-46e6-11e7-9cce-16f5d737a88a.png" width="600">
+   </p>
 3. Now you can see that the menu data have been imported.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26671008/92e2dd0a-46e6-11e7-9f7e-d166beca32fc.png" width="320">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26671008/92e2dd0a-46e6-11e7-9f7e-d166beca32fc.png" width="320">
+   </p>
 
 
 ### Use a Menu
@@ -1079,17 +1080,17 @@ namespace DataMesh.AR.Samples.SpectatorView
 1. Start SpectatorView App on the Hololens of the Rig.
 2. Start "**.exe**" program on the Workstation.
 3. There will be an operation panel on the screen:
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26675734/9d10dc26-46f7-11e7-9d8f-947fce61e37e.png" width="500">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26675734/9d10dc26-46f7-11e7-9d8f-947fce61e37e.png" width="500">
+   </p>
 4. Click the "**Connect HoloLens Spectator View**" button on the right-side panel. Then the program would try to connect to the HoloLens on the Rig.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26675735/9e7cf0fe-46f7-11e7-85cf-b5425560f28d.png" width="80">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26675735/9e7cf0fe-46f7-11e7-85cf-b5425560f28d.png" width="80">
+   </p>
 5. If the connection succeeded, an echo text "**HoloLens connected**" would show up. Otherwise, "**HoloLens offline**" would appear. When connection failed, retry from the first step.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26675738/a0084f86-46f7-11e7-8c83-321b2373211e.png" width="320">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26675738/a0084f86-46f7-11e7-8c83-321b2373211e.png" width="320">
+   </p>
 6. With a successful connection, the program will try to synchronize automatically, and the "**Start Follow**" button would turn blue. You will see from the monitor screen that the real-time Holo Graphics are captured.
 7. If you want to synchronize with another HoloLens, you need to:
   * First click "**Stop Follow**" to stop synchronization.
@@ -1135,9 +1136,9 @@ Name it **config.ini** and put it in "**StreamingAssets**" folder.
 ### Use AppConfig
 
 1. Check whether there is a "**config.ini**" file in local "**StreamingAssets**" directory. If not, create it from the example above.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26676698/73aaa76e-46fb-11e7-8d4b-f4ce31389a03.png" width="500">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26676698/73aaa76e-46fb-11e7-8d4b-f4ce31389a03.png" width="500">
+   </p>
 2. To get the configured data, call the **GetConfig(string)** method of AppConfig in your scripts.
 ```C#
     void Start () {
@@ -1161,13 +1162,13 @@ The aim of MEHolo SDK is to provide methods and APIs that developers can use to 
 
 1. Open Unity and import `MEHolo SDK Unity package` directly from Assets->Import Package->Custom Package to any sub-catalog of Assets files.
 2. For MEHoloSDK-Plugins-Unity, change all DLL files to be in support of Editor and Standalone platform only.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/4099195/26666994/85def26c-46d5-11e7-93f4-48cb566ea468.png" width="500">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/4099195/26666994/85def26c-46d5-11e7-93f4-48cb566ea468.png" width="500">
+   </p>
 3. For MEHoloSDK-Plugins-UWP, change all DLL files to be in support of WSAPlayer only.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/4099195/26667023/aaaaa58c-46d5-11e7-9076-0006ff5181a1.png" width="500">
-</p>
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/4099195/26667023/aaaaa58c-46d5-11e7-9076-0006ff5181a1.png" width="500">
+   </p>
 
 ### Function and API
 
