@@ -258,42 +258,42 @@ Click Delete to remove apps.
 Click More to start, stop, restart, install, uninstall, upgrade sand change configuration.
 
 * Start
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26627563/77ef3778-462d-11e7-9c27-b881caa7fddd.png" width="500">
-</p>
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26627563/77ef3778-462d-11e7-9c27-b881caa7fddd.png" width="500">
+  </p>
 
 * Stop
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26627577/89a66f7c-462d-11e7-879d-e8d73ada8df6.png" width="500">
-</p>
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26627577/89a66f7c-462d-11e7-879d-e8d73ada8df6.png" width="500">
+  </p>
 
 * Restart
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26627658/c74de0f8-462d-11e7-8374-15d7f9c778d5.png" width="500">
-</p>
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26627658/c74de0f8-462d-11e7-8374-15d7f9c778d5.png" width="500">
+  </p>
 
 * Install
-When users choose app programs to be installed, the system will change parameters of configuration documents in installation packages after installation, such as `Rout\LocalAppData\ChengDu_1.2.1.0_x86__pzq3xp76mxafg\LocalState\config.ini`. Namely field values of `Server_Url`, `Share_Anchor_Url` are Ip numbers of the current Server.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
-</p>
+  When users choose app programs to be installed, the system will change parameters of configuration documents in installation packages after installation, such as `Rout\LocalAppData\ChengDu_1.2.1.0_x86__pzq3xp76mxafg\LocalState\config.ini`. Namely field values of `Server_Url`, `Share_Anchor_Url` are Ip numbers of the current Server.
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
+  </p>
 
 * Uninstall
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
-</p>
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
+  </p>
 
 * Upgrade
-When the installed apps in holoLens calls for update, we shall click Update and update them to the latest versions in Application.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26658751/d1a45e3a-469e-11e7-80c8-4da0764c278e.png" width="500">
-</p>
+  When the installed apps in holoLens calls for update, we shall click Update and update them to the latest versions in Application.
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26658751/d1a45e3a-469e-11e7-80c8-4da0764c278e.png" width="500">
+  </p>
 
 * Configuration
-If  the current Server Ip of users  changes, we shall click Configure to change the field value of Server_Url, Share_Anchor_Url.
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26658793/02051f24-469f-11e7-868f-d77ccb526029.png" width="500">
-</p>
+  If  the current Server Ip of users  changes, we shall click Configure to change the field value of Server_Url, Share_Anchor_Url.
+  <p align="center">
+  <img src="https://cloud.githubusercontent.com/assets/17921380/26658793/02051f24-469f-11e7-868f-d77ccb526029.png" width="500">
+  </p>
 
 ## Uninstall
 Find Uninstall in DataMesh Catalog on Start menu and click it to uninstall it. If you cannot find Uninstall on Start menu, please enter installation directory to find Uninstall.exe, and uninstall it by double click the Uninstall.exe.
@@ -348,13 +348,13 @@ Steps of moving spatial anchors are as follows:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
 </p>
 
-3. Fix your eyes on “Gaze" Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
+3. Fix your eyes on "Gaze" Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
 
   * If there is no environmental net in the currently-gazed position, then the object will float in the direction of eyes three meters away.
   * Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
 
-4. Gaze at “Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
-iii. When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
+4. Gaze at "Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
+   iii. When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
 
 5. Gaze at Rotate"Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
 
