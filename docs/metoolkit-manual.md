@@ -195,12 +195,12 @@ Now you can build and install the app to HoloLens to see the results.
 2. In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
 3. Check Inspector View and set the parameters:
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
 </p>
-   * **App Id:** the unique ID of the app in 4-bytes integer.
-   * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
-   * **Server Host:** the workstation's IP address.
-   * **Server Port:** the port number of the service on the workstation, defaults to 8823.
+    * **App Id:** the unique ID of the app in 4-bytes integer.
+    * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
+    * **Server Host:** the workstation's IP address.
+    * **Server Port:** the port number of the service on the workstation, defaults to 8823.
 4. Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
 ```C#
 private void OnTapUpload(int count)
