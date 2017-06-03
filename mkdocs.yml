@@ -2,7 +2,11 @@ site_name: MeshExpert Live! Documentation
 repo_url: https://github.com/michael2008/ME-Live-Doc
 copyright: "Copyright (C) 2016-2017 DataMesh Inc."
 docs_dir: docs
+
 pages:
-- Home: index.md
-- Model: model.md
-- Source Configuration: source-configuration.md
+    - 'Home': 'index.md'
+    - 'Model': 'model.md'
+    - 'Source Configuration': 'source-configuration.md'
+
+markdown_extensions:
+    - admonition:
