@@ -1,13 +1,15 @@
 ## Overview
 ME-Live! includes a complete set of hardwares, supporting softwares and apps. This guide will firstly give you the detailed specifications of hardware devices and their installation instructions; then it will introduce you how to use the system, including license installation and management, management of HoloLens device and app installation and management; lastly it will show some built-in demo apps.
+
 ## System Structure
 ME-Live! is made up of two parts:
+
 * **Live Rig**: a set of movable video device with a function of getting  video and location information of the real world.
 * **Live WorkStation**: a high performance graphic workstation used for running holographic program and synthesizing real-time holographic video.
 
 <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/17921380/26622840/4dfc5ee6-461e-11e7-9ee2-215810049b79.png" width="500">
-    <p align="center"><em>ME-Live! System Structure</em></p>
+<img src="https://cloud.githubusercontent.com/assets/17921380/26622840/4dfc5ee6-461e-11e7-9ee2-215810049b79.png" width="500">
+<p align="center"><em>System Structure</em></p>
 </p>
 
 ## How It Works
@@ -82,7 +84,7 @@ Workstation access steps are as follows:
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624534/bf87b4ac-4623-11e7-9001-07d93508f5bf.png" width="500">
-<p align="center"><em>ME-Live! Workstation Connection Diagram</em></p>
+<p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
 1. Connect output interface of HDMI of the camera to input interface of HDMI of Workstation’s video card by using the HDMI connecting wire (Micro HDMI - HDMI).
@@ -120,21 +122,24 @@ Open config.toml Document, find `use_gpu` option, and change its value to be fal
 
 ### Adding
 
-Visit http://localhost/admin and you will enter the interface of Adding License as follows. Choose your license document and upload it so as to activate. If you don't have a valid license right now, please contact service@datamesh.com.
+Visit `http://localhost/admin` and you will enter the interface of Adding License as follows. Choose your license document and upload it so as to activate. If you don't have a valid license right now, please contact `service@datamesh.com`.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624939/1bf7ebde-4625-11e7-9041-33c7c065e4bc.png" width="500">
+</p>
 
 After adding, click License in the left column after the page forwarded, then you will see your License information as depicted in the following picture, and you can manage your License here, such as update, delete and renewal online.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624973/3ff8609a-4625-11e7-82ac-d4742a526059.png" width="500">
+</p>
 
 ### Managing
 You can manage your License on License interface, including update, delete and online subscription renewal.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625004/5c8f8526-4625-11e7-84bc-8b5eb88b5e47.png" width="500">
+</p>
 
 If your original License has been expired or you have already bought a new License, you can update it through License Update. You can delete your current License through delete.
 
