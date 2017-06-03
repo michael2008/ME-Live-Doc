@@ -4,7 +4,7 @@ site_description: A Mixed-Reality Show Product.
 repo_url: https://github.com/michael2008/ME-Live-Doc
 copyright: "Copyright (C) 2016-2017 DataMesh Inc."
 docs_dir: docs
-theme: 'mkdocs'
+theme: 'readthedocs'
 
 pages:
     - 'Home': 'index.md'
@@ -14,19 +14,6 @@ pages:
     - 'Developer Guide': 'developer-guide.md'
     - 'METoolkit Developer Manual': 'metoolkit-manual.md'
     - 'Trouble Shooting': 'trouble-shooting.md'
-
-# Options
-extra:
-  logo: 'images/datamesh.png'
-  palette:
-    primary: 'indigo'
-    accent: 'indigo'
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  social:
-    - type: 'twitter'
-      link: 'https://twitter.com/datameshar'
 
 markdown_extensions:
     - admonition:
