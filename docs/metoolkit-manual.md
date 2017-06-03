@@ -194,9 +194,9 @@ Now you can build and install the app to HoloLens to see the results.
 1. Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#workstation-installation "Workstation Guide")).
 2. In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
 3. Check Inspector View and set the parameters:
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
-   </p>
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
+</p>
     * **App Id:** the unique ID of the app in 4-bytes integer.
     * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
     * **Server Host:** the workstation's IP address.
@@ -221,20 +221,20 @@ Now you can build and install the app to HoloLens to see the results.
     }
     ```
 5. In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapUpload()**:
-  ```C#
-  private IEnumerator WaitForInit()
-  {
-      MEHoloEntrance entrance = MEHoloEntrance.Instance;
-      while (!entrance.HasInit)
-      {
-          yield return null;
-      }
-
-      // Todo: Begin your logic
-      inputManager = MultiInputManager.Instance;
-      inputManager.cbTap += OnTapUpload;
-  }
-  ```
+    ```C#
+    private IEnumerator WaitForInit()
+    {
+        MEHoloEntrance entrance = MEHoloEntrance.Instance;
+        while (!entrance.HasInit)
+        {
+            yield return null;
+        }
+    
+        // Todo: Begin your logic
+        inputManager = MultiInputManager.Instance;
+        inputManager.cbTap += OnTapUpload;
+    }
+    ```
 6. Build and then install the app on HoloLens to check the results.
 7. After the app started, follow the steps below to **upload an Anchor**:
     * First check if the positions of objects are desirable.
@@ -465,7 +465,7 @@ SpeechManager offers voice control of Hololens. Developers could add keywords as
       SpeechManager.Instance.AddKeywords("Open Menu", OpenMenuAction);
       SpeechManager.Instance.TurnOn(); // now enable voice commands recognition
   }
-  
+
   public void OpenMenuAction ()
   {
       Debug.Log("Recognize command: Open Menu");
