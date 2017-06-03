@@ -1,4 +1,6 @@
-MeshExpert Live! is a real-time Mixed-Reality (MR) filming and show product developed by DataMesh. It is intensively designed on top of HoloLens, so that mixed-reality could be perceived by more people. Leveraging on our solution, HoloLens users can see amazing MR images, while those who do not wear HoloLens can also experience MR scenes through ME Live! in real-time. Meanwhile, the gap among different devices of sharing the same MR experiences can be well bridged by incorporating the collaboration feature offered by ME Live!, where you could easily interact with mixed realities via all sorts of VR/AR glasses and even mobiles and tablets, which creates various possibilities for immersive mixed-reality experiences.
+
+## Welcome
+MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product developed by DataMesh. It is intensively designed on top of HoloLens, so that mixed-reality could be perceived by more people. Leveraging on our solution, HoloLens users can see amazing MR images, while those who do not wear HoloLens can also experience MR scenes through ME Live! in real-time. Meanwhile, the gap among different devices of sharing the same MR experiences can be well bridged by incorporating the collaboration feature offered by ME Live!, where you could easily interact with mixed realities via all sorts of VR/AR glasses and even mobiles and tablets, which creates various possibilities for immersive mixed-reality experiences.
 
 ## Main Features
 * **Real-time MR Show**
@@ -35,7 +37,7 @@ RIG kit offered by DataMesh has been equipped with all necessary software in adv
 The assembly process of RIG kit is demonstrated in the "Rig Assembly Diagram" and steps are as follows:
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26612913/683f5472-45ea-11e7-9c6c-5b6be96fd6bd.png" height="500">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26612913/683f5472-45ea-11e7-9c6c-5b6be96fd6bd.png" width="160">
 <p align="center"><em>Rig Assembly Diagram</em></p>
 </p>
 
@@ -54,7 +56,7 @@ Steps of access to work station are as follows(see in Picture "ME Live! Workstat
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26613751/dda03868-45ee-11e7-8afc-b2a4a97f0a32.png" width="500">
-<p align="center"><em>ME Live! Workstation Connection Diagram</em></p>
+<p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
 1. Connect output interface of HDMI of the camera to input interface of HDMI of work station's video card by using the HDMI connecting wire.(Micro HDMI - HDMI).
@@ -68,16 +70,16 @@ Steps of access to work station are as follows(see in Picture "ME Live! Workstat
 
 You need to add a license to activate full corresponding functionalities of ME-Live! before use.
 
-Open the browser on the ME-Live! workstation (Edge and Chrome are preferable) to visit *http://localhost/admin*. Note that you need to install MeshExpert supporting software, the **MeshExpert Suite**, before adding a license if the workstation is assembled by yourself. As for installation of MeshExpert Suite, please refer to [User Guide](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide "MeshExpert Live! User Guide") for ME Live!
+Open the browser on the ME-Live! workstation (Edge and Chrome are preferable) to visit `http://localhost/admin`. Note that you need to install MeshExpert supporting software, the **MeshExpert Suite**, before adding a license if the workstation is assembled by yourself. As for installation of MeshExpert Suite, please refer to [User Guide](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide "MeshExpert Live! User Guide") for ME Live!
 
-Once you opened *http://localhost/admin*, you can upload your license file via the "Adding License" page as shown below. If you haven't obtain a license yet, please contact *service@datamesh.com* for a trial or commercial license.
+Once you opened `http://localhost/admin`, you can upload your license file via the "Adding License" page as shown below. If you haven't obtain a license yet, please contact `service@datamesh.com` for a trial or commercial license.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614128/15c10acc-45f1-11e7-95ab-7b5610192370.png" width="500">
 <p align="center"><em>Adding License</em></p>
 </p>
 
-Upon finished, you will see your license information in the "License" tab as demonstrated below, which reveals the detailed information about your licensing.
+Upon finished, you will see your license information in the "**License**" tab as demonstrated below, which reveals the detailed information about your licensing.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26615583/6bb98270-45fa-11e7-9fdd-a6204d160b02.png" width="500">
@@ -106,4 +108,4 @@ Moreover, you can interact with virtual planets with simple gestures: rotate pla
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614771/cb5d520c-45f4-11e7-8478-7ef281a6c459.png" width="500">
 </p>
 
-> NOTE: ME-Live! makes it easy to install, manage, start and stop apps on HoloLens. For detailed instructions, please refer to [App Management](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#app-management) in User Guide.
+> NOTE: ME-Live! makes it easy to install, manage, start and stop apps on HoloLens. For detailed instructions, please refer to [App Management](user-guide.md#app-management) in User Guide.
