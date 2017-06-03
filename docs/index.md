@@ -12,7 +12,8 @@ For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](m
 
 
 
-# Table of Contents
+## Table of Contents
+
 * [Home][home]
 * [Getting Started][getting_started]
   - [Main Features](getting-started.md#main-features)
