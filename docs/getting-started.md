@@ -41,29 +41,29 @@ The assembly process of RIG kit is demonstrated in the "Rig Assembly Diagram" an
 <p align="center"><em>Rig Assembly Diagram</em></p>
 </p>
 
-1. Fix HoloLens on the dedicated fixed mount.
-2. Install fixed module of hot shoe of HoloLens's fixed mount on the bottom of the fixed mount.
-3. Place tripod and fix digital camera on the head of tripod.
-4. Fix hot shoe connector on the hot shoe interface of the camera.
-5. Connect fixed module of hot shoe of HoloLens's fixed mount to the connector and screw it up.
+1. Fix HoloLens on the dedicated **Aluminum HoloLens Bracket**.
+2. Add the **Hotshoe Adapter** to the HoloLens mount in Step 1 (to later in Step 5, connect the HoloLens mount to the camera).
+3. Connect the **Camera** to the **Tripod**. 
+4. Fix the **Hotshoe Fastener** to the **Camera**.
+5. Finally, connect the **HoloLens Mount** and the **Camera** by connecting the **Hotshoe Adapter** and the  **Hotshoe Fastener**.
 
 ### Install the Workstation
 
 It's recommended to use the work station device offered by DataMesh to gain access to the best experience.
 The work station device offered by DataMesh has been equipped with all necessary software in advance.
 
-Steps of access to work station are as follows(see in Picture "ME Live! Workstation Connection Diagram"):
+Steps to connect the Workstation with the Rig and a display are as follows (see in Picture "Workstation Connection Diagram"):
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26613751/dda03868-45ee-11e7-8afc-b2a4a97f0a32.png" width="500">
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
-1. Connect output interface of HDMI of the camera to input interface of HDMI of work station's video card by using the HDMI connecting wire.(Micro HDMI - HDMI).
-2. Connect Micro USB interface of HoloLens to USB3.0 interface of work station(optional for the convenience of USB debugging and charging) by using USB cable（Micro USB - USB）.
-3. Connect Lan interface of work station to that of Router by using cable.
-4. Connect output interface of HDMI of work station's video card to screen on which pictures are required to be displayed by using HDMI connecting wire.（HDMI - HDMI）
-5. Add Router's Wi-Fi to HoloLens network settings.
+1. Connect the camera's **HDMI Output Port** to the **Input Port ** of the capture card of the workstation, with a **HDMI to Mini-HDMI cable**.
+2. Connect the **Micro USB port** of HoloLens to one of the USB3.0 port on the workstation with a **Micro USB to USB cable**. (This is for the convenience of USB debugging and charging of HoloLens, and thus is optional) .
+3. Connect the workstation to the **LAN Port** of the **Wireless Router** using a Lan cable.
+4. Use an **HDMI to HDMI cable** to attach the **Output Port** of the capture card of the workstation to an external display or any other campatible screens.
+5. Let the HoloLens join the local wireless network and make sure the HoloLens and the workstation are in the same vlan.
 
 
 ### Add License
