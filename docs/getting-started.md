@@ -30,11 +30,11 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 ## Quick Installation
 
 ### Install the RIG
-It's recommended to use RIG kit offered by DataMesh to gain access to the best experience and convenience. The suite can be easily dissembled and assembled, but it's required that we should fix the complete set of device firmly so as to reduce unstable factors , such as shake, when we use it.
+It's recommended to use Rig kit offered by DataMesh to have the best experience. The suite can be easily dissembled and assembled, but do make sure it is assembled correctly and firmly.
 
-RIG kit offered by DataMesh has been equipped with all necessary software in advance.
+RIG kit offered by DataMesh is equipped with all necessary software in advance.
 
-The assembly process of RIG kit is demonstrated in the "Rig Assembly Diagram" and steps are as follows:
+The assembly process of the Rig is demonstrated in the "Rig Assembly Diagram" and steps are as follows:
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26612913/683f5472-45ea-11e7-9c6c-5b6be96fd6bd.png" width="160">
@@ -49,10 +49,10 @@ The assembly process of RIG kit is demonstrated in the "Rig Assembly Diagram" an
 
 ### Install the Workstation
 
-It's recommended to use the work station device offered by DataMesh to gain access to the best experience.
-The work station device offered by DataMesh has been equipped with all necessary software in advance.
+It's recommended to use the workstation devices offered by DataMesh to have the best experience.
+The workstation offered by DataMesh is equipped with all necessary software in advance.
 
-Steps to connect the Workstation with the Rig and a display are as follows (see in Picture "Workstation Connection Diagram"):
+Steps to connect the Workstation with the Rig and a display are as follows (see Picture "Workstation Connection Diagram"):
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26613751/dda03868-45ee-11e7-8afc-b2a4a97f0a32.png" width="500">
