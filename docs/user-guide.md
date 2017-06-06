@@ -89,7 +89,7 @@ Below is a list of recommended requirements for the workstation:
 |    **Mainboard**     | M.2 SSD or PCI-E SSD supported           |                                          |
 |      **Memory**      | 16GB two-channel  DDR4 or above          |                                          |
 |    **Hard disk**     | 500GB M.2 SSD or PCIE SSD                | SAMSUNG 850 EVO 500G M.2 SSD **recommended**. |
-| **Operating system** | Windows 10 64bit                         | 1. only 64-digit system installation supported. 2. Early Windows versions, such as Windows 7/8 and Server, are not supported at present. |
+| **Operating system** | Windows 10 64bit                         | 1. only 64-bit system installation supported. 2. Early Windows versions, such as Windows 7/8 and Server, are not supported at present. |
 
 ### Assembly Steps
 
@@ -161,24 +161,24 @@ You can delete your current license by using the License Delete.
 
 ## Device Management
 
-You can manage HoloLens, app release and installation and License functions through Management which is comprised of some Windows Device Portal API
+Management can be used to manage HoloLens devices, application releases, licenses, and so on,  which is composed of some Windows Device Portal APIs.
 
 ### Adding
-Device management part provides operations of add, delete and management on HoloLens and other devices. Specific operations are as follows:
+The Device Management module can add, delete and manage devices such as HoloLens. Specific operations are as follows:
 
-On the condition that legal License is acquired and added, you shall visit `http://<YOUR_SERVER_IP>/admin` and you will see a page similar to the following one:
+In the case of obtaining and adding a legal license, visit http: // <YOUR_SERVER_IP> / admin, there will appear a page similar to the following page:
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625097/aa48be18-4625-11e7-80fb-490162210a9a.png" width="500">
 </p>
 
-Click Add device Button, you will see the following page:
+Click Add device button, a page similar to the following page appears:
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625128/c4b2f174-4625-11e7-8bd3-f4af560e5bff.png" width="500">
 </p>
 
-On the condition that your HoloLens and Server are in the same network segment (usually connected to the same Router) and can communicate with each other, you shall fill in IP address of your HoloLens and click Next Button. If it is your first time to add the device, you will see the following page and PIN code in HoloLens at the same time.
+On the condition that your HoloLens and Server are in the same network segment (usually connected to the same Router) and can communicate with each other, you shall fill in IP address of your HoloLens and click Next button. If it is your first time to add the device, the following page will appears with a PIN code on the HoloLens.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625182/e5c488fa-4625-11e7-854e-64383e5d8137.png" width="500">
@@ -188,25 +188,26 @@ On the condition that your HoloLens and Server are in the same network segment (
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625232/108c82fe-4626-11e7-9e56-6d46cddd3e4a.png" width="500">
 </p>
 
-Input PIN and user name and password to be set up as well as confirm the password. Then click Pair.
+Enter the PIN and enter the username and password you want to create and confirm the password. Then click Pair.
+if pair successfully, the following page will appear with a list of devices.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625333/6250a142-4626-11e7-8ee0-79099789c836.png" width="500">
 </p>
 
-And conduct relevant operations on it.
+beside you can conduct relevant operations on this page.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625405/9006a488-4626-11e7-8c8b-f8e9d73f3b6f.png" width="500">
 </p>
 
-If the device is not paired at first time, just input user name and password.
+If this is not the device's first pair,  enter user name and password directly.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625462/bfccb2ca-4626-11e7-825c-e431ea089f03.png" width="500">
 </p>
 
-If you forget the password, you can reset it by clicking Forget your account.
+You can click Forget your account for password reset.
 
 ### Status Checking
 
