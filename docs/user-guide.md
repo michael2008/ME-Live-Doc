@@ -336,14 +336,16 @@ Find Uninstall in DataMesh entry on Start menu and click it to uninstall it. If 
 ### SolarSystemExplorer
 
 We have installed a built-in app as a sample for your reference. In this example, we implemented the most basic space anchor sharing and scene synchronization.
+
 Below we will give you a detailed description of how to use this application.
-Open SolarSystemExplorer App, you will see the whole solar system in front of your eyes:
+
+Open the SolarSystemExplorer application, you will see the whole solar system surfaced in front of you.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658886/9908243e-469f-11e7-9bc8-d9673bd59f0b.png" width="500">
 </p>
 
-Click a certain planet and you will be able to exclusively observe it:
+Click on a specific planet and you will be able to explore it exclusively.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658907/b1ee84fc-469f-11e7-8574-3e7826376a77.png" width="500">
@@ -354,7 +356,7 @@ Click a certain planet and you will be able to exclusively observe it:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658925/c3ef140a-469f-11e7-872f-9f8266e83238.png" width="500">
 </p>
 
-You can revolve and scale the whole scene at any time. As long as you click and carry out Horizon (revolving) and Squareness (scaling), the most fundamental interaction will be achieved.
+You can rotate and zoom in on the entire scene at any time, just use gestures to tap and level (rotate), vertical (zoom) drag to achieve the most basic interactions. All of these operations will be synced in ME-Live! in real-time to produce a consistent scene.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658941/e06c5930-469f-11e7-901d-6177ec15f10a.png" width="500">
