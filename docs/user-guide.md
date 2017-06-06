@@ -362,7 +362,7 @@ You can rotate and zoom in on the entire scene at any time, just use gestures to
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658941/e06c5930-469f-11e7-901d-6177ec15f10a.png" width="500">
 </p>
 
-You can use the voice "Open Menu" to call out the hidden menu, to adjust and share the space anchor. The operation is divided into three categories: <i>Change Anchor</i>, <i>Upload Anchor<i> and <i>DownloadAnchor</i>. "download space anchor".  which is to acquire and synchronize information from Server; "upload WorldAnchor" is to upload to Server with world anchors in the current HoloLens as criteria. "Move WorldAnchor" is to carry out upload to synchronize adjusted scenes to Server after adjusting the position of scenes at present.
+You can use the voice "Open Menu" to call out the hidden menu, to adjust and share the space anchor. The operation is divided into three categories: <i>Change Anchor</i>, <i>Upload Anchor<i> and <i>Download Anchor</i>. Download Anchor means obtaining latest space anchor information for the Server and synchronizing with it; Upload Anchor means uploading the current HoloLens's space anchor to the Server;  Change Anchor means adjusting the current scene's location and then uploading it to the Server to synchronize after the adjusting completes.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658969/f8634742-469f-11e7-88d9-2a8726b6d73b.png" width="500">
