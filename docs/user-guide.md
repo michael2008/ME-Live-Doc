@@ -142,7 +142,7 @@ Visit `http://localhost/admin`, and you will find the Adding License web page as
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624939/1bf7ebde-4625-11e7-9041-33c7c065e4bc.png" width="500">
 </p>
 
-After adding, click License in the left column after the page forwarded, then you will see your License information as depicted in the following picture, and you can manage your License here, such as update, delete and renewal online.
+After the completion of the page, click on the License item on the left side of the page, you can see your license information as shown below, and also can manage your license here, such as updates and deletiona.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624973/3ff8609a-4625-11e7-82ac-d4742a526059.png" width="500">
@@ -150,13 +150,14 @@ After adding, click License in the left column after the page forwarded, then yo
 
 ### Managing
 
-You can manage your License on License interface, including update, delete and online subscription renewal.
+You can manage your license in the License page, including updates, deletions and online subscription renewals.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625004/5c8f8526-4625-11e7-84bc-8b5eb88b5e47.png" width="500">
 </p>
 
-If your original License has been expired or you have already bought a new License, you can update it through License Update. You can delete your current License through delete.
+If your original license has expired or you have purchased a new license, you can update your license with the License Update. 
+You can delete your current license by using the License Delete.
 
 ## Device Management
 
