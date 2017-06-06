@@ -109,23 +109,23 @@ Workstation access steps are as follows:
 ### Usage Guide for MeshExpert Installer
 
 Installation steps are as follows:
-1. Open MeshExpert Installer.exe and install according to guide.  If an old version has ever been installed, please unload it.
-2. Restart the system or open Start MeshExpert in DataMesh Catalog on Start Menu to restart service.
+1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
+2. Restart the system or open Start MeshExpert under DataMesh entry on the Start Menu to start the service.
 
-After installation, DataMesh Catalog will be produced on Start Menu, including relevant operations on Re start and Stop service as well as some demo programs. Click Start Service of MeshExpert, wait for a while and open the browser, input localhost, then click Enter.  If there is a log-in page, you succeed to start service.
+After the installation is complete, the DataMesh entry will be generated on the Start menu bar, which will include the service management operations, such as start and stop, and some demo programs. Click Start MeshExpert start the service, wait a moment, open the browser, enter localhost and then enter. If there is a sign-in page, the service starts successfully.
 
-Stopping and restarting service can be achieved by clicking Stop MeshExpert and Restart MeshExpert in DataMesh Catalog, respectively.
+ You can click Stop MeshExpert and Restart MeshExpert under the DataMesh entry on the Start menu bar to stop or restart service, respectively.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624704/45838afe-4624-11e7-8132-aa1a492c7060.png" </p>
 
-The GPU compression is preferred when performing video compression operation in the program. If the machine does not have video card or cannot use GPU for certain reasons, we can conduct CPU video compression by changing configuration. You can change it by following following instructions: enter Installation directory (`"C:\Program Files\MeshExpert"` by default), and then enter `"HoloServer\hlstrans\configs"`,
+The GPU compression is preferred when performing video compression operations in the program. If the machine does not have video card or cannot use GPU for some reasons, you can use CPU for video compression by changing configuration. Instructions: go to the installation directory (`"C:\Program Files\MeshExpert"` by default), and then enter `"HoloServer\hlstrans\configs"`,
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624857/cecb141c-4624-11e7-8d3d-9d6562d508c1.png" width="500">
 </p>
 
-Open config.toml Document, find `use_gpu` option, and change its value to be false.
+Open config.toml file, find `use_gpu` option, and change its value to false.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624884/e4f40b9a-4624-11e7-8880-a1d926487f33.png" width="500">
