@@ -136,7 +136,7 @@ Open config.toml file, find `use_gpu` option, and change its value to false.
 
 ### Adding
 
-Visit `http://localhost/admin` and you will enter the interface of Adding License as follows. Choose your license document and upload it so as to activate. If you don't have a valid license right now, please contact `service@datamesh.com`.
+Visit `http://localhost/admin`, and you will find the Adding License web page as follows. Select your license file and upload it to activate the features. If you don't have a valid license right now, please contact `service@datamesh.com`.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624939/1bf7ebde-4625-11e7-9041-33c7c065e4bc.png" width="500">
