@@ -247,7 +247,7 @@ Select the installation package, and click Add Dependency to add dependencies (i
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625932/3008d2f2-4628-11e7-911d-f59160d5896d.png" width="500">
 </p>
 
-Click Go to upload, with an upload progress bar, and wait for the return of the status of the installation
+Click Go to upload, with an upload progress, and wait for the return of the status of the installation
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26626301/6402794a-4629-11e7-8c8d-78eff7451595.png" width="500">
@@ -271,7 +271,7 @@ The upgrade supports the replacing the same application with the same name.
 
 ### Delete
 
-Click Delete to remove applications..
+Click Delete to remove applications.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26627450/1d5bc4c0-462d-11e7-9465-2833590a4673.png" width="500">
@@ -297,7 +297,7 @@ Click More to start, stop, restart, install, uninstall, upgrade sand change conf
   </p>
 
 * Install
-  When users choose app programs to be installed, the system will change parameters of configuration documents in installation packages after installation, such as `Rout\LocalAppData\ChengDu_1.2.1.0_x86__pzq3xp76mxafg\LocalState\config.ini`. Namely field values of `Server_Url`, `Share_Anchor_Url` are Ip numbers of the current Server.
+When the user chooses an application to install, the system will change parameters of the configuration file in installation package after installation, such as `\LocalAppData\ChengDu_1.2.1.0_x86__pzq3xp76mxafg\LocalState\config.ini`, namely setting the field values of `Server_Url`, `Share_Anchor_Url` both to the IP of the current Server.
   <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
   </p>
@@ -308,22 +308,22 @@ Click More to start, stop, restart, install, uninstall, upgrade sand change conf
   </p>
 
 * Upgrade
-  When the installed apps in holoLens calls for update, we shall click Update and update them to the latest versions in Application.
+ When the application installed in HoloLens needs to be upgraded, click Upgrade to upgrade the application and update the version number to the latest version in Application.
   <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/17921380/26658751/d1a45e3a-469e-11e7-80c8-4da0764c278e.png" width="500">
   </p>
 
 * Configuration
-  If  the current Server Ip of users  changes, we shall click Configure to change the field value of Server_Url, Share_Anchor_Url.
+If the user's current server IP changes, you need to click Configure to change the values Server_Url and Share_Anchor_Url accordingly.
   <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/17921380/26658793/02051f24-469f-11e7-868f-d77ccb526029.png" width="500">
   </p>
 
 ## Uninstall
 
-Find Uninstall in DataMesh Catalog on Start menu and click it to uninstall it. If you cannot find Uninstall on Start menu, please enter installation directory to find Uninstall.exe, and uninstall it by double click the Uninstall.exe.
+Find Uninstall in DataMesh entry on Start menu and click it to uninstall it. If you cannot find Uninstall on Start menu, please go to installation directory and find Uninstall.exe, and uninstall it by double clicking the Uninstall.exe.
 
-> Note: Uninstall MeshExpert will result in removal of all data, including app data and License.  If these data are very important to you, please make sure that you already backed it up.
+> Note: Uninstalling MeshExpert will remove all data, including application data and licenses, etc. If the data is important to you, be sure to make a backup.
 
 
 ## Built-in Apps
