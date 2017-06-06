@@ -376,7 +376,7 @@ Steps of Change Anchor are as follows:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658986/12510950-46a0-11e7-8ec7-9a0d7127d59f.png" width="500">
 </p>
 
-* Eyes stare at the box, air-tap, and the object of the bounding box will change and flash indicating that it's being select, while the top of the core crystal will appear three square buttons.
+* Eyes stare at the box, air-tap, and the object of the bounding box will change and flash indicating that it's being selected, while the top of the core crystal will appear three square buttons.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
@@ -384,8 +384,8 @@ Steps of Change Anchor are as follows:
 
 * Watch the middle of the "Gaze" button and air-tap, you'll enter the sight movement mode, in which the HoloLens will display the surrounding environment's spatial mesh, and the whole object will move with the user's attention and stay in the current gaze of the environment spatial mesh on.
 
-    - If there is no environmental spatial mesh in the currently-gazed position, then the object will float in the direction of eyes three meters away.
-    - Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
+    - If there is not environmental spatial mesh in the currently-gazed position, then the object will float in the direction of eyes three meters away.
+    - Air-tap again and you will exit the sight movement mode. Then re-choose the status of the object.
 
 * Gaze at "Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
   > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
