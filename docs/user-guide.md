@@ -1,13 +1,13 @@
 ## Overview
 
-ME-Live! includes a complete set of hardwares, supporting softwares and apps. This guide will firstly give you the detailed specifications of hardware devices and their installation instructions; then it will introduce you how to use the system, including license installation and management, management of HoloLens device and app installation and management; lastly it will show some built-in demo apps.
+ME-Live! includes a complete set of hardware, support software, and application software. This guide will first provide you the detailed description of hardware specifications and their assembly methods; then it will introduce you how to use the system, including license installation and management, management of HoloLens device and app installation and management; lastly, it will show some built-in demo apps.
 
 ## System Structure
 
 ME-Live! is made up of two parts:
 
-* **Live Rig**: a set of movable video device with a function of getting  video and location information of the real world.
-* **Live WorkStation**: a high performance graphic workstation used for running holographic program and synthesizing real-time holographic video.
+* **Live Rig**: a set of movable video device with a function of getting video and location information of the real world.
+* **Live WorkStation**: a high performance graphics workstation used for running holographic program and synthesizing real-time holographic video.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26622840/4dfc5ee6-461e-11e7-9ee2-215810049b79.png" width="500">
@@ -20,29 +20,30 @@ ME-Live! is made up of two parts:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26623110/4165487c-461f-11e7-8182-a06471b19726.png" width="500">
 </p>
 
-ME-Live! contains two mains parts, collaboration and live streaming. The collaboration within multiple devices which is achieved by delivering messages between these devices through HoloServer, makes real-time synchronization of scenes on these devices a reality.  Through camera shooting and collecting real-life scenes as well as getting the mapping of spatial position by HoloLens on the tripod at the same time, live streaming of scenes can be achieved as long as scenes and mapping are input to Live Controller in Workstation to carry out real-time 3D synthesis and then output onto screens through HDMI interface.
+ME-Live! contains two main parts, collaboration, and live streaming. The collaboration within multiple devices which is achieved by delivering messages between these devices through HoloServer makes real-time synchronization of scenes on these devices a reality.  Through camera shooting and capturing real scenes, while getting the mapping of spatial position by HoloLens on the tripod, live streaming is achieved by putting them into Live Controller in Workstation to carry out real-time 3D synthesis and then output onto screens through HDMI interface.
 
 ## RIG Installation
 
 ### Function
 
-Rig is used for obtaining the real-world images and location information and further delivering them to Workstation in order to carry out real-time synthesis.
+The Rig is used for obtaining the real-world images and location information and further delivering them to the workstation in order to carry out real-time synthesis.
 
 ### Composition
 
-ME-Live! Rig is constituted of the following main components:
+ME-Live! Rig consists of the following main components:
 
-* Digital camera/vidicon
+* Digital camera/video camera
 * HoloLens
 * Tripod
 * Accessories for fixing
 
-> Note: HoloLens here is responsible for providing site position information. You can replace it with other devices which also can provide position information if you want. Besides, If you don't need real-time synchronization of site position information, such as fixing the camera stand, you can completely leave HoloLens alone.
+> Note: HoloLens here is responsible for providing location information. You can replace it with other devices which also can provide position information. Besides, HoloLens can be removed if you don't need real-time synchronization of location information, such as fixing the camera stand.
 
 ### Assembly
 
-Assembly is aimed to fixing the complete set of device firmly, so as to reduce unstable factors during usage, such as shaking.
-Ways of assembly and connection depend on the site requirements and devices you choose. If you want to choose some non-recommended devices, you should know how to connect them together.
+The purpose of the assembly is to securely secure the complete set of equipment together to minimize the effects of unstable factors such as shaking.
+Depending on the requirements of the working site and the choice of equipment, the ways of assembly and connection may vary. If you want to use non-recommended equipment, please make sure that you know how to connect them together.
+Below is a typical example of the assembly.
 
 |         item          | Function                                 | specification                       |
 | :-------------------: | :--------------------------------------- | :---------------------------------- |
@@ -52,13 +53,13 @@ Ways of assembly and connection depend on the site requirements and devices you 
 | **Other accessories** | Camera can connect to HoloLens through hot shoe interface | Screws for hot shoe switch          |
 
 
-The assembly process of Rig Suite is depicted in the picture below and steps are as follows:
+The assembly processes of Rig Suite depicted in the picture below, and the steps are as follows:
 
-1. Fix HoloLens on the stand which is specifically designed for HoloLens.
-2. Install fixed module of hot shoe at the bottom of the stand.
-3. Place tripod and fix digital camera on the head of tripod.
-4. Fix hot shoe connector on the hot shoe of the camera.
-5. Connect fixed module of hot shoe to the connector and screw it up.
+1. Fix the HoloLens on the stand specifically designed for the HoloLens.
+2. Install the fixed module of hot shoe at the bottom of the stand.
+3. Place tripod, and fix digital camera on the head of tripod.
+4. Fix the hot shoe connector on the hot shoe of the camera.
+5. Connect the fixed module of hot shoe to the connector and screw it up.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26623976/0ef5370a-4622-11e7-8cdd-0e59c8ceebee.png" width="160">
@@ -68,19 +69,18 @@ The assembly process of Rig Suite is depicted in the picture below and steps are
 
 ### Installation of Relevant Rig Software
 
-A special app need to be installed on HoloLens in order to send necessary messages to Workstation. This program is generally used as it can be a match for any ME-Live! Workstation app developed by METoolkit. You can find the app from MeshExpert suite or download the corresponding version from our website.
+A special app needs to be installed on the HoloLens to send necessary messages to the workstation. This program is generic program which can be matched with any ME-Live! Workstation application developed using METoolkit. You can find this application from the MeshExpert Suite or you can download the appropriate version from Git. https://github.com/DataMesh-OpenSource/MeshExpert-Live
 
-You can install the app by using MeshExpert manager.
+You can install this application by using MeshExpert device manager.
 
-> Note: Please confirm whether the app version is a match for the version of METoolkit in use.
+> Note: Please confirm that the application version matches the METoolkit version you're using.
 
 ## Workstation Installation
 
 ### Hardware Requirements
 
-To meet the need of 3D synthesis and recording of ME-Live!, Workstation is required to be capable of certain demanding calculations. The MeshExpert Suite offered by DataMesh is preferred.
-
-If you need to assemble Workstation by yourselves, please refer to the following recommended hardware specifications.
+The workstation requires certain level of computation power which could be satisfied by hardware sets of given specifications. There would also be some restrictions regarding the hardware and software choices.
+Below is a list of recommended requirements for the workstation:
 
 |         item         | specification                            |                  remark                  |
 | :------------------: | :--------------------------------------- | :--------------------------------------: |
@@ -114,7 +114,7 @@ Installation steps are as follows:
 
 After installation, DataMesh Catalog will be produced on Start Menu, including relevant operations on Re start and Stop service as well as some demo programs. Click Start Service of MeshExpert, wait for a while and open the browser, input localhost, then click Enter.  If there is a log-in page, you succeed to start service.
 
-Stop and Restart service can be achieved by respectively clicking Stop MeshExpert and Restart MeshExpert in DataMesh Catalog.
+Stopping and restarting service can be achieved by clicking Stop MeshExpert and Restart MeshExpert in DataMesh Catalog, respectively.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624704/45838afe-4624-11e7-8132-aa1a492c7060.png" </p>
