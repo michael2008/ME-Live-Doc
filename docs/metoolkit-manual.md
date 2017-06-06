@@ -1173,7 +1173,7 @@ The aim of MEHolo SDK is to provide methods and APIs that developers can use to 
 
 This method is used to upload images to **_HoloCloud-Share_**.
 
-`By using the given file path`
+**By using the given file path**
 
 ```c#
 //UWP
@@ -1205,7 +1205,7 @@ var resultUWP = await api.UploadImage("name", path, 1111, "3ACE54EFC4B267908AB52
 //Unity
 var resultUnity = api.UploadImage("name", path, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 ```
-`Upload directly`
+**Upload directly**
 
 ```c#
 //UWP
@@ -1238,6 +1238,8 @@ var resultUWP = await api.UploadImage("name", bytes, 1111, "3ACE54EFC4B267908AB5
 //Unity
 var resultUnity = api.UploadImage("name", bytes, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 ```
+
+
 
 
 
@@ -1316,6 +1318,8 @@ var fileBytesUntity = api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633EWA
 
 
 
+
+
 #### File Upload
 
 ---
@@ -1359,6 +1363,8 @@ var progress = api.CheckProgress("a.mp4");
 
 
 
+
+
 #### File Download
 
 ---
@@ -1395,6 +1401,8 @@ await api.DownloadFile(fileId, token, downloadPath, 40);
 //Unity
 api.DownloadFile(fileId, token, downloadPath, 40);
 ```
+
+
 
 
 
@@ -1453,6 +1461,8 @@ var hlsUrl = lecture.HlsBaseUrl + "/" + lectureContent.HlsSubLocation + "/" + le
 
 
 
+
+
 #### Video Download
 
 ---
@@ -1487,6 +1497,8 @@ var videoBytes = await api.DownloadVideoLecture(videoName, token);
 //Unity
 var videoBytes = api.DownloadVideoLecture(videoName, token);
 ```
+
+
 
 
 
@@ -1527,6 +1539,8 @@ var thumbnail = api.DownloadThumbnail(screenshotPrefix, token);
 
 
 
+
+
 #### Model Download
 
 ---
@@ -1564,6 +1578,8 @@ var model = api.DownloadModel(modelName, token, 40);
 
 
 
+
+
 #### Check If the Anchor Exists
 
 ---
@@ -1598,6 +1614,8 @@ var result = await api.Exists(1, room);
 //Unity
 var result = api.Exists(1, room);
 ```
+
+
 
 
 
@@ -1642,6 +1660,8 @@ var result = api.UploadAnchor(1, room, "a.json", bytes);
 
 
 
+
+
 #### Anchor Download
 
 ---
@@ -1676,6 +1696,8 @@ var anchor = await api.DownloadAnchor(1, room);
 //Unity
 var anchor = api.DownloadAnchor(1, room);
 ```
+
+
 
 
 
@@ -1719,6 +1741,8 @@ var initTime = api.EnterAppRoom(1, room, scene);
 
 
 
+
+
 #### Check If the Room Is Empty
 
 ---
@@ -1753,6 +1777,8 @@ var isEmpty = await api.QueryAppRoom(1, room);
 //Unity
 var isEmpty = api.QueryAppRoom(1, room);
 ```
+
+
 
 
 
@@ -1791,6 +1817,8 @@ await InitRoom(scene, 1, room);
 //Unity
 InitRoom(scene, 1, room);
 ```
+
+
 
 
 

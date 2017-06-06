@@ -16,14 +16,14 @@ The ME-Live! development environment, which can be installed on a single compute
 
 ### Hardware Requirement
 
-|        Device         |     Quantity     |                 Purpose                  |         Required         |
-| :-------------------: | :--------------: | :--------------------------------------: | :----------------------: |
-| Live Workstation host |     One set      | Install MeshExpert suite and establish Live Workstation |    :heavy_check_mark:    |
-|       Live Rig        |     One set      |        Synthesize the 3D hologrms        |    :heavy_check_mark:    |
-|       HoloLens        | At least one set | Debug and release your mix-reality apps  |    :heavy_check_mark:    |
-|        Surface        |     Optional     |        Debug and release UWP apps        | :heavy_multiplication_x: |
-|      IPhone/IPad      |     Optional     | Debug and release iOS virtual-reality apps | :heavy_multiplication_x: |
-|        Android        |     Optional     |      Debug and release Android apps      | :heavy_multiplication_x: |
+|        Device         |     Quantity     |                 Purpose                  | Required |
+| :-------------------: | :--------------: | :--------------------------------------: | :------: |
+| Live Workstation host |     One set      | Install MeshExpert suite and establish Live Workstation |   Yes    |
+|       Live Rig        |     One set      |        Synthesize the 3D hologrms        |   Yes    |
+|       HoloLens        | At least one set | Debug and release your mix-reality apps  |   Yes    |
+|        Surface        |     Optional     |        Debug and release UWP apps        |    No    |
+|      IPhone/IPad      |     Optional     | Debug and release iOS virtual-reality apps |    No    |
+|        Android        |     Optional     |      Debug and release Android apps      |    No    |
 
 Live Workstation can directly, without MeshExpert Suite, serve as the development environment for the host. It’s recommended to use high-performance desktop host and the basic hardware requirements are as follows:
 
