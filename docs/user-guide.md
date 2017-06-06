@@ -79,7 +79,7 @@ You can install this application by using MeshExpert device manager.
 
 ### Hardware Requirements
 
-The workstation requires certain level of computation power which could be satisfied by hardware sets of given specifications. There would also be some restrictions regarding the hardware and software choices.
+The workstation requires a certain amount of computing power, which could be satisfied by hardware sets of the given specifications, to meet the demands of ME-Live!. There would also be some restrictions regarding the hardware and software choices.
 Below is a list of recommended requirements for the workstation:
 
 |         item         | specification                            |                  remark                  |
@@ -100,11 +100,11 @@ Workstation access steps are as follows:
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
-1. Connect output interface of HDMI of the camera to input interface of HDMI of Workstation's video card by using the HDMI connecting wire (Micro HDMI - HDMI).
-2. Connect Micro USB interface to USB3.0 interface of Workstation (optional for the convenience of USB debugging and charging) by using USB wire（Micro USB - USB）.
-3. Connect Lan interface of Workstation to that of Router by using netting wire.
-4. Connect output interface of HDMI of Workstation's video card to screen on which pictures are required to be displayed by using HDMI connecting wire.（HDMI - HDMI）
-5. Add Router's Wi-Fi to HoloLens.
+1. Connect the camera's HDMI output connector to the workstation's video card HDMI input connector using the HDMI cable (Micro HDMI-HDMI).
+2. connect HoloLens' Micro USB interface to the WorkStation's USB3.0 interface using USB wire（Micro USB - USB）(optional, for the convenience of USB debugging and charging).
+3. Connect the workstation's LAN port to the router's LAN port with a network cable.
+4. Connect the HDMI output connector of the workstation video card to the large screen on which the output screen is required with the HDMI cable (HDMI - HDMI)
+5. In the HoloLens network settings, join the router's wireless network.
 
 ### Usage Guide for MeshExpert Installer
 
