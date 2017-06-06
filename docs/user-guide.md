@@ -368,23 +368,23 @@ You can use the voice "Open Menu" to call out the hidden menu, to adjust and sha
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658969/f8634742-469f-11e7-88d9-2a8726b6d73b.png" width="500">
 </p>
 
-Steps of moving spatial anchors are as follows:
+Steps of Change Anchor are as follows:
 
-* Enter Anchor adjustment model by "Change Anchor" in the concealed menu. Then you will see the whole galaxy with an enclosed box outside and a blue crystalline is displayed on the benchmark position to demonstrate  position of the galaxy Anchor.
+* Through air-tapping the **Change Anchor** in the hidden menu, you'll enter the Anchor adjustment mode, where you can see a bounding box outside the entire galaxy and a blue crystal at the reference position showing the anchor of the galaxy.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658986/12510950-46a0-11e7-8ec7-9a0d7127d59f.png" width="500">
 </p>
 
-* Fix your eyes on enclosed box and Air Tap, The object's enclosed box will turn color and glitter and three Square Buttons will be displayed above the core crystalline at the same time.
+* Eyes stare at the box, air-tap, and the object of the bounding box will change and flash indicating that it's being select, while the top of the core crystal will appear three square buttons.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
 </p>
 
-* Fix your eyes on "Gaze" Button and Air Tap, you will enter the eyesight movement model and the surrounding environmental net will be displayed in HoloLens. The whole object will move as users move their eyes and stay in the environmental net position currently gazed at.
+* Watch the middle of the "Gaze" button and air-tap, you'll enter the sight movement mode, in which the HoloLens will display the surrounding environment's spatial mesh, and the whole object will move with the user's attention and stay in the current gaze of the environment spatial mesh on.
 
-    - If there is no environmental net in the currently-gazed position, then the object will float in the direction of eyes three meters away.
+    - If there is no environmental spatial mesh in the currently-gazed position, then the object will float in the direction of eyes three meters away.
     - Air Tap again and you will exit the eyesight movement model. Then re-choose the status of the object.
 
 * Gaze at "Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
