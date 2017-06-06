@@ -323,7 +323,7 @@ If the user's current server IP changes, you need to click Configure to change t
 
 Find Uninstall in DataMesh entry on Start menu and click it to uninstall it. If you cannot find Uninstall on Start menu, please go to installation directory and find Uninstall.exe, and uninstall it by double clicking the Uninstall.exe.
 
-> Note: Uninstalling MeshExpert will remove all data, including application data and licenses, etc. If the data is important to you, be sure to make a backup.
+> Note: Uninstalling MeshExpert will remove all data, including application data and licenses. If the data is important to you, be sure to make a backup.
 
 
 ## Built-in Apps
