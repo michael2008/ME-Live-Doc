@@ -1155,7 +1155,7 @@ The aim of MEHolo SDK is to provide methods and APIs that developers can use to 
 
 ### Basic Usage
 
-* Open Unity and import `MEHolo SDK Unity package` directly from Assets->Import Package->Custom Package to any sub-catalog of Assets files.
+* Open Unity and import `MEHolo SDK Unity package` directly from `Assets` -> `Import Package` -> `Custom Package`.
 * For MEHoloSDK-Plugins-Unity, change all DLL files to be in support of Editor and Standalone platform only.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/4099195/26666994/85def26c-46d5-11e7-93f4-48cb566ea468.png" width="500">
@@ -1169,9 +1169,12 @@ The aim of MEHolo SDK is to provide methods and APIs that developers can use to 
 
 #### Picture Uploading
 
-This method is used to upload images to HoloCloud-Share.
+---
 
-* By using the given file path
+This method is used to upload images to **_HoloCloud-Share_**.
+
+`By using the given file path`
+
 ```c#
 //UWP
 public async Task<HoloServerResp<string>> UploadImage(string fileName, string filePath, int appId, string token, string tags)
@@ -1184,7 +1187,7 @@ public HoloServerResp<string> UploadImage(string fileName, string filePath, int 
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |   Name   |  Type  |       Description       |
 | :------: | :----: | :---------------------: |
@@ -1194,14 +1197,16 @@ public HoloServerResp<string> UploadImage(string fileName, string filePath, int 
 |  token   | string |    the access token     |
 |   tags   | string |          tags           |
 
-> Demo code
+_Demo code_
+
 ```c#
 //UWP
 var resultUWP = await api.UploadImage("name", path, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 //Unity
 var resultUnity = api.UploadImage("name", path, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 ```
-* Upload directly
+`Upload directly`
+
 ```c#
 //UWP
 public async Task<HoloServerResp<string>> UploadImage(string fileName, byte[] fileBytes, int appId, string token, string tags)
@@ -1214,7 +1219,7 @@ public HoloServerResp<string> UploadImage(string fileName, byte[] fileBytes, int
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |   Name    |    Type    |       Description        |
 | :-------: | :--------: | :----------------------: |
@@ -1224,7 +1229,8 @@ public HoloServerResp<string> UploadImage(string fileName, byte[] fileBytes, int
 |   token   |   string   |     the access token     |
 |   tags    |   string   |           tags           |
 
-> Demo code
+_Demo code_
+
 ```c#
 var bytes = File.ReadAllBytes(filePath);
 //UWP
@@ -1233,11 +1239,16 @@ var resultUWP = await api.UploadImage("name", bytes, 1111, "3ACE54EFC4B267908AB5
 var resultUnity = api.UploadImage("name", bytes, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 ```
 
+
+
 #### Image Download
 
-Downloading images can be achieved from HoloCloud Share (Social). Two ways are provided by MEHolo SDK: Download to local and acquire image contents.
+---
 
-* Download to Local
+This method is used to download images from **_HoloCloud Share (Social)_**.
+
+**Download to Local**
+
 ```c#
 //UWP
 public async Task DownloadImage(string imageId, string organizationId, string imageType, string xtoken, string downloadPath)
@@ -1250,7 +1261,7 @@ public void DownloadImage(string imageId, string organizationId, string imageTyp
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |      Name      |  Type  |           Description           |
 | :------------: | :----: | :-----------------------------: |
@@ -1260,7 +1271,7 @@ public void DownloadImage(string imageId, string organizationId, string imageTyp
 |     xtoken     | string |        the access token         |
 |  downloadPath  | string | the file path include file name |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1270,7 +1281,7 @@ await api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633EWApUUPTI", "1003",
 api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633EWApUUPTI", "1003", "original", "token", localPath);
 ```
 
-* Get image contents
+**Get image contents**
 
 ```c#
 //UWP
@@ -1284,7 +1295,7 @@ public byte[] DownloadImage(string imageId, string organizationId, string imageT
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |      Name      |  Type  |       Description       |
 | :------------: | :----: | :---------------------: |
@@ -1293,7 +1304,7 @@ public byte[] DownloadImage(string imageId, string organizationId, string imageT
 |   imageType    | string | indicate the image type |
 |     xtoken     | string |    the access token     |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1303,7 +1314,11 @@ var fileBytesUWP = await api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633
 var fileBytesUntity = api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633EWApUUPTI", "1003", "original", "token");
 ```
 
+
+
 #### File Upload
+
+---
 
 You can use this method to upload the local file to MEHolo Server.
 
@@ -1319,7 +1334,7 @@ public HoloServerResp<string> UploadFile(string fileName, string filePath, int b
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |    Name    |  Type  |              Description              |
 | :--------: | :----: | :-----------------------------------: |
@@ -1329,7 +1344,7 @@ public HoloServerResp<string> UploadFile(string fileName, string filePath, int b
 |   appId    |  int   |              the app id               |
 |   token    | string |           the access token            |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1342,7 +1357,11 @@ var responseUnity = api.UploadFile("a.mp4", filePath, 0, 1, "token");
 var progress = api.CheckProgress("a.mp4");
 ```
 
+
+
 #### File Download
+
+---
 
 This method is used to download files from MEHolo Server
 
@@ -1358,7 +1377,7 @@ public void DownloadFile(string fileId, string token, string downloadPath, int t
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |     Name     |  Type  |        Description         |
 | :----------: | :----: | :------------------------: |
@@ -1367,7 +1386,7 @@ public void DownloadFile(string fileId, string token, string downloadPath, int t
 | downloadPath | string |       the file path        |
 |   timeout    |  int   | indicate the timeout value |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1377,7 +1396,11 @@ await api.DownloadFile(fileId, token, downloadPath, 40);
 api.DownloadFile(fileId, token, downloadPath, 40);
 ```
 
+
+
 #### Get Lecture List
+
+---
 
 This method is used for getting lecture list.
 
@@ -1393,13 +1416,13 @@ public List<Lecture> GetLectures(string token)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name  |  Type  |   Description    |
 | :---: | :----: | :--------------: |
 | token | string | the access token |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1409,7 +1432,10 @@ var lectures = await api.GetLectures(token);
 var lectures = api.GetLectures(token);
 ```
 
-Detailed lecture information is required for some method, which can be retrieved from the lecture list.
+
+
+>  **Note:** Detailed lecture information is required for some method, which can be retrieved from the lecture list. Giving the following code as an example.
+
 ```c#
 //get a certain lecture
 var lecture = lectures[0];
@@ -1425,7 +1451,11 @@ var modelName = lectureContent.ModelName;
 var hlsUrl = lecture.HlsBaseUrl + "/" + lectureContent.HlsSubLocation + "/" + lectureContent.HlsName;
 ```
 
+
+
 #### Video Download
+
+---
 
 This method is used to download a specific video.
 
@@ -1441,14 +1471,14 @@ public byte[] DownloadVideoLecture(string videoName, string token)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 |   Name    |  Type  |      Description      |
 | :-------: | :----: | :-------------------: |
 | videoName | string | the name of the video |
 |   token   | string |   the access token    |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1458,7 +1488,11 @@ var videoBytes = await api.DownloadVideoLecture(videoName, token);
 var videoBytes = api.DownloadVideoLecture(videoName, token);
 ```
 
+
+
 ####  Get Thumbnail of Video
+
+---
 
 This method is used to get the thumbnail of a certain video.
 
@@ -1474,14 +1508,14 @@ public byte[] DownloadThumbnail(string screenshotPrefix, string token)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name             | Type   | Description                          |
 | ---------------- | ------ | ------------------------------------ |
 | screenshotPrefix | string | you can get it from the lecture list |
 | token            | string | the access token                     |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1491,7 +1525,11 @@ var thumbnail = await api.DownloadThumbnail(screenshotPrefix, token);
 var thumbnail = api.DownloadThumbnail(screenshotPrefix, token);
 ```
 
+
+
 #### Model Download
+
+---
 
 This method is used to download a specific model.
 
@@ -1507,14 +1545,14 @@ public byte[] DownloadModel(string modelName, string token, int timeout)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name      | Type   | Description                      |
 | --------- | ------ | -------------------------------- |
 | modelName | string | you can get it from lecture list |
 | token     | string | the access token                 |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1524,7 +1562,11 @@ var model = await api.DownloadModel(modelName, token, 40);
 var model = api.DownloadModel(modelName, token, 40);
 ```
 
+
+
 #### Check If the Anchor Exists
+
+---
 
 This method is used to check if the given anchor file exists in the room managed by the MEHolo Server.
 
@@ -1540,14 +1582,14 @@ public bool Exists(int app, string room)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name | Type   | Description          |
 | ---- | ------ | -------------------- |
 | app  | int    | the project id       |
 | room | string | the name of the room |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1557,7 +1599,11 @@ var result = await api.Exists(1, room);
 var result = api.Exists(1, room);
 ```
 
+
+
 #### Anchor Upload
+
+---
 
 This method is used to upload an anchor file to MEHolo Server.
 
@@ -1573,7 +1619,7 @@ public bool UploadAnchor(int app, string room, string fileName, byte[] fileBytes
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name      | Type   | Description                    |
 | --------- | ------ | ------------------------------ |
@@ -1582,7 +1628,7 @@ public bool UploadAnchor(int app, string room, string fileName, byte[] fileBytes
 | fileName  | string | the anchor file name           |
 | fileBytes | byte[] | the content of the anchor file |
 
-> Demo code
+_Demo code_
 
 ```c#
 byte[] bytes = DoGetBytesFromFile();
@@ -1594,7 +1640,11 @@ var result = await api.UploadAnchor(1, room, "a.json", bytes);
 var result = api.UploadAnchor(1, room, "a.json", bytes);
 ```
 
+
+
 #### Anchor Download
+
+---
 
 This method is used to download anchor file.
 
@@ -1610,14 +1660,14 @@ public byte[] DownloadAnchor(int app, string room)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name | Type   | Description    |
 | ---- | ------ | -------------- |
 | app  | int    | the project id |
 | room | string | the room name  |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1627,9 +1677,13 @@ var anchor = await api.DownloadAnchor(1, room);
 var anchor = api.DownloadAnchor(1, room);
 ```
 
-#### Enter room
 
-Multiple devices can be accessible to a certain room by this function. If the local room is empty, initialize the room according to the site scene. If succeeding to entering the room, developers will get an initial time.
+
+#### Enter the room
+
+---
+
+If the local room is empty, it will initialize the room according to the given scene. You will get a server time if you entered a room.
 
 ```c#
 //UWP
@@ -1643,7 +1697,7 @@ public bool EnterAppRoom(int app, string room, SceneObjects initialScene)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name         | Type         | Description              |
 | ------------ | ------------ | ------------------------ |
@@ -1651,7 +1705,7 @@ public bool EnterAppRoom(int app, string room, SceneObjects initialScene)
 | room         | string       | the room name            |
 | initialScene | SceneObjects | the initial scene object |
 
-> Demo code
+_Demo code_
 
 ```c#
 var scene = new SceneObjects();
@@ -1663,7 +1717,11 @@ var initTime = await api.EnterAppRoom(1, room, scene);
 var initTime = api.EnterAppRoom(1, room, scene);
 ```
 
+
+
 #### Check If the Room Is Empty
+
+---
 
 This method is used to check if a certain room is empty.
 
@@ -1679,14 +1737,14 @@ public bool QueryAppRoom(int app, string room)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name | Type   | Description    |
 | ---- | ------ | -------------- |
 | app  | int    | the project id |
 | room | string | the room name  |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1696,7 +1754,11 @@ var isEmpty = await api.QueryAppRoom(1, room);
 var isEmpty = api.QueryAppRoom(1, room);
 ```
 
+
+
 #### Initialize room
+
+---
 
 This method is used to initialize the scene of a certain room,
 
@@ -1712,7 +1774,7 @@ public void InitRoom(SceneObjects scene, int app, string room)
 }
 ```
 
-**Parameters**
+_Parameters_
 
 | Name  | Type         | Description     |
 | ----- | ------------ | --------------- |
@@ -1720,7 +1782,7 @@ public void InitRoom(SceneObjects scene, int app, string room)
 | app   | int          | the project id  |
 | room  | string       | the room name   |
 
-> Demo code
+_Demo code_
 
 ```c#
 //UWP
@@ -1730,9 +1792,13 @@ await InitRoom(scene, 1, room);
 InitRoom(scene, 1, room);
 ```
 
+
+
 #### Sync Time
 
-Developers can use this function to get the time delay of Local and MEHolo Server. The unit is the tick, namely 100 nanoseconds.
+---
+
+This method can be used to get the delay between local machine and the remote **_MEHolo Server_**. 
 
 ```c#
 public void StartSyncTime()
@@ -1740,7 +1806,7 @@ public void StartSyncTime()
 }
 ```
 
-> Demo code
+_Demo code_
 
 ```c#
 SyncTimeClient syncTimeClient = new SyncTimeClient("ws://192.168.1.142:8823/sync/time");
