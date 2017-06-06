@@ -335,8 +335,8 @@ Find Uninstall in DataMesh entry on Start menu and click it to uninstall it. If 
 
 ### SolarSystemExplorer
 
-We have installed a built-in app as an example for your reference.  In this example, we have achieved the most fundamental sharing and scene synchronization of spatial anchors.
-We will introduce you the details about how to use this app in the following part:
+We have installed a built-in app as a sample for your reference. In this example, we implemented the most basic space anchor sharing and scene synchronization.
+Below we will give you a detailed description of how to use this application.
 Open SolarSystemExplorer App, you will see the whole solar system in front of your eyes:
 
 <p align="center">
