@@ -229,31 +229,31 @@ Click Delete to remove the device and device's occupation of license.
 ## App Management
 
 ### Release
-Visit `http://localhost/admin` and choose Application. Release apps that have been packaged in App Center for the convenience of managing and installing them in HoloLens.
+Visit `http://localhost/admin` and select Application option. In the application center, you can release packaged applications to facilitate the management and installation to each HoloLens device.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625837/ece6545e-4627-11e7-8299-d80eb9b3b4bc.png" width="500">
 </p>
 
-Click Add Application Button
+Click Add Application button
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625902/1ace8724-4628-11e7-93bb-5c6a64709648.png" width="500">
 </p>
 
-Choose installation package and click Add Dependency to add attachment (if necessary), then click Go to release apps. After that, you can manage them, including deletion, installation, update to the specified devices.
+Select the installation package, and click Add Dependency to add dependencies (if needed), then click Go to release the application. You can perfrom certain operations on released applications, such as delete, install, and upgrade to the specified device.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625932/3008d2f2-4628-11e7-911d-f59160d5896d.png" width="500">
 </p>
 
-Click Go to upload with the speed on display. Then wait for the status of return to upload and installation.
+Click Go to upload, with an upload progress bar, and wait for the return of the status of the installation
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26626301/6402794a-4629-11e7-8c8d-78eff7451595.png" width="500">
 </p>
 
-After installation, uploaded apps can be displayed in Application
+After installation completes, uploaded apps will be shown in the Application page.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26626329/803147e0-4629-11e7-8d09-b8939ca356e7.png" width="500">
@@ -261,17 +261,17 @@ After installation, uploaded apps can be displayed in Application
 
 ### Upgrade
 
-On Application page, click Update which calls for uploading apps with the same name but not of the same version. The program will check it and change the version in Application.
+In the Application page, click Upgrade to upgrade the current application. The upgrade needs to pass the same name but the different version of the application. The program will check the criteria and change the version of the current application in the Application.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26626578/3ba82c82-462a-11e7-93b9-c9e3cb67ac04.png" width="500"><
 </p>
 
-Update is in support of replacing apps with the same name.
+The upgrade supports the replacing the same application with the same name.
 
 ### Delete
 
-Click Delete to remove apps.
+Click Delete to remove applications..
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26627450/1d5bc4c0-462d-11e7-9465-2833590a4673.png" width="500">
