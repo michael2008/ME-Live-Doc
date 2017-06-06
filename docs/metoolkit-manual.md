@@ -1238,11 +1238,7 @@ var resultUWP = await api.UploadImage("name", bytes, 1111, "3ACE54EFC4B267908AB5
 //Unity
 var resultUnity = api.UploadImage("name", bytes, 1111, "3ACE54EFC4B267908AB5210EDFB16A3F", "");
 ```
-
-
-
-
-
+    
 #### Image Download
 
 ---
@@ -1316,10 +1312,6 @@ var fileBytesUWP = await api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633
 var fileBytesUntity = api.DownloadImage("05c4d859-8a42-46ae-b2d0-28e0f45aa633EWApUUPTI", "1003", "original", "token");
 ```
 
-
-
-
-
 #### File Upload
 
 ---
@@ -1360,11 +1352,7 @@ var responseUnity = api.UploadFile("a.mp4", filePath, 0, 1, "token");
 //Check progress
 var progress = api.CheckProgress("a.mp4");
 ```
-
-
-
-
-
+    
 #### File Download
 
 ---
@@ -1401,11 +1389,7 @@ await api.DownloadFile(fileId, token, downloadPath, 40);
 //Unity
 api.DownloadFile(fileId, token, downloadPath, 40);
 ```
-
-
-
-
-
+    
 #### Get Lecture List
 
 ---
@@ -1458,11 +1442,7 @@ var modelName = lectureContent.ModelName;
 //get hls url
 var hlsUrl = lecture.HlsBaseUrl + "/" + lectureContent.HlsSubLocation + "/" + lectureContent.HlsName;
 ```
-
-
-
-
-
+    
 #### Video Download
 
 ---
@@ -1497,11 +1477,7 @@ var videoBytes = await api.DownloadVideoLecture(videoName, token);
 //Unity
 var videoBytes = api.DownloadVideoLecture(videoName, token);
 ```
-
-
-
-
-
+    
 ####  Get Thumbnail of Video
 
 ---
@@ -1536,11 +1512,7 @@ var thumbnail = await api.DownloadThumbnail(screenshotPrefix, token);
 //Unity
 var thumbnail = api.DownloadThumbnail(screenshotPrefix, token);
 ```
-
-
-
-
-
+    
 #### Model Download
 
 ---
@@ -1575,11 +1547,7 @@ var model = await api.DownloadModel(modelName, token, 40);
 //Unity
 var model = api.DownloadModel(modelName, token, 40);
 ```
-
-
-
-
-
+    
 #### Check If the Anchor Exists
 
 ---
@@ -1614,11 +1582,7 @@ var result = await api.Exists(1, room);
 //Unity
 var result = api.Exists(1, room);
 ```
-
-
-
-
-
+    
 #### Anchor Upload
 
 ---
@@ -1657,11 +1621,7 @@ var result = await api.UploadAnchor(1, room, "a.json", bytes);
 //Unity
 var result = api.UploadAnchor(1, room, "a.json", bytes);
 ```
-
-
-
-
-
+    
 #### Anchor Download
 
 ---
@@ -1696,11 +1656,7 @@ var anchor = await api.DownloadAnchor(1, room);
 //Unity
 var anchor = api.DownloadAnchor(1, room);
 ```
-
-
-
-
-
+    
 #### Enter the room
 
 ---
@@ -1738,11 +1694,7 @@ var initTime = await api.EnterAppRoom(1, room, scene);
 //Unity
 var initTime = api.EnterAppRoom(1, room, scene);
 ```
-
-
-
-
-
+    
 #### Check If the Room Is Empty
 
 ---
@@ -1778,10 +1730,7 @@ var isEmpty = await api.QueryAppRoom(1, room);
 var isEmpty = api.QueryAppRoom(1, room);
 ```
 
-
-
-
-
+    
 #### Initialize room
 
 ---
@@ -1817,11 +1766,7 @@ await InitRoom(scene, 1, room);
 //Unity
 InitRoom(scene, 1, room);
 ```
-
-
-
-
-
+    
 #### Sync Time
 
 ---
