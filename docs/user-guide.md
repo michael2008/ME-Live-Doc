@@ -345,7 +345,7 @@ Open the SolarSystemExplorer application, you will see the whole solar system su
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658886/9908243e-469f-11e7-9bc8-d9673bd59f0b.png" width="500">
 </p>
 
-Click on a specific planet and you will be able to explore it exclusively.
+Click on a specific planet, and you will be able to explore it exclusively.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658907/b1ee84fc-469f-11e7-8574-3e7826376a77.png" width="500">
@@ -362,7 +362,7 @@ You can rotate and zoom in on the entire scene at any time, just use gestures to
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658941/e06c5930-469f-11e7-901d-6177ec15f10a.png" width="500">
 </p>
 
-You can speak "Open Menu" to find the concealed menu so as to adjust and share World Anchor. The operation is divided into three parts "move WorldAnchor", "upload WorldAnchor" and "downloads WorldAnchor".  which is to acquire and synchronize information from Server; "upload WorldAnchor" is to upload to Server with world anchors in the current HoloLens as criteria. "Move WorldAnchor" is to carry out upload to synchronize adjusted scenes to Server after adjusting the position of scenes at present.
+You can use the voice "Open Menu" to call out the hidden menu, to adjust and share the space anchor. The operation is divided into three categories: <i>Change Anchor</i>, <i>Upload Anchor<i> and <i>DownloadAnchor</i>. "download space anchor".  which is to acquire and synchronize information from Server; "upload WorldAnchor" is to upload to Server with world anchors in the current HoloLens as criteria. "Move WorldAnchor" is to carry out upload to synchronize adjusted scenes to Server after adjusting the position of scenes at present.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658969/f8634742-469f-11e7-88d9-2a8726b6d73b.png" width="500">
