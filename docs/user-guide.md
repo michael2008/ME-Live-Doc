@@ -164,6 +164,7 @@ You can delete your current license by using the License Delete.
 Management can be used to manage HoloLens devices, application releases, licenses, and so on,  which is composed of some Windows Device Portal APIs.
 
 ### Adding
+
 The Device Management module can add, delete and manage devices such as HoloLens. Specific operations are as follows:
 
 In the case of obtaining and adding a legal license, visit http: // <YOUR_SERVER_IP> / admin, there will appear a page similar to the following page:
@@ -229,6 +230,7 @@ Click Delete to remove the device and device's occupation of license.
 ## App Management
 
 ### Release
+
 Visit `http://localhost/admin` and select Application option. In the application center, you can release packaged applications to facilitate the management and installation to each HoloLens device.
 
 <p align="center">
@@ -297,6 +299,7 @@ Click More to start, stop, restart, install, uninstall, upgrade sand change conf
   </p>
 
 * Install
+
 When the user chooses an application to install, the system will change parameters of the configuration file in installation package after installation, such as `\LocalAppData\ChengDu_1.2.1.0_x86__pzq3xp76mxafg\LocalState\config.ini`, namely setting the field values of `Server_Url`, `Share_Anchor_Url` both to the IP of the current Server.
   <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/17921380/26627737/05251cac-462e-11e7-946d-a464e8f59816.png" width="500">
@@ -308,12 +311,14 @@ When the user chooses an application to install, the system will change paramete
   </p>
 
 * Upgrade
- When the application installed in HoloLens needs to be upgraded, click Upgrade to upgrade the application and update the version number to the latest version in Application.
+
+When the application installed in HoloLens needs to be upgraded, click Upgrade to upgrade the application and update the version number to the latest version in Application.
   <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/17921380/26658751/d1a45e3a-469e-11e7-80c8-4da0764c278e.png" width="500">
   </p>
 
 * Configuration
+
 If the user's current server IP changes, you need to click Configure to change the values Server_Url and Share_Anchor_Url accordingly.
   <p align="center">
   <img src="https://cloud.githubusercontent.com/assets/17921380/26658793/02051f24-469f-11e7-868f-d77ccb526029.png" width="500">
