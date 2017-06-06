@@ -211,7 +211,7 @@ You can click Forget your account for password reset.
 
 ### Status Checking
 
-Visit `http://localhost/admin`, click Device in the left and check the current status of device connected to Holo-Server. Possible status values are Online and Offline.
+Visit `http://localhost/admin`, click Device in the left to see the current status of device connected to Holo-Server. Possible status values are Online and Offline.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625625/4a950c7c-4627-11e7-888c-03b4cb11c6b7.png" width="500">
@@ -219,7 +219,7 @@ Visit `http://localhost/admin`, click Device in the left and check the current s
 
 ### Removal
 
-Click Delete to strip the device of occupation of license.
+Click Delete to remove the device and device's occupation of license.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26625694/79e99eca-4627-11e7-9e85-877711462243.png" width="500">
