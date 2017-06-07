@@ -66,7 +66,7 @@ Check all device settings to see if the server IP is correct.
 
 Q: **Signal delay exists in collaboration**
 
-Signal sending interval of Collaboration Server is 100ms, thus delay within about 100ms is quite reasonable.
+Signal sending interval of Collaboration Server is 100 ms, thus delay within about 100 ms is quite reasonable.
 
 If the delay is too large, check whether the network environment is stable, and the server's loading.
 
