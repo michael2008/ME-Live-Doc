@@ -58,6 +58,7 @@ For Version infomation, please see our [release notes](release-notes.md).
     - [Input Module][input_module]
     - [Collaboration Module][collaboration_module]
     - [Live Module][live_module]
+* [Release History][release_history]
 
 [home]: index.md
 [release_notes]: release-notes.md
@@ -107,6 +108,8 @@ For Version infomation, please see our [release notes](release-notes.md).
 [input_module]: trouble-shooting.md#input-module
 [collaboration_module]: trouble-shooting.md#collaboration-module
 [live_module]: trouble-shooting.md#live-module
+
+[release_history]: [release-history.md]
 
 ---
 If you have any questions or suggestions, please contact us at service@datamesh.com

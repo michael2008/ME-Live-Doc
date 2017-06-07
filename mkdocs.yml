@@ -15,6 +15,7 @@ pages:
     - 'Developer Guide': 'developer-guide.md'
     - 'METoolkit Developer Manual': 'metoolkit-manual.md'
     - 'Trouble Shooting': 'trouble-shooting.md'
+    - 'Release History': 'release-history.md'
 
 markdown_extensions:
     - admonition:
