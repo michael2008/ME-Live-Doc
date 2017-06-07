@@ -159,34 +159,34 @@ public class SceneAnchorSample : MonoBehaviour
 
 Now you can build and install the app to HoloLens to see the results.
 
-### Editing Anchor
+### Change Anchor
 
 * After starting the app in HoloLens, you shall see three objects in front of you.
-* Air Tap at any place to enter the Anchor adjustment mode. Now every anchor you created would show up with bounds and with a blue crystalline at the base position indicating the position of the Anchor.
+* Air-tap at any place to enter the Anchor adjustment mode. Now every anchor you created would show up with bounds and with a blue crystalline at the base position indicating the position of the Anchor.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26663242/fb0911cc-46bb-11e7-918d-e88e1368d0f9.png" width="500">
    </p>
-* Gaze at the bounds box of an object, and then Air Tap it. The box would change color and glitter indicating a selection of the object. Upon selection, three square buttons would show up above the crystalline.
+* Gaze at the bounds box of an object, and then air-tap it. The box would change color and glitter indicating a selection of the object. Upon selection, three square buttons would show up above the crystalline.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26663244/fd39a7fe-46bb-11e7-86f3-bc637b64c3e4.png" width="320">
    </p>
-* Fix your eyes with the cursor on the middle "**Gaze**" Button and Air Tap. You will enter the "**Eye Move Mode**" where the spatial grid would appear. In this mode, the object would move alone with the focal point (the cursor) and when stops it would land on the spatial grid.
-> Note: if there is no spatial grid covering the focal point, the object would float at 3 meters away from the currently gazed position. To exit the "**Eye Move Mode**", do another Air Tap.
-* When the choose buttons appear, gaze at the left "**Move**" Button and Air Tap, then you will enter the "**Manual Move Mode**" and three moving axes would show up under the crystalline.
+* Fix your eyes with the cursor on the middle "**Gaze**" button and air-tap. You will enter the "**Eye Move Mode**" where the spatial grid would appear. In this mode, the object would move alone with the focal point (the cursor) and when stops it would land on the spatial grid.
+> Note: if there is no spatial grid covering the focal point, the object would float at 3 meters away from the currently gazed position. To exit the "**Eye Move Mode**", do another air-tap.
+* When the choose buttons appear, gaze at the left "**Move**" button and air-tap, then you will enter the "**Manual Move Mode**" and three moving axes would show up under the crystalline.
   * when using HoloLens, you can "Tap your finger down and Move" to move the object in the space.
   * when used on a computer, a keyboard hint would show up alone with the axes (as demonstrated in the following picture). Following the hint, you can move the object around using the "**UIOJKL**" keys on your keyboard.
     <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/7636848/26663246/fee543b0-46bb-11e7-84e2-f0e5f6707172.png" width="320">
     </p>
-* When gaze at the right "**Rotate**" Button and Air Tap, you will enter the "**Manual Rotate Mode**" where the a rotating sign would surround the the crystalline.
+* When gaze at the right "**Rotate**" Button and air-tap, you will enter the "**Manual Rotate Mode**" where the a rotating sign would surround the the crystalline.
   * when using HoloLens, you can **"Tap your finger down and Move"** to rotate the object in the space.
   * when used on a computer, you can follow the hint to use the "**UIOJKL**" keys to help you rotate the object.
     <p align="center">
     <img src="https://cloud.githubusercontent.com/assets/7636848/26663278/2f2a45a2-46bc-11e7-8227-b152450779ed.png" width="320">
     </p>
 > Note:
-> * when an object is selected, you can Air Tap at a blank area to unselect the object.
-> * when no object is selected, you can Air Tap at a blank area to exit the **Anchor Editing Mode**, where the surrounding boxes and crystalline would all disappear, and the positions of objects will be saved so that on next boot all the positions would be automatically restored if the space matches.
+> * when an object is selected, you can air-tap at a blank area to unselect the object.
+> * when no object is selected, you can air-tap at a blank area to exit the **Anchor Editing Mode**, where the surrounding boxes and crystalline would all disappear, and the positions of objects will be saved so that on next boot all the positions would be automatically restored if the space matches.
 
 ### Upload Anchor
 
@@ -219,7 +219,7 @@ private void OnTapUpload(int count)
     });
 }
 ```
-- In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapUpload()**:
+- In the **WaitForInit()** method, modify the processor method of air-tap to **OnTapUpload()**:
 ```C#
 private IEnumerator WaitForInit()
 {
@@ -237,7 +237,7 @@ private IEnumerator WaitForInit()
 - Build and then install the app on HoloLens to check the results.
 - After the app started, follow the steps below to **upload an Anchor**:
     * First check if the positions of objects are desirable.
-    * Air Tap at any place.
+    * air-tap at any place.
     * Now the uploading process should have begun, and the focal icon would turn into "Loading" status.
     * Upon success, the focal icon would restore to normal and a success hint will appear.
 
@@ -264,7 +264,7 @@ private void OnTapDownload(int count)
     });
 }
 ```
-* In the **WaitForInit()** method, modify the processor method of Air Tap to **OnTapDownload()**:
+* In the **WaitForInit()** method, modify the processor method of air-tap to **OnTapDownload()**:
 ```C#
 private IEnumerator WaitForInit()
 {
@@ -281,7 +281,7 @@ private IEnumerator WaitForInit()
 ```
 * Build and then install the app to HoloLens.
 * After the app started, follow the steps below to **download an Anchor**:
-  * Air Tap at any place.
+  * Air-tap at any place.
   * The downloading process would automatically start, and the focal icon will turn into "Loading" status.
   * After finished, the focal icon would restore to normal status and a success hint would show up.
   * If the anchor is successfully downloaded, and the scenes scanned by HoloLens match the downloaded data, the Anchor objects would appear at where the previously uploaded Anchors positioned.
@@ -664,7 +664,7 @@ public class MenuSample : MonoBehaviour
 }
 ```
 * Now you can build and install the app to HoloLens to see the results.
-* How to operate the menu? You can Air Tap at any place to open the main menu. And if you gaze at the left-upper corner of any menu buttons, it will open its sub-menu if present, and if you Air Tap at the same time you the hint text will show up.
+* How to operate the menu? You can air-tap at any place to open the main menu. And if you gaze at the left-upper corner of any menu buttons, it will open its sub-menu if present, and if you air-tap at the same time you the hint text will show up.
 
 > Note: You can also use our demo code directly at "**Assets/DataMesh/Samples/Menu**".
 
@@ -870,7 +870,7 @@ namespace DataMesh.AR.Samples.Collaboration
 }
 ```
 * Now you can build and install the app on HoloLens to see the results.
-* After the app started, you will see a cube. Air Tap the cube to change its color, and the color would be synchronized to other connected devices through the Workstation. For instance, you can view the synchronized change of color in Unity editor if the app is running.
+* After the app started, you will see a cube. air-tap the cube to change its color, and the color would be synchronized to other connected devices through the Workstation. For instance, you can view the synchronized change of color in Unity editor if the app is running.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26671872/a1c319c2-46e9-11e7-97d8-5005701a4877.png" width="250">
