@@ -73,15 +73,15 @@ If the delay is too large, check whether the network environment is stable, and 
 ### Live Module
 Q: **Jam occurs soon after starting**
 
-Please check Quality setting and vertical synchronization in all running models has been closed. In the condition of opening vertical synchronization, jam when starting Live may occur, including Editor Environment and Standalone Environment.
+Please check the Quality setting and whether the vertical sync has been turned off in all operating modes. When you turn on vertical sync, starting the Live module will cause stuck at startup, in both the Editor environment and the Standalone environment.
 
-Q: **Live Workstation cannot be connected to HoloLens SpectatorView**
+Q: **Live Workstation cannot connect to HoloLens SpectatorView**
 
-Check HoloLens and Live Workstation are in the same network.
+Check whether HoloLens and Live Workstation are in the same network environmenet.
 
-Check SpectatorView app on HoloLens has been started. If necessary, repeat starting the app.
+Check whether the SpectatorView application is started on HoloLens and restart the application if necessary.
 
-Check whether SpectatorView Listen Port Setting in Live Workstation and setting of SpectatorView in HoloLens are commensurate.
+Check whether the SpectatorView listening port set in the Live program in Live Workstation is consistent with the port set in the SpectatorView application in HoloLens.
 
 ## Project Environment
 Q: **Stuck in starting program inside Unity**
