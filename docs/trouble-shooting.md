@@ -22,9 +22,9 @@ Try to start it again. If there are still some problems, try to delete Visual St
 
 ## METoolkit-related
 ### Anchor Module
-Q: **When starting SceneAnchorController, you will see double groups of ghosting on frame and crystalline.**
+Q: **When the SceneAnchorController module is enabled, the border and the crystal appear two sets of ghosting**
 
-Check whether MEHolo/AnchorManager/AnchorCamera Object in the scene is active. The main camera, which is required for following other cameras, must be kept active when starting it. It can not be covered, otherwise the position of other cameras will never be synchronized to the position of the main camera.
+Check whether MEHolo/AnchorManager/AnchorCamera Object in the scene is active. Other cameras which need to follow the main camera must remain active at startup and can not be hidden, otherwise the cameras' position will never be synchronized to the position of the main camera.
 
 Q: **Fail to upload Anchor**
 
