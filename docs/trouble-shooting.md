@@ -32,7 +32,7 @@ c) If space information is too big, it will result in failure when you upload it
 
 d)It usually because of downloaded space information and space information currently recognized by HoloLens are not commensurate. So WorldAnchor cannot be located (if downloading Anchor on Live, no special hint will appear in such a state). Please try to move HoloLens in all directions. When space information is recognized to be commensurate, Anchor object will return to the right position.
 
-###Input Module
+### Input Module
 * **Gaze to click the object but Air Tap fails.**
 
 a)Confirm MultiInputManager has been started.
