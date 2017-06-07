@@ -10,11 +10,14 @@ If you are interested in creating your own interactive mixed-reality Apps, pleas
 
 For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](metoolkit-manual.md#meholosdk-docs "MEHoloSDK Docs"). And for trouble shooting, please refer to the [Trouble Shooting](trouble-shooting.md) guide.
 
+For Version infomation, please see our [release notes](release-notes.md).
 
+---
 
 ## Table of Contents
 
 * [Home][home]
+* [Release Notes][release_notes]
 * [Getting Started][getting_started]
     - [Main Features](getting-started.md#main-features)
     - [Quick Installation](getting-started.md#quick-installation)
@@ -57,6 +60,7 @@ For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](m
     - [Live Module][live_module]
 
 [home]: index.md
+[release_notes]: release-notes.md
 [getting_started]: getting-started.md
 [product_spec]: product-specifications.md
 [user_guide]: user-guide.md

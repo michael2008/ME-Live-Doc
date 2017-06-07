@@ -8,6 +8,7 @@ theme: 'readthedocs'
 
 pages:
     - 'Home': 'index.md'
+    - 'Release Notes': 'release-notes.md'
     - 'Getting Started': 'getting-started.md'
     - 'Product Specifications': 'product-specifications.md'
     - 'User Guide': 'user-guide.md'
