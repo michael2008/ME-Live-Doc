@@ -51,25 +51,17 @@ Below is a typical example of the assembly.
 
 The assembly processes of Rig Suite depicted in the picture below, and the steps are as follows:
 
-1. Fix the HoloLens on the stand specifically designed for the HoloLens.
-2. Install the fixed module of hot shoe at the bottom of the stand.
-3. Place tripod, and fix digital camera on the head of tripod.
-4. Fix the hot shoe connector on the hot shoe of the camera.
-5. Connect the fixed module of hot shoe to the connector and screw it up.
+1. Fix HoloLens on the dedicated **Aluminum HoloLens Bracket**.
+2. Add the **Hotshoe Adapter** to the HoloLens mount in Step 1 (to later in Step 5, connect the HoloLens mount to the camera).
+3. Connect the **Camera** to the **Tripod**. 
+4. Fix the **Hotshoe Fastener** to the **Camera**.
+5. Finally, connect the **HoloLens Mount** and the **Camera** by connecting the **Hotshoe Adapter** and the  **Hotshoe Fastener**.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26623976/0ef5370a-4622-11e7-8cdd-0e59c8ceebee.png" width="160">
 <p align="center"><em>RIG Assembly Diagram</em></p>
 </p>
 
-
-### Install Rig Software
-
-A special app needs to be installed on the HoloLens to send necessary messages to the workstation. This program is generic program which can be matched with any ME-Live! Workstation application developed using METoolkit. You can find this application from the MeshExpert Suite or you can download the appropriate version from Git. https://github.com/DataMesh-OpenSource/MeshExpert-Live
-
-You can install this application by using MeshExpert device manager.
-
-> Note: Please confirm that the application version matches the METoolkit version you're using.
 
 ## Workstation Installation
 
@@ -87,9 +79,9 @@ Below is a list of recommended requirements for the workstation:
 |    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li></ul> |
 | **Operating system** |        Windows 10 64bit or above         | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li></ul> |
 
-> Note 1: Visit [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder) to see the NVIDIA GPU support matrix.
-
-> Note 2: Single common GTX1070 card could accelerate the transcoding process up to 8x, which roughly means the system can process an 8-minutes recording in about 1 minute. The use of cards of lower GPU computation power is also possible but would result in slower video processing.
+> Note: 
+    * Visit [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder) to see the NVIDIA GPU support matrix.
+    * Single common GTX1070 card could accelerate the transcoding process up to 8x, which roughly means the system can process an 8-minutes recording in about 1 minute. The use of cards of lower GPU computation power is also possible but would result in slower video processing.
 
 ### Assembly Steps
 
@@ -100,13 +92,29 @@ Workstation access steps are as follows:
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 
-1. Connect the camera's HDMI output connector to the workstation's video card HDMI input connector using the HDMI cable (Micro HDMI-HDMI).
-2. connect HoloLens' Micro USB interface to the WorkStation's USB3.0 interface using USB wire（Micro USB - USB）(optional, for the convenience of USB debugging and charging).
-3. Connect the workstation's LAN port to the router's LAN port with a network cable.
-4. Connect the HDMI output connector of the workstation video card to the large screen on which the output screen is required with the HDMI cable (HDMI - HDMI)
-5. In the HoloLens network settings, join the router's wireless network.
+1. Connect the camera's **HDMI Output Port** to the **Input Port ** of the capture card of the workstation, with a **HDMI to Mini-HDMI cable**.
+2. Connect the **Micro USB port** of HoloLens to one of the USB3.0 port on the workstation with a **Micro USB to USB cable**. (This is for the convenience of USB debugging and charging of HoloLens, and thus is optional) .
+3. Connect the workstation to the **LAN Port** of the **Wireless Router** using a Lan cable.
+4. Use an **HDMI to HDMI cable** to attach the **Output Port** of the capture card of the workstation to an external display or any other campatible screens.
+5. Let the HoloLens join the local wireless network and make sure the HoloLens and the workstation are in the same vlan.
 
-### Usage Guide for MeshExpert Installer
+
+### Configurations
+
+#### Network Configurations
+
+1. Get the Rig and Workstation ready first.
+2. Make sure a dedicated WIFI router, 802.11ac perferred, with wired connection has connected to the Rig. Router IP should be `192.168.8.1`, DHCP range set to `192.168.8.100~249`. Internet link is not necessary.
+3. IP address of the Workstation should be set to `192.168.8.250`. We need to run both of the soft  Suite and the Demo app on it.
+
+> Note: If you have other devices to collaborate, e.g. a Surface Pro as a controller, it needs to join the same WIFI network with wireless connnection, which would get an IP from pool `192.168.8.100~249` automatically. Besides, please make sure there's not a lot of WIFI devices around when you start to move the rig. WIFI latency impacts the performance.
+
+#### Environment Preparation
+
+1. Connect everything to the WIFI router. Make sure they all have `192.168.8.x` IP address, and the workstation has the fixed IP `192.168.8.250`. This is very important since we fixed the network settings to ensure there's no surprise.
+2. Install the `SpectatorView Test App` onto your spectator view HoloLens on the Rig. You can download the `SpectatorView Test App` from [here]().
+
+### Usage Guide for MeshExpert Suite
 
 Installation steps are as follows:
 1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.

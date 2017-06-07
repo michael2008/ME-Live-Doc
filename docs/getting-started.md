@@ -65,7 +65,6 @@ Steps to connect the Workstation with the Rig and a display are as follows (see 
 4. Use an **HDMI to HDMI cable** to attach the **Output Port** of the capture card of the workstation to an external display or any other campatible screens.
 5. Let the HoloLens join the local wireless network and make sure the HoloLens and the workstation are in the same vlan.
 
-
 ### Add License
 
 You need to add a license to activate full corresponding functionalities of ME-Live! before use.
@@ -89,6 +88,8 @@ Upon finished, you will see your license information in the "**License**" tab as
 ## Experience Mixed-Reality
 
 Now everything is ready, you can begin enjoy the amazing mixed-reality shows with ME-Live!
+
+> Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#Configurations) to make sure all the necessary configurations are correct.
 
 Start the built-in app **Solar System Explorer**, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
 
