@@ -55,16 +55,16 @@ Q: **Manipulation or Navigation is invalid.**
 
 Confirm MultiInputManager is enabled.
 
-Confirm whether MultiInputManager has been switched to the corresponding recognition model. Use ChangeToManipulationRecognizer() and ChangeToNavigationRecognizer() to conduct switch.
+Make sure that MultiInputManager has switched to the appropriate recognition mode. Use the ChangeToManipulationRecognizer() and ChangeToNavigationRecognizer() methods to switch accordingly.
 
 ### Collaboration Module
-Q: **Collaboration Module fails to work.**
+Q: **Collaboration module can not collaborate.**
 
-Check all devices in the same network or not.
+Check whether all devices are under the same network environment.
 
-Check the setting of all devices to ensure they have right server IP.
+Check all device settings to see if the server IP is correct.
 
-Q: **There is some delay in collaboration**
+Q: **Time delay exists in collaboration**
 
 Delivery interval of Collaboration Server is 100ms. Thus delay within about 100ms is reasonable.
 
