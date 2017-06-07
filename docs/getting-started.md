@@ -89,7 +89,7 @@ Upon finished, you will see your license information in the "**License**" tab as
 
 Now everything is ready, you can begin enjoy the amazing mixed-reality shows with ME-Live!
 
-> Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#Configurations) to make sure all the necessary configurations are correct.
+> Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#configurations) to make sure all the necessary configurations are correct.
 
 Start the built-in app **Solar System Explorer**, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
 
