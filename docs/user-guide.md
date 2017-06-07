@@ -10,7 +10,7 @@ ME-Live! is made up of two parts:
 * **Live WorkStation**: a high performance graphics workstation used for running holographic program and synthesizing real-time holographic video.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26622840/4dfc5ee6-461e-11e7-9ee2-215810049b79.png" width="500">
+<img src="https://user-images.githubusercontent.com/7636848/26872303-9d9425d0-4ba8-11e7-8e90-80e7389a41e2.png" width="500">
 <p align="center"><em>System Structure</em></p>
 </p>
 

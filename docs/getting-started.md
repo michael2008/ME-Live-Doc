@@ -55,7 +55,7 @@ The workstation offered by DataMesh is equipped with all necessary software in a
 Steps to connect the Workstation with the Rig and a display are as follows (see Picture "Workstation Connection Diagram"):
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26613751/dda03868-45ee-11e7-8afc-b2a4a97f0a32.png" width="500">
+<img src="https://user-images.githubusercontent.com/7636848/26872040-c04912ee-4ba7-11e7-8fa7-3fb9ef7c8155.png" width="500">
 <p align="center"><em>Workstation Connection Diagram</em></p>
 </p>
 

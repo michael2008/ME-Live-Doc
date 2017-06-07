@@ -109,7 +109,7 @@ For Version infomation, please see our [release notes](release-notes.md).
 [collaboration_module]: trouble-shooting.md#collaboration-module
 [live_module]: trouble-shooting.md#live-module
 
-[release_history]: [release-history.md]
+[release_history]: release-history.md
 
 ---
 If you have any questions or suggestions, please contact us at service@datamesh.com
