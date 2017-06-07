@@ -32,7 +32,7 @@ Check whether the address settings for the Share Anchor Server is correct.
 
 If the space information is too large, it may lead to upload failure. In this circumstance, please clear the space information in HoloLens, re-scan and then try to upload again.
 
-Q: **the Anchor object was not positioned correctly after you download it successfully.**
+Q: **The anchor object was not positioned correctly after you download it successfully.**
 
 It's usually because the downloaded spatial information and current spatial information identified by the HoloLens do not match, so the space anchor can not locate properly. (If you use the Download Anchor function on ME-Live!, there will be special hints in this state). Please try moving HoloLens around, and when the spatial information matches, the anchor object will return to the correct position.
 
