@@ -1,22 +1,24 @@
 ## Unity-related
-### Unity App Release
-Q: **Released app didn't work**
+### Unity Application Release
+Q: **Released application didn't work properly**
 
-Check whether Scene which you chose when releasing is right.
+The Scene selected at the time of publication may not right.
 
-Q: **What if compiling of app is displayed as wrong when it is released to HoloLens but right in Unity?**
+Q: **There are no compilation errors in Unity, but there are compilation errors when publishing it as an application which can run on HoloLens.**
 
-It is usually caused by using classes or methods which are not supported by UWP. Please remove these kind of things and then recompile it.
+It is usually because the codes or libraries used are not supported by UWP. Please remove these kind of things and then recompile it.
 
-Q: **App debugging fails when installing it from Visual Studio to HoloLens.**
+Q: **Application debugging fails when installing it from Visual Studio to HoloLens.**
 
-Check builds parameter of VisualStudio. Platform must be x86 and Target Device
+The possible solutions:
 
-Check whether HoloLens is closed or in the sleep state. If yes, please open or wake it.
+Check build parameters of Visual Studio. Platform must be and Target must be x86 and Device respectively.
 
-Try to delete App in holoLens
+Check whether HoloLens is closed or in hiberation state. If yes, please open it or wake it up.
 
-Repeat trying to start. If there is still any problem, try to delete Visual Studio Project and release it again from Unity.
+Try to delete Application on HoloLens.
+
+Try to start it again. If there are still some problems, try to delete Visual Studio Project and release it again from Unity.
 
 ## METoolkit-related
 ### Anchor Module
