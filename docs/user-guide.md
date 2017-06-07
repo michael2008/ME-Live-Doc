@@ -370,7 +370,7 @@ You can use the voice "Open Menu" to call out the hidden menu, to adjust and sha
 
 Steps of Change Anchor are as follows:
 
-* Through air-tapping the **Change Anchor** in the hidden menu, you'll enter the Anchor adjustment mode, where you can see a bounding box outside the entire galaxy and a blue crystal at the reference position showing the anchor of the galaxy.
+* Through air-tapping the **Change Anchor** in the hidden menu, you'll enter the anchor adjustment mode, where you can see a bounding box outside the entire galaxy and a blue crystal at the reference position showing the anchor of the galaxy.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658986/12510950-46a0-11e7-8ec7-9a0d7127d59f.png" width="500">
@@ -382,15 +382,15 @@ Steps of Change Anchor are as follows:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26658996/2cc15f38-46a0-11e7-85e3-bc526203e40e.png" width="500">
 </p>
 
-* Watch the middle of the "Gaze" button and air-tap, you'll enter the sight movement mode, in which the HoloLens will display the surrounding environment's spatial mesh, and the whole object will move with the user's attention and stay in the current gaze of the environment spatial mesh on.
+* Watch the middle of the "Gaze" button and air-tap, you'll enter the sight movement mode, in which the HoloLens will display the surrounding environment's spatial mesh, and the entire object will move with the user's gaze and stay at the environment spatial mesh on which you gaze.
 
     - If there is not environmental spatial mesh in the currently-gazed position, then the object will float in the direction of eyes three meters away.
     - Air-tap again and you will exit the sight movement mode. Then re-choose the status of the object.
 
-* Gaze at "Move" Button in the left and Air Tap, you will enter the manual movement model and movement sign will be displayed on crystalline.
-  > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and adjust the position of the object in the direction of three axis.
+* Gaze at Move button in the left and air-tap, and you will enter the manual movement mode and the crystal will appear on the mobile logo.
+  > Note: When using HoloLens, use the "press the finger and move" to manipulate the object, you can adjust the position of the object in three axes.
 
-* Gaze at Rotate"Button and Air Tap, you will enter the manual revolve model and the revolve sign will be displayed above the crystalline.
-  > Note: When using HoloLens, please operate the object in a manner of clicking and moving together and revolve the object in the direction of three axis.
+* Gaze at Rotate button and air-tap, and you'll enter the manual rotation mode and then the crystal appears back to the rotation mark.
+  > Note: When using HoloLens, use the "press the finger and move" to operate the object and you can rotate object in three axes.
 
-After adjusting WorldAnchor, Air Tap at the blank area outside the enclosed box, you will exit the Anchor edit model and enclosed box and crystalline will disappear. At the same time, the position of the galaxy will be stored and the galaxy will return to the position if spatial recognition is commensurate after starting HoloLens.
+After completing the adjustment of the space anchor, air-tapping at the blank area outside of the bounding box will exit the anchor edit mode, the outer circumference and the crystal will disappear, and the location of the galaxy will be stored. When you open the program in HoloLens next time, if the recognition space is consistent, the galaxy will return to this position.
