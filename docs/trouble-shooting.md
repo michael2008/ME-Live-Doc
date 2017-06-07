@@ -3,9 +3,11 @@
 Q: **What if the released app is terribly wrong?**
 
 Check whether Scene which you chose when releasing is right.
+
 Q: **What if compiling of app is displayed as wrong when it is released to HoloLens but right in Unity?**
 
 It is usually caused by using classes or methods which is not supported by UWP. Please remove these kind of things and then recompile it.
+
 Q: **App debugging fails when installing it from Visual Studio to HoloLens.**
 
 Check builds parameter of VisualStudio. Platform must be x86 and Target Device
@@ -68,6 +70,7 @@ If time for delay is too long. Please check whether the network is stable and th
 Q: **Jam occurs soon after starting**
 
 Please check Quality setting and vertical synchronization in all running models has been closed. In the condition of opening vertical synchronization, jam when starting Live may occur, including Editor Environment and Standalone Environment.
+
 Q: **Live Workstation cannot be connected to HoloLens SpectatorView**
 
 Check HoloLens and Live Workstation are in the same network.
