@@ -45,15 +45,15 @@ Confirm MultiInputManager has been started.
 
 Check whether layer setting in MultiInputManager covers whole layer of the clickable object.
  
-If you use the callback mode operation of MultiInputManager, check whether the corresponding callback function is properly bound, making sure that all places use "+ =" to add a callback instead of using "=" to override the callback.
+If you use the callback mode operation of MultiInputManager, check whether the corresponding callback function is properly bound, making sure that all places use **+=** to add a callback instead of using **=** to override the callback.
 
 If you are using the click-to-object response function mode operation, check whether the collider of the clickable object and the component on which the response function resides are on the same object.
 
-You can test in the Unity environment, turn on the **Simulate Gaze** option on the InputManager component, then adjust the camera, place the line of sight on the target object, press "Enter" to simulate Air Tap
+You can test in the Unity environment, turn on the **Simulate Gaze** option on the InputManager component, then adjust the camera, place the line of sight on the target object, press "Enter" to simulate air-tap.
 
 Q: **Manipulation or Navigation is invalid.**
 
-Confirm MultiInputManager has been started.
+Confirm MultiInputManager is enabled.
 
 Confirm whether MultiInputManager has been switched to the corresponding recognition model. Use ChangeToManipulationRecognizer() and ChangeToNavigationRecognizer() to conduct switch.
 
