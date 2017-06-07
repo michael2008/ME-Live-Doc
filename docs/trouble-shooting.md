@@ -1,6 +1,6 @@
 ## Unity-related
 ### Unity App Release
-Q: **What if the released app is terribly wrong?**
+Q: **Released app didn't work**
 
 Check whether Scene which you chose when releasing is right.
 
@@ -16,7 +16,7 @@ Check whether HoloLens is closed or in the sleep state. If yes, please open or w
 
 Try to delete App in holoLens
 
-Repeat trying to start. If there is still any problem, try to delete VisualStudio Project and release it again from Unity.
+Repeat trying to start. If there is still any problem, try to delete Visual Studio Project and release it again from Unity.
 
 ## METoolkit-related
 ### Anchor Module
