@@ -83,6 +83,7 @@ Check whether SpectatorView Listen Port Setting in Live Workstation and setting 
 Q: **Stuck in starting program inside Unity**
 
 If it is Windows 10, please check whether you have opened “Developer Mode”. If it is not “Developer Mode”, also the project includes HoloLensInputModule, it will result in getting stuck when starting it in Editor Environment.
+
 Q: **The position of the object in HoloLens and the preliminarily set one are not commensurate after starting.**
 
 Check whether the main camera's position is (0,0,0). If its initial position is not (0,0,0), it will result in shewing of the object’s position inside HoloLens.
