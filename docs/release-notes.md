@@ -6,6 +6,7 @@
 **The first official release. Open for download.**
 
 **Release Note v1.0.7**
+
 - Fix the problem of network connection failure.
 - Improve stability.
 - Improve compatability with METoolkit.
