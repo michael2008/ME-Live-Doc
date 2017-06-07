@@ -64,11 +64,11 @@ Check whether all devices are under the same network environment.
 
 Check all device settings to see if the server IP is correct.
 
-Q: **Time delay exists in collaboration**
+Q: **Signal delay exists in collaboration**
 
-Delivery interval of Collaboration Server is 100ms. Thus delay within about 100ms is reasonable.
+Signal sending interval of Collaboration Server is 100ms, thus delay within about 100ms is quite reasonable.
 
-If time for delay is too long. Please check whether the network is stable and the loading situation of Server Host.
+If the delay is too large, check whether the network environment is stable, and the server's loading.
 
 ### Live Module
 Q: **Jam occurs soon after starting**
