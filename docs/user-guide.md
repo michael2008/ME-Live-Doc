@@ -24,13 +24,9 @@ ME-Live! contains two main parts, collaboration, and live streaming. The collabo
 
 ## RIG Installation
 
-### Function
-
 The Rig is used for obtaining the real-world images and location information and further delivering them to the workstation in order to carry out real-time synthesis.
 
-### Composition
-
-ME-Live! Rig consists of the following main components:
+ME-Live! Rig consists of the following **main components**:
 
 * Digital camera/video camera
 * HoloLens
@@ -39,7 +35,7 @@ ME-Live! Rig consists of the following main components:
 
 > Note: HoloLens here is responsible for providing location information. You can replace it with other devices which also can provide position information. Besides, HoloLens can be removed if you don't need real-time synchronization of location information, such as fixing the camera stand.
 
-### Assembly
+### Rig Assembly
 
 The purpose of the assembly is to securely secure the complete set of equipment together to minimize the effects of unstable factors such as shaking.
 Depending on the requirements of the working site and the choice of equipment, the ways of assembly and connection may vary. If you want to use non-recommended equipment, please make sure that you know how to connect them together.
@@ -67,7 +63,7 @@ The assembly processes of Rig Suite depicted in the picture below, and the steps
 </p>
 
 
-### Installation of Relevant Rig Software
+### Install Rig Software
 
 A special app needs to be installed on the HoloLens to send necessary messages to the workstation. This program is generic program which can be matched with any ME-Live! Workstation application developed using METoolkit. You can find this application from the MeshExpert Suite or you can download the appropriate version from Git. https://github.com/DataMesh-OpenSource/MeshExpert-Live
 
@@ -92,9 +88,8 @@ Below is a list of recommended requirements for the workstation:
 | **Operating system** |        Windows 10 64bit or above         | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li></ul> |
 
 > Note: 
-> * Visit https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder to see the NVIDIA GPU support matrix.
-> 
-> * Single common GTX1070 card could accelerate the transcoding process up to 8x, which roughly means the system can process an 8-minutes recording in about 1 minute. The use of cards of lower GPU computation power is also possible but would result in slower video processing.
+  * Visit [https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder](https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder) to see the NVIDIA GPU support matrix.
+  * Single common GTX1070 card could accelerate the transcoding process up to 8x, which roughly means the system can process an 8-minutes recording in about 1 minute. The use of cards of lower GPU computation power is also possible but would result in slower video processing.
 
 ### Assembly Steps
 
