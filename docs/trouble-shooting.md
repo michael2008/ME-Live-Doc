@@ -71,11 +71,13 @@ Signal sending interval of Collaboration Server is 100 ms, thus delay within abo
 If the delay is too large, check whether the network environment is stable, and the server's loading.
 
 ### Live Module
-Q: **Jam occurs soon after starting**
+Q: **Stuck shortly after the start**
 
 Please check the Quality setting and whether the vertical sync has been turned off in all operating modes. When you turn on vertical sync, starting the Live module will cause stuck at startup, in both the Editor environment and the Standalone environment.
 
 Q: **Live Workstation cannot connect to HoloLens SpectatorView**
+
+The possible solutions are:
 
 Check whether HoloLens and Live Workstation are in the same network environmenet.
 
