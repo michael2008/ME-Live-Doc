@@ -10,7 +10,7 @@ It is usually because the codes or libraries used are not supported by UWP. Plea
 
 Q: **Application debugging fails when installing it from Visual Studio to HoloLens.**
 
-The possible solutions:
+The possible solutions are:
 
 Check build parameters of Visual Studio. Platform must be and Target must be x86 and Device respectively.
 
@@ -26,28 +26,30 @@ Q: **When the SceneAnchorController module is enabled, the border and the crysta
 
 Check whether MEHolo/AnchorManager/AnchorCamera Object in the scene is active. Other cameras which need to follow the main camera must remain active at startup and can not be hidden, otherwise the cameras' position will never be synchronized to the position of the main camera.
 
-Q: **Fail to upload Anchor**
+Q: **Fail to upload anchor**
 
-Check whether IP setting of Share Anchor Serve is right.
+Check whether the address settings for the Share Anchor Server is correct.
 
-If space information is too big, it will result in failure when you upload it. Please remove space information in HoloLens, rescan it, and re-upload.
+If the space information is too large, it may lead to upload failure. In this circumstance, please clear the space information in HoloLens, re-scan and then try to upload again.
 
-Q: **Anchor position is not right after you download it successfully.**
+Q: **the Anchor object was not positioned correctly after you download it successfully.**
 
-It usually because of downloaded space information and space information currently recognized by HoloLens are not commensurate. So WorldAnchor cannot be located (if downloading Anchor on Live, no special hint will appear in such a state). Please try to move HoloLens in all directions. When space information is recognized to be commensurate, Anchor object will return to the right position.
+It's usually because the downloaded spatial information and current spatial information identified by the HoloLens do not match, so the space anchor can not locate properly. (If you use the Download Anchor function on ME-Live!, there will be special hints in this state). Please try moving HoloLens around, and when the spatial information matches, the anchor object will return to the correct position.
 
 ### Input Module
-Q: **Gaze to click the object but Air Tap fails.**
+Q: **Gaze at the clickable object but air-tap does not respond.**
+
+The possible solutions are:
 
 Confirm MultiInputManager has been started.
 
-Check whether layer setting in MultiInputManager covers layer used for clicking the object.
+Check whether layer setting in MultiInputManager covers whole layer of the clickable object.
+ 
+If you use the callback mode operation of MultiInputManager, check whether the corresponding callback function is properly bound, making sure that all places use "+ =" to add a callback instead of using "=" to override the callback.
 
-If callback method of MultiInputManage is used, check the corresponding callback function is right or not. Confirm all positions use “+=” to add callback, instead of using “=” to cover callback.
+If you are using the click-to-object response function mode operation, check whether the collider of the clickable object and the component on which the response function resides are on the same object.
 
-If operational method of response function of clicking object is used, please check whether Collider used for clicking objects and modules with response function are on the same object.
-
-Test in Unity. Open “Simulate Gaze” on InputManager module. Then adjust the camera, fix the sight on the target object and click Enter to simulate Air Tap
+You can test in the Unity environment, turn on the **Simulate Gaze** option on the InputManager component, then adjust the camera, place the line of sight on the target object, press "Enter" to simulate Air Tap
 
 Q: **Manipulation or Navigation is invalid.**
 
