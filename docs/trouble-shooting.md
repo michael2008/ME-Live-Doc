@@ -1,11 +1,9 @@
 ## Unity-related
 ### Unity App Release
-*  **What if the released app is terribly wrong?**
-
-a) Check whether Scene which you chose when releasing is right.
-* **What if compiling of app is displayed as wrong when it is released to HoloLens but right in Unity?**
-
-b) It is usually caused by using classes or methods which is not supported by UWP. Please remove these kind of things and then recompile it.
+Q: **What if the released app is terribly wrong?**
+Check whether Scene which you chose when releasing is right.
+Q: **What if compiling of app is displayed as wrong when it is released to HoloLens but right in Unity?**
+It is usually caused by using classes or methods which is not supported by UWP. Please remove these kind of things and then recompile it.
 * **App debugging fails when installing it from Visual Studio to HoloLens.**
 
 c) Check builds parameter of VisualStudio. Platform must be x86 and Target Device
