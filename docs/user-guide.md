@@ -93,6 +93,7 @@ Below is a list of recommended requirements for the workstation:
 
 > Note: 
 > * Visit https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder to see the NVIDIA GPU support matrix.
+> 
 > * Single common GTX1070 card could accelerate the transcoding process up to 8x, which roughly means the system can process an 8-minutes recording in about 1 minute. The use of cards of lower GPU computation power is also possible but would result in slower video processing.
 
 ### Assembly Steps
