@@ -84,12 +84,12 @@ Below is a list of recommended requirements for the workstation:
 
 |         Item         |              Specification               | Remark                                   |
 | :------------------: | :--------------------------------------: | :--------------------------------------- |
-|       **CPU**        | Intel Skylake 6700k or above AMD Ryzen 1700X or above |                                          |
-|       **GPU**        |     Nvidia GeForce GTX 1070 or above     | <ul><li>GPU need to support NVENC (Hardware-Accelerated Video Encoding) encoding APIs for H.264.</li><li>AMD GPUs currently are not supported.</li></ul> |
-|    **Mainboard**     |      M.2 SSD or PCI-E SSD supported      |                                          |
-|      **Memory**      |     16GB two-channel  DDR4 or above      |                                          |
+|       **CPU**        | Intel Skylake 6700K or above OR AMD Ryzen 1700X or above |                                          |
+|       **GPU**        |     NVIDIA GeForce GTX 1070 or above     | <ul><li>GPU needs to support NVENC (Hardware-Accelerated Video Encoding) encoding APIs for H.264.</li><li>AMD GPUs currently are not supported.</li></ul> |
+|    **Mainboard**     |       Support M.2 SSD or PCI-E SSD       |                                          |
+|      **Memory**      |     16GB dual-channel DDR4 or above      |                                          |
 |    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li></ul> |
-| **Operating system** |             Windows 10 64bit             | <ul><li>Only 64-bit system supported.</li><li>Early Windows versions, such as Windows 7/8 and Server, are not supported at present.</li></ul> |
+| **Operating system** |        Windows 10 64bit or above         | <ul><li>Only 64bit system is supported.</li><li>Windows 7/8 and Windows Server editions are not supported.</li></ul> |
 
 > Note: 
 > * Visit https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder to see the NVIDIA GPU support matrix.
