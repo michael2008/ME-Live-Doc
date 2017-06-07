@@ -391,6 +391,6 @@ Steps of Change Anchor are as follows:
   > Note: When using HoloLens, use the "press the finger and move" to manipulate the object, you can adjust the position of the object in three axes.
 
 * Gaze at Rotate button and air-tap, and you'll enter the manual rotation mode and then the crystal appears back to the rotation mark.
-  > Note: When using HoloLens, use the "press the finger and move" to operate the object and you can rotate object in three axes.
+  > Note: When using HoloLens, use the "press the finger and move" to manipulate the object and you can rotate object in three axes.
 
 After completing the adjustment of the space anchor, air-tapping at the blank area outside of the bounding box will exit the anchor edit mode, the outer circumference and the crystal will disappear, and the location of the galaxy will be stored. When you open the program in HoloLens next time, the galaxy will return to this position.
