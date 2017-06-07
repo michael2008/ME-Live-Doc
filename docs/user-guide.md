@@ -82,14 +82,18 @@ You can install this application by using MeshExpert device manager.
 The workstation requires a certain amount of computing power, which could be satisfied by hardware sets of the given specifications, to meet the demands of ME-Live!. There would also be some restrictions regarding the hardware and software choices.
 Below is a list of recommended requirements for the workstation:
 
-|         item         | specification                            |                  remark                  |
-| :------------------: | :--------------------------------------- | :--------------------------------------: |
+|         Item         |              Specification               | Remark                                   |
+| :------------------: | :--------------------------------------: | :--------------------------------------- |
 |       **CPU**        | Intel Skylake 6700k or above AMD Ryzen 1700X or above |                                          |
-|       **GPU**        | Nvidia GeForce GTX 1070 or above         | 1. GPU is required to have x264API code in support of NVENC. Visit https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder and check the GPU list supported. 2. GTX1070 single cassette is in support of 1080P video transcoding with eight-time rate. 3. AMD video card is not supported at present. |
-|    **Mainboard**     | M.2 SSD or PCI-E SSD supported           |                                          |
-|      **Memory**      | 16GB two-channel  DDR4 or above          |                                          |
-|    **Hard disk**     | 500GB M.2 SSD or PCIE SSD                | SAMSUNG 850 EVO 500G M.2 SSD **recommended**. |
-| **Operating system** | Windows 10 64bit                         | 1. only 64-bit system installation supported. 2. Early Windows versions, such as Windows 7/8 and Server, are not supported at present. |
+|       **GPU**        |     Nvidia GeForce GTX 1070 or above     | <ul><li>GPU need to support NVENC (Hardware-Accelerated Video Encoding) encoding APIs for H.264.</li><li>AMD GPUs currently are not supported.</li></ul> |
+|    **Mainboard**     |      M.2 SSD or PCI-E SSD supported      |                                          |
+|      **Memory**      |     16GB two-channel  DDR4 or above      |                                          |
+|    **Hard disk**     |        500GB M.2 SSD or PCIE SSD         | <ul><li>Recommend SAMSUNG 850 EVO 500G M.2 SSD.</li></ul> |
+| **Operating system** |             Windows 10 64bit             | <ul><li>Only 64-bit system supported.</li><li>Early Windows versions, such as Windows 7/8 and Server, are not supported at present.</li></ul> |
+
+> Note: 
+> * Visit https://developer.nvidia.com/video-encode-decode-gpu-support-matrix#Encoder to see the NVIDIA GPU support matrix.
+> * Single common GTX1070 card could accelerate the transcoding process up to 8x, which roughly means the system can process an 8-minutes recording in about 1 minute. The use of cards of lower GPU computation power is also possible but would result in slower video processing.
 
 ### Assembly Steps
 

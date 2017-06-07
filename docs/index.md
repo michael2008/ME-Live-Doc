@@ -1,4 +1,4 @@
-Welcome to the **MeshExpert Live!** wiki!
+Welcome to the **MeshExpert Live!** documentation!
 
 Wanna try **MeshExpert Live!** out? Check out the [MeshExpert Live! Getting Started](getting-started.md) for a quick start!
 
