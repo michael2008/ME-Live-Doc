@@ -86,13 +86,14 @@ Check whether the SpectatorView application is started on HoloLens and restart t
 Check whether the SpectatorView listening port set in the Live program in Live Workstation is consistent with the port set in the SpectatorView application in HoloLens.
 
 ## Project Environment
-Q: **Stuck in starting program inside Unity**
+Q: **Stuck when starting program inside Unity**
 
-If it is Windows 10, please check whether you have opened “Developer Mode”. If it is not “Developer Mode”, also the project includes HoloLensInputModule, it will result in getting stuck when starting it in Editor Environment.
+If it is Windows 10 environment, please check whether the **Developer Mode** is enabled. 
+if it's not in the **Developer Mode**, the project contains HoloLensInputModule components, it will result in getting stuck when starting it in Editor environment.
 
-Q: **The position of the object in HoloLens and the preliminarily set one are not commensurate after starting.**
+Q: **The position of the object in HoloLens is not consistent with the expected position.**
 
-Check whether the main camera's position is (0,0,0). If its initial position is not (0,0,0), it will result in shewing of the object’s position inside HoloLens.
+Check if the main camera position is (0,0,0). If the initial position of the main camera is not (0,0,0), it may cause the object position in HoloLens to shift.
 
 
 
