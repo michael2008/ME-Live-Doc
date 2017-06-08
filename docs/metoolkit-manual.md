@@ -519,6 +519,10 @@ Cursor helps users to get accurate gazing positions, much like a mouse cursor. I
 
 BlockMenu provides a block-based main menu. Compared with other menu forms, it is more suitable for VR/AR applications as it can be gazed at easily.
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/7381020/26911922-4cda65b4-4c43-11e7-87f3-f3756c038580.png" width="250">
+</p>
+
 BlockMenu has the following main functionalities:
 
 * Show four square buttons centered at the gaze point, which ensure the shortest moving distances at all four directions.
@@ -541,7 +545,7 @@ Open menu "**Window->DataMesh->BlockMenuMaker**" in Unity.
 You will see the main interface of the editor:
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26670205/5e606a8c-46e3-11e7-8f80-6a81e17d7f39.png" width="320">
+<img src="https://user-images.githubusercontent.com/7381020/26911776-530c0d3a-4c42-11e7-9940-5f75d4440e06.png" width="320">
 </p>
 
 Click "Create New Menu Configuration". Choose a location in the pop-up box to store the menue, and enter the name for the menu (e.g. "MainMenu.json") to save it as a JSON file.
@@ -549,19 +553,19 @@ Click "Create New Menu Configuration". Choose a location in the pop-up box to st
 Enter a name for the panel, which will be used as the unique ID of this panel in the app.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26670206/5fd811bc-46e3-11e7-924e-77a0f9501af4.png" width="320">
+<img src="https://user-images.githubusercontent.com/7381020/26911865-dd0b881c-4c42-11e7-8bd0-4ce0649552ea.png" width="320">
 </p>
 
 Click "Create Root Panel" button, and it will generate the first-level panel with 4 possible buttons.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26670207/617e8ffa-46e3-11e7-959a-be9a09da4421.png" width="250">
+<img src="https://user-images.githubusercontent.com/7381020/26911871-f3520326-4c42-11e7-8f50-b00334c44564.png" width="250">
 </p>
 
 You can choose to edit the add any of the four buttons.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26670210/6326b814-46e3-11e7-9b5d-ede4b5f0cbc2.png" width="250">
+<img src="https://user-images.githubusercontent.com/7381020/26911884-15895912-4c43-11e7-9d00-f412777dad47.png" width="250">
 </p>
 
 Note that if you choose to use a rectangular picture as the backgroud for a button, you need to set its format as "**Sprite(2D and UI)**".
@@ -579,7 +583,7 @@ And you should place your backgroud pictures in "**Assets/Resources/UI/Texture/*
 If you need sub-menus, you can click "**Create Sub Panel**" and fill the information of sub-menus just like the main menu.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26670272/9e3f7f80-46e3-11e7-87fb-cc54810f70f3.png" width="320">
+<img src="https://user-images.githubusercontent.com/7381020/26911903-3d82f202-4c43-11e7-96ff-7972c0a9f6e5.png" width="320">
 </p>
 
 > Note:
