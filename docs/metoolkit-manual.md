@@ -917,7 +917,7 @@ In the Hierarchy view, locate the "**MEHolo/AnchorManager**" and check it. In th
   * **Server Host:** the workstation's IP address.
   * **Server Port:** the port number of the service on the workstation, defaults to 8823.
 
-Choose an Object "Cube", and then add "**AnchorDefinition**" in the Inspector Panel.
+Choose the Object "Cube", and then add "**AnchorDefinition**" in the Inspector Panel.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26661436/4855bf40-46b0-11e7-8b58-ab70794a3307.png" width="250">
    </p>
