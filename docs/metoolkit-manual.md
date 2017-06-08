@@ -909,25 +909,28 @@ Please follow the instructions below to create a demo app.
 In the Hierarchy view, locate the "**MEHolo/AnchorManager**" and check it. In the Inspector view, the below panel will show up. Set its parameters on the panel.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26675721/96b98882-46f7-11e7-8774-25e0fb300d26.png" width="320">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26660962/f8ae44e6-46ad-11e7-8a20-782b4fc42eb2.png" width="500">
 </p>
 
-* **App Id:** the unique ID of the app in 4-bytes integer.
+  * **App Id:** the unique ID of the app in 4-bytes integer.
   * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
   * **Server Host:** the workstation's IP address.
   * **Server Port:** the port number of the service on the workstation, defaults to 8823.
 
-In the *Anchor Setting*, set the numbers of anchors you need. Below the input line would appear corresponding numbers of input boxes for each of the anchors.
+Choose an Object "Cube", and then add "**AnchorDefinition**" in the Inspector Panel.
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26661436/4855bf40-46b0-11e7-8b58-ab70794a3307.png" width="250">
+   </p>
+Enter a name for the Anchor.
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26661439/4abcac26-46b0-11e7-89a4-c9edbd670cb5.png" width="320">
+   </p>
+Choose the object in the scene and you will see a blue **bounds** which indicates the Anchor scope. By dragging the ball handles, you can change the size of the bounds.
+   <p align="center">
+   <img src="https://cloud.githubusercontent.com/assets/7636848/26661440/4beae40a-46b0-11e7-90c8-e0cbb1e0f52e.png" width="320">
+   </p>
+> Note: the size of the bounds is only used for showing the Anchor when it is moved. It has no practical significance and can be set according to your preferences.
 
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26675723/98188926-46f7-11e7-9d8d-1037f6259cdc.png" width="400">
-</p>
-
-Enter the name for each Anchor, and drag the corresponding object to the input box on the right. You can also create the Anchors by code, and please refer to WorldAnchor samples.
-
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26675726/997a7374-46f7-11e7-9692-3b09fc1f455d.png" width="400">
-</p>
 
 ### Set up Prameters
 
