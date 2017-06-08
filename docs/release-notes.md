@@ -3,6 +3,8 @@
 
 ### v1.0.7
 
+**Release date:** 2017-06-07
+
 **The first official release. Open for download.**
 
 **Release Note v1.0.7**
@@ -13,5 +15,7 @@
 
 
 ### v1.0.0
+
+**Release date:** 2017-05-03
 
 The first beta version, for internal test only, not open for download.
