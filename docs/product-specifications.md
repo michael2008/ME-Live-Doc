@@ -22,7 +22,7 @@ Currently we offer five licensing options with various product specifications to
 
 You can choose the version most suitable for your needs. For obtaining a license, please contact us by email: `service@datamesh.com`.
 
-## Apply for Trail
+## Apply for Trial
 
 As for any organization or individual that uses ME-Live! for the first time, we offer a limited trial. You can try ME-Live! free as a standalone minimal installation for 30 days.
 
