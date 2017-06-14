@@ -19,6 +19,8 @@ Currently we offer five licensing options with various product specifications to
 >  * Yearly Payment = 10 Monthly Payment
 >  * Business OTP = 16 Monthly Payment
 >  * OTP covers 2 years of upgrade
+>  * For commercial use, please purchase the Business or Team version. The Developer and Pro versions are for personal use or developer.
+>  * Currently, the prices here are final and subject to change.
 
 You can choose the version most suitable for your needs. For obtaining a license, please contact us by email: `service@datamesh.com`.
 
