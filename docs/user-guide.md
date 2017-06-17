@@ -117,7 +117,9 @@ Workstation access steps are as follows:
 ### Usage Guide for MeshExpert Suite
 
 Installation steps are as follows:
+
 1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
+
 2. Restart the system or open Start MeshExpert under DataMesh entry on the Start Menu to start the service.
 
 After the installation is complete, the DataMesh entry will be generated on the Start menu bar, which will include the service management operations, such as start and stop, and some demo programs. Click Start MeshExpert start the service, wait a moment, open the browser, enter localhost and then enter. If there is a sign-in page, the service starts successfully.
