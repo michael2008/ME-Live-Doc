@@ -6,7 +6,7 @@ ME-Live! includes a complete set of hardware, support software, and application 
 
 ME-Live! is made up of two parts:
 
-* **Live Rig**: a set of movable video device with a function of getting video and location information of the real world.
+* **Live Rig**: a set of movable video device with the function of getting video and location information of the real world.
 * **Live WorkStation**: a high performance graphics workstation used for running holographic program and synthesizing real-time holographic video.
 
 <p align="center">
