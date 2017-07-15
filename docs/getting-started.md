@@ -115,11 +115,11 @@ Also you can see your subscription or license information in the "**Account**" p
 
 ## Experience Mixed-Reality
 
-Now everything is ready, you can begin enjoy the amazing mixed-reality shows with ME-Live!
+Now everything is ready, you can begin enjoy the amazing mixed-reality shows with MeshExpert-Live!
 
 > Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#configurations) to make sure all the necessary configurations are correct.
 
-Start the built-in app **Solar System Explorer**, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
+Install and start our demo app **Solar System Explorer** in your HoloLens, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614742/a792497c-45f4-11e7-8bd9-4af3c1ccd608.png" width="500">
@@ -137,4 +137,18 @@ Moreover, you can interact with virtual planets with simple gestures: rotate pla
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614771/cb5d520c-45f4-11e7-8478-7ef281a6c459.png" width="500">
 </p>
 
-> NOTE: ME-Live! makes it easy to install, manage, start and stop apps on HoloLens. For detailed instructions, please refer to [App Management](user-guide.md#app-management) in User Guide.
+> NOTE: MeshExpert-Live! makes it easy to install, manage, start and stop apps on HoloLens. For detailed instructions, please refer to [App Management](user-guide.md#app-management) in User Guide.
+
+For **Recording and simple Collaboration**, start the **"SolarSystemExplorer.exe"** on your PC workstation.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/7636848/28236603-3c0ff38a-695c-11e7-97ac-332c40819224.png" width="800">
+</p>
+
+A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time.
+
+The control buttons are at the downer bar. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under "C:\HologrameCapture". Other options are for you to explore.
+
+There are also a vertical and a horizontal zoom-in and zoom-out bars for you to control your scenes.
+
+When you click **"Start Follow"**, the scene on HoloLens and PC workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to do collaborations with multiple devices.
