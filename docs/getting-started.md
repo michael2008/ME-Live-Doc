@@ -78,7 +78,7 @@ You need to make a subscription or add a license to activate full corresponding 
 Once you have MeshExpert installed, you will have a shortcut **"MeshExpert Center"** on your Desktop and in the DataMesh folder at your Windows Start Menu. Double click to start the  **"MeshExpert Center"** and you will get:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236349-acea8b70-6956-11e7-8b91-7c2e3f9e8a1e.png" width="800">
+<img src="https://user-images.githubusercontent.com/7636848/28236349-acea8b70-6956-11e7-8b91-7c2e3f9e8a1e.png" width="600">
 <p align="center"><em>Adding License</em></p>
 </p>
 
@@ -87,7 +87,7 @@ You can now **Sign In** or **Upload License** to activate MeshExpert services. (
 For **Sign In**, you need to have Internet access. Also you need to create an online account at our [Subscription Center](https://license.datamesh.com/ "Subscribe") and make a subscription or start a free-trail.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236489-2c9d2b4a-695a-11e7-947f-d45f618d157b.png" width="800">
+<img src="https://user-images.githubusercontent.com/7636848/28236489-2c9d2b4a-695a-11e7-947f-d45f618d157b.png" width="600">
 <p align="center"><em>Adding License</em></p>
 </p>
 
@@ -102,14 +102,14 @@ As for more details usage about MeshExpert, please refer to [User Guide](https:/
 Upon finished, your email info and optional free trail info will be displayed on the upper banner. 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236528-cb208c80-695a-11e7-814b-7567c476739a.png" width="800">
+<img src="https://user-images.githubusercontent.com/7636848/28236528-cb208c80-695a-11e7-814b-7567c476739a.png" width="600">
 <p align="center"><em>Adding License</em></p>
 </p>
 
 Also you can see your subscription or license information in the "**Account**" page as demonstrated below, which reveals the detailed information about your licensing.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236510-8a01aa5e-695a-11e7-9c86-7d7f20230f09.png" width="800">
+<img src="https://user-images.githubusercontent.com/7636848/28236510-8a01aa5e-695a-11e7-9c86-7d7f20230f09.png" width="600">
 <p align="center"><em>Adding License</em></p>
 </p>
 
@@ -142,7 +142,7 @@ Moreover, you can interact with virtual planets with simple gestures: rotate pla
 For **Recording and simple Collaboration**, start the **"SolarSystemExplorer.exe"** on your PC workstation.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236603-3c0ff38a-695c-11e7-97ac-332c40819224.png" width="800">
+<img src="https://user-images.githubusercontent.com/7636848/28236603-3c0ff38a-695c-11e7-97ac-332c40819224.png" width="600">
 </p>
 
 A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time.
