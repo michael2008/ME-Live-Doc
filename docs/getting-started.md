@@ -34,7 +34,7 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 ## Quick Installation
 
 ### Install the RIG
-It's recommended to use Rig kit offered by DataMesh to have the best experience. The suite can be easily dissembled and assembled, but do make sure it is assembled correctly and firmly.
+It's recommended to use Rig kit offered by DataMesh to gain the best experience. The suite can be easily dissembled and assembled, but do make sure it is assembled correctly and firmly.
 
 RIG kit offered by DataMesh is equipped with all necessary software in advance.
 
@@ -71,22 +71,46 @@ Steps to connect the Workstation with the Rig and a display are as follows (see 
 
 ### Add License
 
-You need to add a license to activate full corresponding functionalities of ME-Live! before use.
+You need to make a subscription or add a license to activate full corresponding functionalities of MeshExpert-Live! before use.
 
-Open the browser on the ME-Live! workstation (Edge and Chrome are preferable) to visit `http://localhost/admin`. Note that you need to install MeshExpert supporting software, the **MeshExpert Suite**, before adding a license if the workstation is assembled by yourself. As for installation of MeshExpert Suite, please refer to [User Guide](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide "MeshExpert Live! User Guide") for ME Live!
+> Note: if haven't installed the MeshExpert-Live! software, please visit our [Download Center](https://www.datamesh.com/download "Download MeshExpert") to get the MeshExpert Installer and install it before start.
 
-Once you opened `http://localhost/admin`, you can upload your license file via the "Adding License" page as shown below. If you haven't obtain a license yet, please contact `service@datamesh.com` for a trial or commercial license.
+Once you have MeshExpert installed, you will have a shortcut **"MeshExpert Center"** on your Desktop and in the DataMesh folder at your Windows Start Menu. Double click to start the  **"MeshExpert Center"** and you will get:
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26614128/15c10acc-45f1-11e7-95ab-7b5610192370.png" width="500">
+<img src="https://user-images.githubusercontent.com/7636848/28236349-acea8b70-6956-11e7-8b91-7c2e3f9e8a1e.png" width="800">
 <p align="center"><em>Adding License</em></p>
 </p>
 
-Upon finished, you will see your license information in the "**License**" tab as demonstrated below, which reveals the detailed information about your licensing.
+You can now **Sign In** or **Upload License** to activate MeshExpert services. (Please make sure the MeshExpert Services are started. If not, you can see warnings on the Dashboard page)
+
+For **Sign In**, you need to have Internet access. Also you need to create an online account at our [Subscription Center](https://license.datamesh.com/ "Subscribe") and make a subscription or start a free-trail.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26615583/6bb98270-45fa-11e7-9fdd-a6204d160b02.png" width="500">
-<p align="center"><em>License Information</em></p>
+<img src="https://user-images.githubusercontent.com/7636848/28236489-2c9d2b4a-695a-11e7-947f-d45f618d157b.png" width="800">
+<p align="center"><em>Adding License</em></p>
+</p>
+
+For **Upload License**, you need to contact us by email service@datamesh.com and get an offline license for use. You choose the **Upload License** option when:
+
+* you have no constant internet access from your workstation and got an offline license from us;
+* or you purchased an Enterprise edition other than the online subscription plan;
+* or you contacted us to get an customized solution for your enterprise.
+
+As for more details usage about MeshExpert, please refer to [User Guide](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide "MeshExpert Live! User Guide") for MeshExpert Live!
+
+Upon finished, your email info and optional free trail info will be displayed on the upper banner. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/7636848/28236528-cb208c80-695a-11e7-814b-7567c476739a.png" width="800">
+<p align="center"><em>Adding License</em></p>
+</p>
+
+Also you can see your subscription or license information in the "**Account**" page as demonstrated below, which reveals the detailed information about your licensing.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/7636848/28236510-8a01aa5e-695a-11e7-9c86-7d7f20230f09.png" width="800">
+<p align="center"><em>Adding License</em></p>
 </p>
 
 ## Experience Mixed-Reality
