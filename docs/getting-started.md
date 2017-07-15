@@ -7,7 +7,7 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 > Our solution supports real-time casting of mixed-reality scenes. Through a set of equipment of paired HoloLens and ME-Live!, you can immediately cast MR scenes to any screen such that those who do not wear HoloLens can also enjoy the fantastic MR show.
 
 * **4K MR Recording**
-> Besides real-time casting, you can record the show with ME-Live! for a resolution up to 4K.
+> Besides real-time casting, you can record the show with ME-Live! for a resolution up to 4K. Moving cameras is supported and by adding Anti-shake tech, videos captured by moving camera will be ultra smooth.
 
 * **Muti-Player & Multi-Device Collaboration**
 > Collaborations of teams across devices are made easy with ME-Live!. Using our management portal, you can distribute apps and scenes to a bunch of HoloLens, which would automatically set them to synchronize with one another through ME-Live! workstation. This, therefore, enables people to work at the very same scene, and seamlessly collaborate with each other, in situations like Training, Gaming, Design and Innovation, etc.. Meanwhile, the creative process can be captured and cast by ME-Live!, where everything is vividly alive!
@@ -23,6 +23,10 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 
 * **Social Networking and Sharing**
 > By connecting to our social cloud services, you can share your photos and videos of the captured mixed-reality shows to a wide range of social networks such as Facebook, Twitter, Wechat, Weibo, etc., either to promote your brand or to amaze your friends.
+
+- **Easy Management**
+
+> With our MeshExpert Center, you can easily manage your devices, your apps and the content you created. This is the one-stop solution for your best experience.
 
 * **Developer Support**
 > With the aid of the free opensource METoolkit and SDKs, anyone who wants to create his/her apps can easily make it work and enjoy the powerful features of ME-Live!. All developers can access our technical guidance materials, seek help from our forums, and gain our technical support.
