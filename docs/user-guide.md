@@ -116,12 +116,18 @@ Workstation access steps are as follows:
 
 ### MeshExpert Center
 
-#### Server Dashboard
+#### Dashboard Panel
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17921380/28303167-37645852-6bc4-11e7-9781-a2a81ec1ad2e.png">
+<p align="center"><em>Dashboard Panel</em></p>
+</p>
 
 Dashboard panel provides the following main functionalities:
 1. Manage the MeshExpert Server, such as start, shutdown and restart
 2. Check and display the status, the version and the connectivity of the MeshExpert Server
-3. Alert error messages when 
+3. Alert error message when error occurs
+
 ### Usage Guide for MeshExpert Suite
 
 Installation steps are as follows:
