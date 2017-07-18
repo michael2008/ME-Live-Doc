@@ -107,13 +107,21 @@ Workstation access steps are as follows:
 2. Make sure a dedicated WIFI router, 802.11ac perferred, with wired connection has connected to the Rig. Router IP should be `192.168.8.1`, DHCP range set to `192.168.8.100~249`. Internet link is not necessary.
 3. IP address of the Workstation should be set to `192.168.8.250`. We need to run both of the soft  Suite and the Demo app on it.
 
-> Note: If you have other devices to collaborate, e.g. a Surface Pro as a controller, it needs to join the same WIFI network with wireless connnection, which would get an IP from pool `192.168.8.100~249` automatically. Besides, please make sure there's not a lot of WIFI devices around when you start to move the rig. WIFI latency impacts the performance.
+> Note: If you have other devices to collaborate, e.g. a Surface Pro as a controller, it needs to join the same WIFI network with wireless connnection, which would get an IP from pool `192.168.8.100~249` automatically. Besides, please make sure there's not a lot of WIFI devices around when you start to move the rig. WiFi latency impacts the performance.
 
 #### Environment Preparation
 
 1. Connect everything to the WIFI router. Make sure they all have `192.168.8.x` IP address, and the workstation has the fixed IP `192.168.8.250`. This is very important since we fixed the network settings to ensure there's no surprise.
 2. Install the `SpectatorView Test App` onto your spectator view HoloLens on the Rig. You can download the `SpectatorView Test App` from [here]().
 
+### MeshExpert Center
+
+#### Server Dashboard
+
+Dashboard panel provides the following main functionalities:
+1. Manage the MeshExpert Server, such as start, shutdown and restart
+2. Check and display the status, the version and the connectivity of the MeshExpert Server
+3. Alert error messages when 
 ### Usage Guide for MeshExpert Suite
 
 Installation steps are as follows:
