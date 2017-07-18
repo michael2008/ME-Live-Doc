@@ -161,6 +161,7 @@ You can add HoloLens in the `Add HoloLens` section. Before you start the adding 
 </p>
 
 #### Account Panel
+You can view and manage your account and license here.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28312295-3f546626-6be5-11e7-8278-f212d9272dae.png" width=500>
 <p align="center"><em>Account Panel</em></p>
