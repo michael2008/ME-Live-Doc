@@ -151,6 +151,15 @@ Devices Panel provides the following main functionalities:
 3. Install HoloLens applications on HoloLens
 4. Manage the applications installed through this Device Panel, such as start, stop, restart and removal
 5. Show basic infos of the applications which are installed through this Device Panel and also running currently
+
+You can add HoloLens in the `Add HoloLens` section. Before you start the adding operation, you should make sure that the HoloLens the MeshExpert Server are in the same network segment (usually connected to same router) and can communicate with each other.
+
+#### My Apps Panel
+#### Account Panel
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17921380/28309508-29776082-6bdc-11e7-88bd-79c3f458d764.png" width=500>
+<p align="center"><em>Account Panel</em></p>
+</p>
 ### Usage Guide for MeshExpert Suite
 
 Installation steps are as follows:
