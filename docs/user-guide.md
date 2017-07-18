@@ -119,7 +119,7 @@ Workstation access steps are as follows:
 #### Dashboard Panel
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/17921380/28303167-37645852-6bc4-11e7-9781-a2a81ec1ad2e.png">
+<img src="https://user-images.githubusercontent.com/17921380/28303167-37645852-6bc4-11e7-9781-a2a81ec1ad2e.png" width=500>
 <p align="center"><em>Dashboard Panel</em></p>
 </p>
 
@@ -128,6 +128,29 @@ Dashboard panel provides the following main functionalities:
 2. Check and display the status, the version and the connectivity of the MeshExpert Server
 3. Alert error message when error occurs
 
+> Note 1: You should make sure that the MeshExpert Server is started if you want to do anything further
+
+> Note 2: You can manually check the MeshExpert Server's status by clicking the `Recheck` icon
+
+> Note 3: You may need to restart or reinstall the MeshExpert Server when an error occurrs. Please follow the troubleshooting instructions or contact us if you any further question.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17921380/28305410-2621fb80-6bce-11e7-9c0b-1626cf8ede6f.png" width=500>
+<p align="center"><em>Dashborad Error Alert</em></p>
+</p>
+
+#### Devices Panel
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17921380/28309508-29776082-6bdc-11e7-88bd-79c3f458d764.png" width=500>
+<p align="center"><em>Devices Panel</em></p>
+</p>
+
+Devices Panel provides the following main functionalities:
+1. Add HoloLens
+2. upload HoloLens applications to HoloLens
+3. Install HoloLens applications on HoloLens
+4. Manage the applications installed through this Device Panel, such as start, stop, restart and removal
+5. Show basic infos of the applications which are installed through this Device Panel and also running currently
 ### Usage Guide for MeshExpert Suite
 
 Installation steps are as follows:
