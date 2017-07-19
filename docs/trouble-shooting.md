@@ -104,3 +104,9 @@ Check whether Live Workstation and HoloLens are in the same network segment
 Check whether the DataMeshLiveAgent is running on HoloLens, and restart it if necessary
 
 Check whether the DataMeshLiveAgent's audio port configured in the Live program is consistent with the port configured for the DataMeshLiveAgent in HoloLens
+
+Q: **No signal on screen**
+
+Make sure that the monitor cable is connected properly
+
+If you have hot-swapped the cables, please try restarting the host
