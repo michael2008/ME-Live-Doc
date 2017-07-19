@@ -31,11 +31,7 @@ For Version information, please see our [release notes](release-notes.md).
     - [How It Works][user_guide_how_it_works]
     - [RIG Installation][user_guide_rig_installation]
     - [Workstation Installation][user_guide_workstation_installation]
-    - [License Management][user_guide_license_management]
-    - [Device Management][user_guide_device_management]
-    - [App Management][user_guide_app_management]
-    - [Uninstall][user_guide_uninstall]
-    - [Built-in Apps][user_guide_built-in_apps]
+    - [Usage Guide for MeshExpert Center][user_guide_meshexpert_center]
 * [Developer Guide][dev_guide]
     - [Overview][dev_guide_overview]
     - [Development Environment][dev_guide_devEnv]
@@ -72,12 +68,7 @@ For Version information, please see our [release notes](release-notes.md).
 [user_guide_how_it_works]: user-guide.md#how-it-works
 [user_guide_rig_installation]: user-guide.md#rig-installation
 [user_guide_workstation_installation]: user-guide.md#workstation-installation
-[user_guide_license_management]: user-guide.md#license-management
-[user_guide_device_management]: user-guide.md#device-management
-[user_guide_app_management]: user-guide.md#app-management
-[user_guide_uninstall]: user-guide.md#uninstall
-[user_guide_built-in_apps]: user-guide.md#built-in-apps
-
+[user_guide_meshexpert_center]: user-guide.md#usage-guide-for-meshexpert-center
 [dev_guide]: developer-guide.md
 [dev_guide_overview]: developer-guide.md#overview
 [dev_guide_devEnv]: developer-guide.md#development-environment
