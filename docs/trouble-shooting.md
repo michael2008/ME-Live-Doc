@@ -60,7 +60,7 @@ Make sure that MultiInputManager has switched to the appropriate recognition mod
 ### Collaboration Module
 Q: **Collaboration module can not collaborate.**
 
-Check whether all devices are under the same network environment.
+Check whether all devices are under the same network segment.
 
 Check all device settings to see if the server IP is correct.
 
