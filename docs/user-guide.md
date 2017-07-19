@@ -119,7 +119,7 @@ Workstation access steps are as follows:
 #### Dashboard Panel
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/17921380/28348882-21c3fd1e-6c72-11e7-829b-bd649eb5253d.png" width=500>
+<img src="https://user-images.githubusercontent.com/17921380/28349003-d1cc567a-6c72-11e7-8b07-206702bb009d.png" width=500>
 <p align="center"><em>Dashboard Panel</em></p>
 </p>
 
@@ -182,18 +182,6 @@ After the installation is complete, the DataMesh entry will be generated on the 
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/17921380/26624704/45838afe-4624-11e7-8132-aa1a492c7060.png" </p>
-
-The GPU compression is preferred when performing video compression operations in the program. If the machine does not have video card or cannot use GPU for some reasons, you can use CPU for video compression by changing configuration. Instructions: go to the installation directory (`"C:\Program Files\MeshExpert"` by default), and then enter `"HoloServer\hlstrans\configs"`,
-
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26624857/cecb141c-4624-11e7-8d3d-9d6562d508c1.png" width="500">
-</p>
-
-Open config.toml file, find `use_gpu` option, and change its value to false.
-
-<p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26624884/e4f40b9a-4624-11e7-8880-a1d926487f33.png" width="500">
-</p>
 
 ## Built-in Apps
 
