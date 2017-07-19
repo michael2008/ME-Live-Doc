@@ -155,7 +155,7 @@ Devices Panel provides the following main functionalities:
 You can add HoloLens in the `Add HoloLens` section. Before you start the adding operation, you should make sure that the HoloLens the MeshExpert Server are in the same network segment (usually connected to same router) and can communicate with each other.
 
 #### My Apps Panel
-In My Apps Panel, you can upload your applications and view basic infos of the applications which are already uploaded.
+In My Apps Panel, you can upload your applications to HoloLens and view basic infos of the applications which are already uploaded.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28312356-7335e794-6be5-11e7-804e-de84d065976c.png" width=500>
 <p align="center"><em>My Apps Panel</em></p>
