@@ -162,7 +162,7 @@ In My Apps Panel, you can upload your applications to HoloLens and view basic in
 </p>
 
 #### Account Panel
-In Account Panel, you can view and manage your account and license infos here.
+In Account Panel, you can view and manage your account and license infos.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28312295-3f546626-6be5-11e7-8278-f212d9272dae.png" width=500>
 <p align="center"><em>Account Panel</em></p>
