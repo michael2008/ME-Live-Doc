@@ -79,7 +79,7 @@ Q: **Live Workstation cannot connect to HoloLens MeshExpertLiveAgent**
 
 The possible solutions are:
 
-Check whether HoloLens and Live Workstation are in the same network environmenet.
+Check whether HoloLens and Live Workstation are in the same network segment.
 
 Check whether the MeshExpertLiveAgent application is started on HoloLens and restart the application if necessary.
 
