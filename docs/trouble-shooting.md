@@ -93,7 +93,7 @@ if it's not in the **Developer Mode**, the project contains HoloLensInputModule 
 
 Q: **The position of the object in HoloLens is not consistent with the expected position.**
 
-Check if the main camera position is (0,0,0). If the initial position of the main camera is not (0,0,0), it may cause the object position in HoloLens to shift.
+Check if the main camera's position is (0,0,0). If the initial position of the main camera is not (0,0,0), it may cause the object position in HoloLens to shift.
 
 ## Deployment Environment
 
