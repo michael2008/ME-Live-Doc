@@ -116,9 +116,8 @@ Workstation access steps are as follows:
 
 ### Usage Guide for MeshExpert Center
 
-1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
-
-2. Start the MeshExpert Center when you need to use it.
+#### Installation
+Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28349498-c363fb44-6c75-11e7-89b7-3868e209a198.png" width=500>
