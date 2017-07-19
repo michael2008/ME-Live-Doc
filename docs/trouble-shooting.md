@@ -95,5 +95,12 @@ Q: **The position of the object in HoloLens is not consistent with the expected 
 
 Check if the main camera position is (0,0,0). If the initial position of the main camera is not (0,0,0), it may cause the object position in HoloLens to shift.
 
+## Deploy Environment
 
+Q: **MeshExpert Live! cannot connect to the DataMeshLiveAgent which runs on HoloLens**
 
+Check whether Live Workstation and HoloLens are in the same network segment
+
+Check whether the DataMeshLiveAgent is running on HoloLens, and restart it if necessary
+
+Check whether the DataMeshLiveAgent audio port configured in the Live program is consistent with the port configured for the DataMeshLiveAgent application in HoloLens
