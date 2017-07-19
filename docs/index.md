@@ -56,6 +56,7 @@ For Version information, please see our [release notes](release-notes.md).
     - [Input Module][input_module]
     - [Collaboration Module][collaboration_module]
     - [Live Module][live_module]
+    - [Deployment_Environment][deployment_environment]
 * [Release History][release_history]
 
 [home]: index.md
@@ -101,6 +102,7 @@ For Version information, please see our [release notes](release-notes.md).
 [input_module]: trouble-shooting.md#input-module
 [collaboration_module]: trouble-shooting.md#collaboration-module
 [live_module]: trouble-shooting.md#live-module
+[deployment_environment]: trouble-shooting.md#deployment-environment
 
 [release_history]: release-history.md
 
