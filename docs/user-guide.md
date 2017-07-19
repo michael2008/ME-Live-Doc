@@ -119,7 +119,7 @@ Workstation access steps are as follows:
 #### Dashboard Panel
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/17921380/28303167-37645852-6bc4-11e7-9781-a2a81ec1ad2e.png" width=500>
+<img src="https://user-images.githubusercontent.com/17921380/28348882-21c3fd1e-6c72-11e7-829b-bd649eb5253d.png" width=500>
 <p align="center"><em>Dashboard Panel</em></p>
 </p>
 
