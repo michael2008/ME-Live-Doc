@@ -170,11 +170,9 @@ In Account Panel, you can view and manage your account and license infos.
 
 ### Usage Guide for MeshExpert Center
 
-Installation steps are as follows:
-
 1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
 
-2. Restart the system or open Start MeshExpert under DataMesh entry on the Start Menu to start the service.
+2. Start the MeshExpert Center when you need to use it.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28349498-c363fb44-6c75-11e7-89b7-3868e209a198.png" width=500>
