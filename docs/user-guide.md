@@ -114,7 +114,16 @@ Workstation access steps are as follows:
 1. Connect everything to the WIFI router. Make sure they all have `192.168.8.x` IP address, and the workstation has the fixed IP `192.168.8.250`. This is very important since we fixed the network settings to ensure there's no surprise.
 2. Install the `SpectatorView Test App` onto your spectator view HoloLens on the Rig. You can download the `SpectatorView Test App` from [here]().
 
-### MeshExpert Center
+### Usage Guide for MeshExpert Center
+
+1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
+
+2. Start the MeshExpert Center when you need to use it.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/17921380/28349498-c363fb44-6c75-11e7-89b7-3868e209a198.png" width=500>
+<p align="center"><em>Start Menu Icon</em></p>
+</p>
 
 #### Dashboard Panel
 
@@ -166,17 +175,6 @@ In Account Panel, you can view and manage your account and license infos.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28312295-3f546626-6be5-11e7-8278-f212d9272dae.png" width=500>
 <p align="center"><em>Account Panel</em></p>
-</p>
-
-### Usage Guide for MeshExpert Center
-
-1. Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
-
-2. Start the MeshExpert Center when you need to use it.
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/17921380/28349498-c363fb44-6c75-11e7-89b7-3868e209a198.png" width=500>
-<p align="center"><em>Start Menu Icon</em></p>
 </p>
 
 ## Built-in Apps
