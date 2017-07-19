@@ -102,3 +102,11 @@ Q: **No signal on screen**
 Make sure that the monitor cable is connected properly
 
 If you have hot-swapped the cables, please try restarting the host
+
+Q: **Cannot collect video signal**
+
+Make sure that the video cable is connected properly and try reconnecting the video cable if necessary
+
+Check the BlackMagic driver's info, if you cannot get its information, try to restart the host
+
+Make sure the camera output is set correctly (currently using 1080i output)
