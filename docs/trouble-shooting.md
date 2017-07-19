@@ -109,4 +109,4 @@ Make sure that the video cable is connected properly and try reconnecting the vi
 
 Check the BlackMagic driver's info, if you cannot get its information, try to restart the host
 
-Make sure the camera output is set correctly (currently using 1080i output)
+Make sure the camera's output resolution is set correctly (currently 1080)
