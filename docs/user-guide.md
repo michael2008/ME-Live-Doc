@@ -168,7 +168,7 @@ In Account Panel, you can view and manage your account and license infos.
 <p align="center"><em>Account Panel</em></p>
 </p>
 
-### Usage Guide for MeshExpert Suite
+### Usage Guide for MeshExpert Center
 
 Installation steps are as follows:
 
@@ -176,12 +176,10 @@ Installation steps are as follows:
 
 2. Restart the system or open Start MeshExpert under DataMesh entry on the Start Menu to start the service.
 
-After the installation is complete, the DataMesh entry will be generated on the Start menu bar, which will include the service management operations, such as start and stop, and some demo programs. Click Start MeshExpert start the service, wait a moment, open the browser, enter localhost and then enter. If there is a sign-in page, the service starts successfully.
-
- You can click Stop MeshExpert and Restart MeshExpert under the DataMesh entry on the Start menu bar to stop or restart service, respectively.
-
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/17921380/26624704/45838afe-4624-11e7-8132-aa1a492c7060.png" </p>
+<img src="https://user-images.githubusercontent.com/17921380/28349498-c363fb44-6c75-11e7-89b7-3868e209a198.png" width=500>
+<p align="center"><em>Start Menu Icon</em></p>
+</p>
 
 ## Built-in Apps
 
