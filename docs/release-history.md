@@ -6,6 +6,8 @@ For docs, see [v2 documentation](http://docs.datamesh.com/projects/me-live/en/v2
 
 Download the latest installer from one of the Mirrors:
 
+* GitHub Mirror: [MeshExpert.Installer.v2.0.0.exe](https://github.com/DataMesh-OpenSource/MeshExpert-Live/releases/download/v2.0.0/MeshExpert.Installer.v2.0.0.exe "MeshExpert Installer v2.0.0")
+
 - AWS Mirror: [MeshExpert Installer 2.0.0.exe](https://meshexpert-us.s3.amazonaws.com/MeshExpert%20Installer%202.0.0.exe)
 
 **Checksum**
