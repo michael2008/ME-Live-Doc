@@ -5,13 +5,13 @@ MeshExpert Center provides you with a way to use the following amazing features 
 
 + Upload resources synchronously
 + Collaborate between multi-user and multi-device
-+ Easy installer and smart app management
++ Easy installation and smart application management
 
 METoolkit provides not only multiple APIs could be used to communicate with MeshExpert, but also common modules. METoolkit will give you an idea of how things are working internally, which helps you to design and develop your own collaborated application.
 
 ## Development Environment
 
-The ME-Live! development environment, which can be installed on a single computer (recommended), provides you a set of processes and tools used to help you create the product. Following are the prerequisites for installing ME-Live! development environment.
+The MeshExpert Live! development environment, which can be installed on a single computer (recommended), provides you a set of processes and tools used to help you create the product. Following are the prerequisites for installing ME-Live! development environment.
 
 ### Hardware Requirement
 
