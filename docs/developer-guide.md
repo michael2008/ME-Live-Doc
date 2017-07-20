@@ -1,11 +1,10 @@
 ## Overview
 
-This guide walks you through the process of building your one-stop app using ME-Live! which is composed of two main products, MeshExpert Suite and [METoolkit](#metoolkit-overview).
+This guide walks you through the process of building your one-stop app using MeshExpert Live!, which is composed of two main products, MeshExpert Center and METoolkit
+MeshExpert Center provides you with a way to use the following amazing features of MeshExpert Live!:
 
-MeshExpert Suite provides you with a way to use the following amazing features of ME-Live!.
-
-+ Uploading resources synchronously
-+ Multi-user, multi-device collaborative work experience is provided
++ Upload resources synchronously
++ Collaborate between multi-user and multi-device
 + Easy installer and smart app management
 
 METoolkit provides not only multiple APIs could be used to communicate with MeshExpert, but also common modules. METoolkit will give you an idea of how things are working internally, which helps you to design and develop your own collaborated application.
