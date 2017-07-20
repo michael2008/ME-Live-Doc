@@ -12,6 +12,8 @@ For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](M
 
 For Version information, please see our [release notes](release-notes.md).
 
+*For previous versions and corresponding documentations, refer to [Release History](release-history.md)*
+
 ---
 
 ## Table of Contents
