@@ -5,7 +5,7 @@ MeshExpert Center provides you with a way to use the following amazing features 
 
 + Upload resources synchronously
 + Collaborate between multi-user and multi-device
-+ Easy installation and smart application management
++ simplify installation and application management
 
 METoolkit provides not only multiple APIs could be used to communicate with MeshExpert, but also common modules. METoolkit will give you an idea of how things are working internally, which helps you to design and develop your own collaborated application.
 
