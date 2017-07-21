@@ -38,7 +38,6 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### METoolkit Structure
 
-<p align="center">
 <img src="https://user-images.githubusercontent.com/7381020/28001974-8bb2103c-6563-11e7-972e-1a81842cf746.jpg" width="600">
 <p align="center"><em>METoolkit Structure</em></p>
 
