@@ -101,6 +101,6 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 
 
-[Configure_your_project]: toolkit/toolkit-man-configure-your-project.md
+[Configure_your_project]: release-notes.md
 [Integrated_with_your_project]: toolkit/toolkit-man-integrated-METoolkit.md
 
