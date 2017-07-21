@@ -38,19 +38,18 @@ For Version information, please see our [release notes](release-notes.md).
     - [Overview][dev_guide_overview]
     - [Development Environment][dev_guide_devEnv]
     - [App Development with METoolkit][dev_guide_appDev]
-* [METoolkit-Developer-Manual](METoolkit-overview.md)
-    - [Configure your project](toolkit-man-configure-your-project.md)
-    - [Integrated with your project](toolkit-man-integrated-METoolkit.md)
-    - [Write your first App](toolkit-man-write-your-first-app.md)
-    - [World Anchor Module](toolkit-man-world-anchor-module.md)
-    - [Multi-Input Module](toolkit-man-multi-input-module.md)
-    - [Speech Module](toolkit-man-speech-module.md)
-    - [UI Module](toolkit-man-ui-module.md)
-    - [Collaboration Module](toolkit-man-collaboration-module.md)
-    - [Storage Module](toolkit-man-storage-module.md)
-    - [Live Controller Module](toolkit-man-live-module.md)
-    - [Utility: Config Files](toolkit-man-utility-config-file.md)
-    - [MEHoloSDK Docs](me-holo-sdk.md)
+* [METoolkit-Developer-Manual][METoolkit_Overview]
+    - [Configure your project][Configure_your_project]
+    - [Integrated with your project][Configure_your_project]
+    - [Write your first App][Write_your_first_App]
+    - [World Anchor Module][World_Anchor_Module]
+    - [Multi-Input Module][Multi-Input_Module]
+    - [Speech Module][Speech_Module]
+    - [UI Module][UI_Module]
+    - [Collaboration Module][Collaboration_Module]
+    - [Storage Module][Storage_Module]
+    - [Live Controller Module][Live_Controller_Module]
+    - [Utility: Config Files][Utility_Config_Files]
 * [Trouble Shooting][trouble_shooting]
     - [Project Environment][project_enviroment]
     - [Unity App Release][unity_app_release]
@@ -84,18 +83,20 @@ For Version information, please see our [release notes](release-notes.md).
 [dev_guide_appDev_setting]: developer-guide.md#development-project-setting
 [dev_guide_appDev_start]: developer-guide.md#start-using-metoolkit
 
+[METoolkit_Overview]: METoolkit-overview.md
+[Configure_your_project]: toolkit/toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit/toolkit-man-integrated-METoolkit.md
+[Write_your_first_App]: toolkit/toolkit-man-write-your-first-app.md
+[World_Anchor_Module]: toolkit/toolkit-man-world-anchor-module.md
+[Multi-Input_Module]: toolkit/toolkit-man-multi-input-module.md
+[Speech_Module]: toolkit/toolkit-man-speech-module.md
+[UI_Module]: toolkit/toolkit-man-ui-module.md
+[Collaboration_Module]: toolkit/toolkit-man-collaboration-module.md
+[Storage_Module]: toolkit/toolkit-man-storage-module.md
+[Live_Controller_Module]: toolkit/toolkit-man-live-module.md
+[Utility_Config_Files]: toolkit/toolkit-man-utility-config-file.md
+[MEHoloSDK_Docs]: me-holo-sdk.md
 
-[METoolkit_manual]: metoolkit-manual.md                                           
-[Integrated-Entrypoint]: metoolkit-manual.md#integrated-entrypoint
-[WorldAnchor-Controller-Module]: metoolkit-manual.md#worldanchor-controller-module
-[Multi-Input-Manager-Module]: metoolkit-manual.md#multi-input-manager-module
-[Speech-Manager-Module]: metoolkit-manual.md#speech-manager-module
-[Cursor-Module]: metoolkit-manual.md#cursor-module
-[BlockMenu-Module]: metoolkit-manual.md#blockmenu-module
-[Collaboration-Module]: metoolkit-manual.md#collaboration-module
-[Live-Controller-Module]: metoolkit-manual.md#live-controller-module
-[Configuration-Files]: metoolkit-manual.md#configuration-files
-[MEHoloSDK-Doc]: metoolkit-manual.md#meholosdk-docs
 
 [trouble_shooting]: trouble-shooting.md
 [project_enviroment]: trouble-shooting.md#project-environment

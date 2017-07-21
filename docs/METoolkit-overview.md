@@ -8,7 +8,7 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### METoolkit Features
 
-1. **MEHoloSDK**: providing a set of APIs used to work with ME-HoloServer, check out [MEHoloSDK documentation](SDKs/me-holo-sdk.md).
+1. **MEHoloSDK**: providing a set of APIs used to work with ME-HoloServer, check out [MEHoloSDK documentation][MEHoloSDK_Docs].
 
 2. **ARModule**: a collection of functional modules for AR development, including:
 
@@ -58,7 +58,7 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### MEHoloSDK Docs
 
-- [MEHoloSDK Docs](me-holo-sdk.md)
+- [MEHoloSDK Docs][MEHoloSDK_Docs]
 
 ### METoolkit Reference
 
@@ -112,4 +112,4 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 [Storage_Module]: toolkit/toolkit-man-storage-module.md
 [Live_Controller_Module]: toolkit/toolkit-man-live-module.md
 [Utility_Config_Files]: toolkit/toolkit-man-utility-config-file.md
-
+[MEHoloSDK_Docs]: me-holo-sdk.md
