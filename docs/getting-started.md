@@ -77,8 +77,8 @@ You need to make a subscription or add a license to activate full corresponding 
 Once you have MeshExpert installed, you will have a shortcut **"MeshExpert Center"** on your Desktop and in the DataMesh folder at your Windows Start Menu. Double click to start the  **"MeshExpert Center"** and you will get:
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236349-acea8b70-6956-11e7-8b91-7c2e3f9e8a1e.png" width="600">
-<p align="center"><em>Adding License</em></p>
+<img src="https://user-images.githubusercontent.com/27760601/28446591-508d00a4-6dfe-11e7-918a-c1dafa2b2805.png" width="600">
+<p align="center"><em>Sign In</em></p>
 </p>
 
 You can now **Sign In** or **Upload License** to activate MeshExpert services. (Please make sure the MeshExpert Services are started. If not, you can see warnings on the Dashboard page)
@@ -86,8 +86,8 @@ You can now **Sign In** or **Upload License** to activate MeshExpert services. (
 For **Sign In**, you need to have Internet access. Also you need to create an online account at our [Subscription Center](https://license.datamesh.com/ "Subscribe") and make a subscription or start a free-trail.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236489-2c9d2b4a-695a-11e7-947f-d45f618d157b.png" width="600">
-<p align="center"><em>Adding License</em></p>
+<img src="https://user-images.githubusercontent.com/27760601/28446624-804567d2-6dfe-11e7-9376-3a5db004a1cd.png" width="600">
+<p align="center"><em>Trial Info</em></p>
 </p>
 
 For **Upload License**, you need to contact us by email service@datamesh.com and get an offline license for use. You choose the **Upload License** option when:
@@ -96,7 +96,7 @@ For **Upload License**, you need to contact us by email service@datamesh.com and
 * or you purchased an Enterprise edition other than the online subscription plan;
 * or you contacted us to get an customized solution for your enterprise.
 
-As for more details usage about MeshExpert, please refer to [User Guide](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide "MeshExpert Live! User Guide") for MeshExpert Live!
+As for more details usage about MeshExpert, please refer to [User Guide](http://docs.datamesh.com/projects/me-live/en/latest/user-guide/ "User Guide") for MeshExpert Live!
 
 Upon finished, your email info and optional free trail info will be displayed on the upper banner. 
 
@@ -109,7 +109,7 @@ Also you can see your subscription or license information in the "**Account**" p
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/7636848/28236510-8a01aa5e-695a-11e7-9c86-7d7f20230f09.png" width="600">
-<p align="center"><em>Adding License</em></p>
+<p align="center"><em>Account Info</em></p>
 </p>
 
 ## Experience Mixed-Reality
@@ -119,6 +119,8 @@ Now everything is ready, you can begin enjoy the amazing mixed-reality shows wit
 > Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#configurations) to make sure all the necessary configurations are correct.
 
 Install and start our demo app **Solar System Explorer** in your HoloLens, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
+
+> Note: you can download the compiled **SolarSystemExplorer** package or the source code to compile at [DataMesh OpenSource](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/releases "SolarSystemExplorer")
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614742/a792497c-45f4-11e7-8bd9-4af3c1ccd608.png" width="500">
@@ -141,7 +143,7 @@ Moreover, you can interact with virtual planets with simple gestures: rotate pla
 For **Recording and simple Collaboration**, start the **"SolarSystemExplorer.exe"** on your PC workstation.
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/7636848/28236603-3c0ff38a-695c-11e7-97ac-332c40819224.png" width="600">
+<img src="https://user-images.githubusercontent.com/27760601/28446876-2e705942-6e00-11e7-9a51-c22e8db37b1f.png" width="600">
 </p>
 
 A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time.
