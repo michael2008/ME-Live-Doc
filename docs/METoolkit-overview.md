@@ -44,17 +44,17 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### METoolkit Manual
 
-- [Configure your project](Configure_your_project)
-- [Integrated with your project](Integrated_with_your_project)
-- [Write your first App](toolkit-man-write-your-first-app.md)
-- [World Anchor Module](toolkit-man-world-anchor-module.md)
-- [Multi-Input Module](toolkit-man-multi-input-module.md)
-- [Speech Module](toolkit-man-speech-module.md)
-- [UI Module](toolkit-man-ui-module.md)
-- [Collaboration Module](toolkit-man-collaboration-module.md)
-- [Storage Module](toolkit-man-storage-module.md)
-- [Live Controller Module](toolkit-man-live-module.md)
-- [Utility: Config Files](toolkit-man-utility-config-file.md)
+- [Configure your project][Configure_your_project]
+- [Integrated with your project][Integrated_with_your_project]
+- [Write your first App][Write_your_first_App]
+- [World Anchor Module][World_Anchor_Module]
+- [Multi-Input Module][Multi-Input_Module]
+- [Speech Module][Speech_Module]
+- [UI Module][UI_Module]
+- [Collaboration Module][Collaboration_Module]
+- [Storage Module][Storage_Module]
+- [Live Controller Module][Live_Controller_Module]
+- [Utility: Config Files][Utility_Config_Files]
 
 ### MEHoloSDK Docs
 
@@ -103,4 +103,13 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 [Configure_your_project]: toolkit/toolkit-man-configure-your-project.md
 [Integrated_with_your_project]: toolkit/toolkit-man-integrated-METoolkit.md
+[Write_your_first_App]: toolkit/toolkit-man-write-your-first-app.md
+[World_Anchor_Module]: toolkit/toolkit-man-world-anchor-module.md
+[Multi-Input_Module]: toolkit/toolkit-man-multi-input-module.md
+[Speech_Module]: toolkit/toolkit-man-speech-module.md
+[UI_Module]: toolkit/toolkit-man-ui-module.md
+[Collaboration_Module]: toolkit/toolkit-man-collaboration-module.md
+[Storage_Module]: toolkit/toolkit-man-storage-module.md
+[Live_Controller_Module]: toolkit/toolkit-man-live-module.md
+[Utility_Config_Files]: toolkit/toolkit-man-utility-config-file.md
 
