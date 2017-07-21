@@ -44,8 +44,8 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### METoolkit Manual
 
-- [Configure your project](../toolkit-man-configure-your-project.md)
-- [Integrated with your project](toolkit-man-integrated-METoolkit.md)
+- [Configure your project](Configure_your_project)
+- [Integrated with your project](Integrated_with_your_project)
 - [Write your first App](toolkit-man-write-your-first-app.md)
 - [World Anchor Module](toolkit-man-world-anchor-module.md)
 - [Multi-Input Module](toolkit-man-multi-input-module.md)
@@ -96,4 +96,11 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 - DataMesh.AR.Utility
   - AppConfig
   - TimeManager
+
+
+
+
+
+[Configure_your_project]: toolkit/toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit/toolkit-man-integrated-METoolkit.md
 
