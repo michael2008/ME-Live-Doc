@@ -11,7 +11,7 @@ METoolkit provides not only multiple APIs could be used to communicate with Mesh
 
 ## Development Environment
 
-The MeshExpert Live! development environment, which can be installed on a single computer (recommended), provides you a set of processes and tools used to help you create the product. Following are the prerequisites for installing ME-Live! development environment.
+The MeshExpert Live! development environment, which can be installed on a single computer (recommended), provides you a set of processes and tools used to help you create the product. Following are the prerequisites for installing MeshExpert Live! development environment.
 
 ### Hardware Requirement
 
@@ -24,7 +24,7 @@ The MeshExpert Live! development environment, which can be installed on a single
 |      IPhone/IPad      |     Optional     | Debug and release iOS virtual-reality apps |    No    |
 |        Android        |     Optional     |      Debug and release Android apps      |    No    |
 
-Live Workstation can directly, without MeshExpert Suite, serve as the development environment for the host. It’s recommended to use high-performance desktop host and the basic hardware requirements are as follows:
+Live Workstation can directly, without MeshExpert Center, serve as the development environment for the host. It’s recommended to use high-performance desktop host and the basic hardware requirements are as follows:
 
 |      Item       | Requirements                             |
 | :-------------: | :--------------------------------------- |
@@ -34,11 +34,11 @@ Live Workstation can directly, without MeshExpert Suite, serve as the developmen
 
 The complete documentation for Live RIG hardware configuration and installation configuration is available at [RIG Installation in Usage Guide for ME Live!](user-guide.md#rig-installation)
 
-> **Note:** The devices (Surface, IPhone/IPad and Android Phone) and its quantity are determined by your needs.
+> **Note:** The devices (Surface, IPhone/IPad and Android) and its quantity are determined by your needs.
 
 ### Software Requirement
 
-ME-Live! Development environment can be directly set up on Live Workstation host so that you can easily debug your app using MeshExpert suite.
+MeshExpert Live! Development environment can be directly set up on Live Workstation host so that you can easily debug your app using MeshExpert Center.
 
 #### Supported operating systems
 
@@ -70,9 +70,9 @@ What you'll need is Visual Studio 2015 Community V3 or later. Check out [Windows
 
 #### App development with METoolkit 
 
-The METoolkit is a Unity plug-in that provides a growing range of MeshExpert APIs and  functional modules. It can help you easily develop MeshExpert-based HoloLens application.
+The METoolkit is a Unity plugin that provides a growing range of MeshExpert APIs and functional modules. It can help you develop MeshExpert-based HoloLens application easily and quickly.
 
-You will find the METoolkit package, which can be imported into your Unity project, in MeshExpert suite.
+You will find the METoolkit package, which can be imported into your Unity project, in MeshExpert Center.
 
 For more information, please refer to [METoolkit Overview](METoolkit/METoolkit-overview.md)
 
