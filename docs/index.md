@@ -6,11 +6,13 @@ Need more info about the **MeshExpert Live!** product? Here is the [MeshExpert L
 
 If you are looking for a complete manual, refer to the [MeshExpert Live! User Guide](user-guide.md).
 
-If you are interested in creating your own interactive mixed-reality Apps, please read the [MeshExpert Live! Developer Guide](developer-guide.md) . You are welcome to use the opensource [**METookit**](https://github.com/DataMesh-OpenSource/METoolkit "METoolkit Source") to enable quick app-creation and easy link to the rich features of **MeshExpert Live!**. For a detailed guidance of METoolkit, refer to the [METoolkit Developer Manual](metoolkit-manual.md).
+If you are interested in creating your own interactive mixed-reality Apps, please read the [MeshExpert Live! Developer Guide](developer-guide.md) . You are welcome to use the opensource [**METookit**](https://github.com/DataMesh-OpenSource/METoolkit "METoolkit Source") to enable quick app-creation and easy link to the rich features of **MeshExpert Live!**. For a detailed guidance of METoolkit, refer to the [METoolkit Developer Manual](METoolkit/METoolkit-overview.md).
 
-For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](metoolkit-manual.md#meholosdk-docs "MEHoloSDK Docs"). And for trouble shooting, please refer to the [Trouble Shooting](trouble-shooting.md) guide.
+For a lower-level connector SDK for the Workstation, refer to [MEHoloSDK Docs](METoolkit/SDKs/me-holo-sdk.md). And for trouble shooting, please refer to the [Trouble Shooting](trouble-shooting.md) guide.
 
-For Version infomation, please see our [release notes](release-notes.md).
+For Version information, please see our [release notes](release-notes.md).
+
+*For previous versions and corresponding documentations, refer to [Release History](release-history.md)*
 
 ---
 
@@ -31,26 +33,24 @@ For Version infomation, please see our [release notes](release-notes.md).
     - [How It Works][user_guide_how_it_works]
     - [RIG Installation][user_guide_rig_installation]
     - [Workstation Installation][user_guide_workstation_installation]
-    - [License Management][user_guide_license_management]
-    - [Device Management][user_guide_device_management]
-    - [App Management][user_guide_app_management]
-    - [Uninstall][user_guide_uninstall]
-    - [Built-in Apps][user_guide_built-in_apps]
+    - [Usage Guide for MeshExpert Center][user_guide_meshexpert_center]
 * [Developer Guide][dev_guide]
     - [Overview][dev_guide_overview]
     - [Development Environment][dev_guide_devEnv]
     - [App Development with METoolkit][dev_guide_appDev]
-* [METoolkit-Developer-Manual][METoolkit_manual]
-    - [Integrated Entrypoint][Integrated-Entrypoint]
-    - [WorldAnchor Controller Module][WorldAnchor-Controller-Module]
-    - [Multi-Input Manager Module][Multi-Input-Manager-Module]
-    - [Speech Manager Module][Speech-Manager-Module]
-    - [Cursor Module][Cursor-Module]
-    - [BlockMenu Module][BlockMenu-Module]
-    - [Collaboration Module][Collaboration-Module]
-    - [Live Controller Module][Live-Controller-Module]
-    - [Configuration Files][Configuration-Files]
-    - [MEHoloSDK Docs][MEHoloSDK-Doc]
+* [METoolkit-Developer-Manual](METoolkit-overview.md)
+    - [Configure your project](toolkit-man-configure-your-project.md)
+    - [Integrated with your project](toolkit-man-integrated-METoolkit.md)
+    - [Write your first App](toolkit-man-write-your-first-app.md)
+    - [World Anchor Module](toolkit-man-world-anchor-module.md)
+    - [Multi-Input Module](toolkit-man-multi-input-module.md)
+    - [Speech Module](toolkit-man-speech-module.md)
+    - [UI Module](toolkit-man-ui-module.md)
+    - [Collaboration Module](toolkit-man-collaboration-module.md)
+    - [Storage Module](toolkit-man-storage-module.md)
+    - [Live Controller Module](toolkit-man-live-module.md)
+    - [Utility: Config Files](toolkit-man-utility-config-file.md)
+    - [MEHoloSDK Docs](me-holo-sdk.md)
 * [Trouble Shooting][trouble_shooting]
     - [Project Environment][project_enviroment]
     - [Unity App Release][unity_app_release]
@@ -58,6 +58,7 @@ For Version infomation, please see our [release notes](release-notes.md).
     - [Input Module][input_module]
     - [Collaboration Module][collaboration_module]
     - [Live Module][live_module]
+    - [Deployment_Environment][deployment_environment]
 * [Release History][release_history]
 
 [home]: index.md
@@ -70,12 +71,7 @@ For Version infomation, please see our [release notes](release-notes.md).
 [user_guide_how_it_works]: user-guide.md#how-it-works
 [user_guide_rig_installation]: user-guide.md#rig-installation
 [user_guide_workstation_installation]: user-guide.md#workstation-installation
-[user_guide_license_management]: user-guide.md#license-management
-[user_guide_device_management]: user-guide.md#device-management
-[user_guide_app_management]: user-guide.md#app-management
-[user_guide_uninstall]: user-guide.md#uninstall
-[user_guide_built-in_apps]: user-guide.md#built-in-apps
-
+[user_guide_meshexpert_center]: user-guide.md#usage-guide-for-meshexpert-center
 [dev_guide]: developer-guide.md
 [dev_guide_overview]: developer-guide.md#overview
 [dev_guide_devEnv]: developer-guide.md#development-environment
@@ -89,7 +85,7 @@ For Version infomation, please see our [release notes](release-notes.md).
 [dev_guide_appDev_start]: developer-guide.md#start-using-metoolkit
 
 
-[METoolkit_manual]: metoolkit-manual.md
+[METoolkit_manual]: metoolkit-manual.md                                           
 [Integrated-Entrypoint]: metoolkit-manual.md#integrated-entrypoint
 [WorldAnchor-Controller-Module]: metoolkit-manual.md#worldanchor-controller-module
 [Multi-Input-Manager-Module]: metoolkit-manual.md#multi-input-manager-module
@@ -108,8 +104,11 @@ For Version infomation, please see our [release notes](release-notes.md).
 [input_module]: trouble-shooting.md#input-module
 [collaboration_module]: trouble-shooting.md#collaboration-module
 [live_module]: trouble-shooting.md#live-module
+[deployment_environment]: trouble-shooting.md#deployment-environment
 
 [release_history]: release-history.md
 
 ---
 If you have any questions or suggestions, please contact us at service@datamesh.com
+
+[METoolkit/METoolkit-overview.md]: 

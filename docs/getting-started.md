@@ -7,7 +7,7 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 > Our solution supports real-time casting of mixed-reality scenes. Through a set of equipment of paired HoloLens and ME-Live!, you can immediately cast MR scenes to any screen such that those who do not wear HoloLens can also enjoy the fantastic MR show.
 
 * **4K MR Recording**
-> Besides real-time casting, you can record the show with ME-Live! for a resolution up to 4K.
+> Besides real-time casting, you can record the show with ME-Live! for a resolution up to 4K. Moving cameras is supported and by adding Anti-shake tech, videos captured by moving camera will be ultra smooth.
 
 * **Muti-Player & Multi-Device Collaboration**
 > Collaborations of teams across devices are made easy with ME-Live!. Using our management portal, you can distribute apps and scenes to a bunch of HoloLens, which would automatically set them to synchronize with one another through ME-Live! workstation. This, therefore, enables people to work at the very same scene, and seamlessly collaborate with each other, in situations like Training, Gaming, Design and Innovation, etc.. Meanwhile, the creative process can be captured and cast by ME-Live!, where everything is vividly alive!
@@ -24,13 +24,16 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 * **Social Networking and Sharing**
 > By connecting to our social cloud services, you can share your photos and videos of the captured mixed-reality shows to a wide range of social networks such as Facebook, Twitter, Wechat, Weibo, etc., either to promote your brand or to amaze your friends.
 
+- **Easy Management**
+> With our MeshExpert Center, you can easily manage your devices, your apps and the content you created. This is the one-stop solution for your best experience.
+
 * **Developer Support**
 > With the aid of the free opensource METoolkit and SDKs, anyone who wants to create his/her apps can easily make it work and enjoy the powerful features of ME-Live!. All developers can access our technical guidance materials, seek help from our forums, and gain our technical support.
 
 ## Quick Installation
 
 ### Install the RIG
-It's recommended to use Rig kit offered by DataMesh to have the best experience. The suite can be easily dissembled and assembled, but do make sure it is assembled correctly and firmly.
+It's recommended to use Rig kit offered by DataMesh to gain the best experience. The suite can be easily dissembled and assembled, but do make sure it is assembled correctly and firmly.
 
 RIG kit offered by DataMesh is equipped with all necessary software in advance.
 
@@ -67,31 +70,57 @@ Steps to connect the Workstation with the Rig and a display are as follows (see 
 
 ### Add License
 
-You need to add a license to activate full corresponding functionalities of ME-Live! before use.
+You need to make a subscription or add a license to activate full corresponding functionalities of MeshExpert-Live! before use.
 
-Open the browser on the ME-Live! workstation (Edge and Chrome are preferable) to visit `http://localhost/admin`. Note that you need to install MeshExpert supporting software, the **MeshExpert Suite**, before adding a license if the workstation is assembled by yourself. As for installation of MeshExpert Suite, please refer to [User Guide](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide "MeshExpert Live! User Guide") for ME Live!
+> Note: if haven't installed the MeshExpert-Live! software, please visit our [Download Center](https://www.datamesh.com/download "Download MeshExpert") to get the MeshExpert Installer and install it before start.
 
-Once you opened `http://localhost/admin`, you can upload your license file via the "Adding License" page as shown below. If you haven't obtain a license yet, please contact `service@datamesh.com` for a trial or commercial license.
+Once you have MeshExpert installed, you will have a shortcut **"MeshExpert Center"** on your Desktop and in the DataMesh folder at your Windows Start Menu. Double click to start the  **"MeshExpert Center"** and you will get:
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26614128/15c10acc-45f1-11e7-95ab-7b5610192370.png" width="500">
+<img src="https://user-images.githubusercontent.com/27760601/28446591-508d00a4-6dfe-11e7-918a-c1dafa2b2805.png" width="600">
+<p align="center"><em>Sign In</em></p>
+</p>
+
+You can now **Sign In** or **Upload License** to activate MeshExpert services. (Please make sure the MeshExpert Services are started. If not, you can see warnings on the Dashboard page)
+
+For **Sign In**, you need to have Internet access. Also you need to create an online account at our [Subscription Center](https://license.datamesh.com/ "Subscribe") and make a subscription or start a free-trail.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/28446624-804567d2-6dfe-11e7-9376-3a5db004a1cd.png" width="600">
+<p align="center"><em>Trial Info</em></p>
+</p>
+
+For **Upload License**, you need to contact us by email service@datamesh.com and get an offline license for use. You choose the **Upload License** option when:
+
+* you have no constant internet access from your workstation and got an offline license from us;
+* or you purchased an Enterprise edition other than the online subscription plan;
+* or you contacted us to get an customized solution for your enterprise.
+
+As for more details usage about MeshExpert, please refer to [User Guide](http://docs.datamesh.com/projects/me-live/en/latest/user-guide/ "User Guide") for MeshExpert Live!
+
+Upon finished, your email info and optional free trail info will be displayed on the upper banner. 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/7636848/28236528-cb208c80-695a-11e7-814b-7567c476739a.png" width="600">
 <p align="center"><em>Adding License</em></p>
 </p>
 
-Upon finished, you will see your license information in the "**License**" tab as demonstrated below, which reveals the detailed information about your licensing.
+Also you can see your subscription or license information in the "**Account**" page as demonstrated below, which reveals the detailed information about your licensing.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26615583/6bb98270-45fa-11e7-9fdd-a6204d160b02.png" width="500">
-<p align="center"><em>License Information</em></p>
+<img src="https://user-images.githubusercontent.com/7636848/28236510-8a01aa5e-695a-11e7-9c86-7d7f20230f09.png" width="600">
+<p align="center"><em>Account Info</em></p>
 </p>
 
 ## Experience Mixed-Reality
 
-Now everything is ready, you can begin enjoy the amazing mixed-reality shows with ME-Live!
+Now everything is ready, you can begin enjoy the amazing mixed-reality shows with MeshExpert-Live!
 
 > Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#configurations) to make sure all the necessary configurations are correct.
 
-Start the built-in app **Solar System Explorer**, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
+Install and start our demo app **Solar System Explorer** in your HoloLens, and you shall see the whole solar system in front of your naked eyes, which is so vividly that you can almost touch it with your fingers.
+
+> Note: you can download the compiled **SolarSystemExplorer** package or the source code to compile at [DataMesh OpenSource](https://github.com/DataMesh-OpenSource/SolarSystemExplorer/releases "SolarSystemExplorer")
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614742/a792497c-45f4-11e7-8bd9-4af3c1ccd608.png" width="500">
@@ -109,4 +138,18 @@ Moreover, you can interact with virtual planets with simple gestures: rotate pla
 <img src="https://cloud.githubusercontent.com/assets/7636848/26614771/cb5d520c-45f4-11e7-8478-7ef281a6c459.png" width="500">
 </p>
 
-> NOTE: ME-Live! makes it easy to install, manage, start and stop apps on HoloLens. For detailed instructions, please refer to [App Management](user-guide.md#app-management) in User Guide.
+> NOTE: MeshExpert-Live! makes it easy to install, manage, start and stop apps on HoloLens. For detailed instructions, please refer to [App Management](user-guide.md#app-management) in User Guide.
+
+For **Recording and simple Collaboration**, start the **"SolarSystemExplorer.exe"** on your PC workstation.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/27760601/28446876-2e705942-6e00-11e7-9a51-c22e8db37b1f.png" width="600">
+</p>
+
+A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time.
+
+The control buttons are at the downer bar. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under "C:\HologrameCapture". Other options are for you to explore.
+
+There are also a vertical and a horizontal zoom-in and zoom-out bars for you to control your scenes.
+
+When you click **"Start Follow"**, the scene on HoloLens and PC workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to do collaborations with multiple devices.

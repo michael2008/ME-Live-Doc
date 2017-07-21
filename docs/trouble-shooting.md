@@ -60,7 +60,7 @@ Make sure that MultiInputManager has switched to the appropriate recognition mod
 ### Collaboration Module
 Q: **Collaboration module can not collaborate.**
 
-Check whether all devices are under the same network environment.
+Check whether all devices are under the same network segment.
 
 Check all device settings to see if the server IP is correct.
 
@@ -75,15 +75,15 @@ Q: **Stuck shortly after the start**
 
 Please check the Quality setting and whether the vertical sync has been turned off in all operating modes. When you turn on vertical sync, starting the Live module will cause stuck at startup, in both the Editor environment and the Standalone environment.
 
-Q: **Live Workstation cannot connect to HoloLens SpectatorView**
+Q: **MeshExpert Live! cannot connect to MeshExpertLiveAgent which runs on HoloLens**
 
 The possible solutions are:
 
-Check whether HoloLens and Live Workstation are in the same network environmenet.
+Check whether HoloLens and Live Workstation are in the same network segment.
 
-Check whether the SpectatorView application is started on HoloLens and restart the application if necessary.
+Check whether the MeshExpertLiveAgent application is started on HoloLens and restart the application if necessary.
 
-Check whether the SpectatorView listening port set in the Live program in Live Workstation is consistent with the port set in the SpectatorView application in HoloLens.
+Check whether the MeshExpertLiveAgent listening port set in the Live program in Live Workstation is consistent with the port set in the MeshExpertLiveAgent application in HoloLens.
 
 ## Project Environment
 Q: **Stuck when starting program inside Unity**
@@ -93,7 +93,20 @@ if it's not in the **Developer Mode**, the project contains HoloLensInputModule 
 
 Q: **The position of the object in HoloLens is not consistent with the expected position.**
 
-Check if the main camera position is (0,0,0). If the initial position of the main camera is not (0,0,0), it may cause the object position in HoloLens to shift.
+Check if the main camera's position is (0,0,0). If the initial position of the main camera is not (0,0,0), it may cause the object position in HoloLens to shift.
 
+## Deployment Environment
 
+Q: **No signal on screen**
 
+Make sure that the monitor cable is connected properly
+
+If you have hot-swapped the cables, please try restarting the host
+
+Q: **Cannot collect video signal**
+
+Make sure that the video cable is connected properly and try reconnecting the video cable if necessary
+
+Check the BlackMagic driver's info, if you cannot get its information, try to restart the host
+
+Make sure the camera's output resolution is set correctly (currently 1080)
