@@ -25,7 +25,6 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 > By connecting to our social cloud services, you can share your photos and videos of the captured mixed-reality shows to a wide range of social networks such as Facebook, Twitter, Wechat, Weibo, etc., either to promote your brand or to amaze your friends.
 
 - **Easy Management**
-
 > With our MeshExpert Center, you can easily manage your devices, your apps and the content you created. This is the one-stop solution for your best experience.
 
 * **Developer Support**
