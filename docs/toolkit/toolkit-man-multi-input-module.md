@@ -15,9 +15,9 @@ Please refer to the following procedure to create a demo app
 
 ### Prepare Your Project
 
-* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project](0-configure-your-project.md)" ).
+* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
 
-* Set up METoolkit modules (refer to doc "[Integrated METoolkit](1-integrated-METoolkit.md)" ).
+* Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]").
 
 * Confirm to check **Input** module in HoloEntrance.
 
@@ -262,7 +262,7 @@ It's very similar as **Input** in UnityEngine.
 
 
 
-### See Also
 
-[Multi Input Manager Reference](../References/Interactive/MultiInputManager.md)
-[XBOX Controller Input Manager Reference](../References/Interactive/XBoxControllerInputManager.md)
+[Configure_your_project]: toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
+[Utility_Config_Files]: toolkit-man-utility-config-file.md

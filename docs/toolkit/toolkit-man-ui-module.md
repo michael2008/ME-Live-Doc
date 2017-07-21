@@ -103,8 +103,8 @@ Save file is written in JSON, so you can check or modify the content by hand.
 
 ### Prepare Your Project
 
-* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project](0-configure-your-project.md)" ).
-* Set up METoolkit modules (refer to doc "[Integrated METoolkit](1-integrated-METoolkit.md)" ).
+* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
+* Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
 * Confirm to check **UI** and **Input** Modules in HoloEntrance.
 
 ### Add a Menu
@@ -184,11 +184,6 @@ public class MenuSample : MonoBehaviour
 > Note: You can also use our demo code directly at "**Assets/DataMesh/Samples/Menu**".
 
 
-
-### See Also
-
-[Block Menu Manager Reference](../References/UI/BlockMenuManager.md)
-[Block Menu Reference](../References/UI/BlockMenu.md)
 
 
 
@@ -271,11 +266,7 @@ ui.cbClose = OnUIClose;
     }
 ```
 
-### See Also
 
-[Block List Manager Reference](../References/UI/BlockListManager.md)
-[Block List Reference](../References/UI/BlockList.md)
-[Block List Data Reference](../References/UI/BlockListData.md)
 
 
 
@@ -299,9 +290,9 @@ Moreover, CursorController can show a temporary information at the gaze point. T
 
 ### Use CursorController
 
-- Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project](0-configure-your-project.md)" ).
+- Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
 
-- Set up METoolkit modules (refer to doc "[Integrated METoolkit](1-integrated-METoolkit.md)" ).
+- Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
 
 - Confirm to check **UI** and **Input** Modules in HoloEntrance.
 
@@ -346,7 +337,8 @@ Moreover, CursorController can show a temporary information at the gaze point. T
 
 
 
-### See Also
 
-[Cursor Controller Reference](../References/UI/Controller.md)
 
+[Configure_your_project]: toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
+[Utility_Config_Files]: toolkit-man-utility-config-file.md

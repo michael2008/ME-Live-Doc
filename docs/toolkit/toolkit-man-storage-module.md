@@ -49,8 +49,8 @@ For more information, please refer to MeshExpert Cloud Document.
 
 First, you need to prepare your App by METoolkit.
 
-* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project](0-configure-your-project.md)" ).
-* Set up METoolkit modules (refer to doc "[Integrated METoolkit](1-integrated-METoolkit.md)" ).
+* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
+* Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
 * Confirm to check **Storage** Module in HoloEntrance.
 
 
@@ -72,7 +72,7 @@ Server_Host = 192.168.2.31
 ```
 You can change the host to your own server IP.
 
-> ****Important: ** If your app is **NOT** running on _Unity Editor_ or _PC Standalone_ (e.g. HoloLens, iOS, Android),  app will load config file at **PersistentDataPath**, not from **StreamingAssets**. For more information, please refer to [Utility: Config Files](9-utility-config-file.md)
+> ****Important: ** If your app is **NOT** running on _Unity Editor_ or _PC Standalone_ (e.g. HoloLens, iOS, Android),  app will load config file at **PersistentDataPath**, not from **StreamingAssets**. For more information, please refer to [Utility: Config Files][Utility_Config_Files]
 
 
 
@@ -214,4 +214,6 @@ You can load AssetBundle from Asset by **StorageAssetData**.
 ```
 
 
-
+[Configure_your_project]: toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
+[Utility_Config_Files]: toolkit-man-utility-config-file.md

@@ -59,7 +59,7 @@ Out_Put_Path = C:\\HologramCapture\\
 >
 > You can set a path to save Span and Record file. Ensure the program has write permissions to this folder.
 >
-> **Important: ** If your app is **NOT** running on _Unity Editor_ or _PC Standalone_ (e.g. HoloLens, iOS, Android),  app will load config file at **PersistentDataPath**, not from **StreamingAssets**. For more information, please refer to [Utility: Config Files](9-utility-config-file.md)
+> **Important: ** If your app is **NOT** running on _Unity Editor_ or _PC Standalone_ (e.g. HoloLens, iOS, Android),  app will load config file at **PersistentDataPath**, not from **StreamingAssets**. For more information, please refer to [Utility: Config Files][Utility_Config_Files]
 
 
 
@@ -144,4 +144,9 @@ It will create a **exe** file and some folders. You can deploy them to your Work
 
 - To capture a screenshot, click "**Take Snap**" to save the captured picture to the same path for video recordings.
 
-  ​
+
+
+
+[Configure_your_project]: toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
+[Utility_Config_Files]: toolkit-man-utility-config-file.md
