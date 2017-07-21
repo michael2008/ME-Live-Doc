@@ -113,4 +113,3 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 [Live_Controller_Module]: toolkit/toolkit-man-live-module.md
 [Utility_Config_Files]: toolkit/toolkit-man-utility-config-file.md
 
-[Write_your_first_App]: 
