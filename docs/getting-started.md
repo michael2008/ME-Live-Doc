@@ -96,7 +96,7 @@ For **Upload License**, you need to contact us by email service@datamesh.com and
 * or you purchased an Enterprise edition other than the online subscription plan;
 * or you contacted us to get an customized solution for your enterprise.
 
-As for more details usage about MeshExpert, please refer to [User Guide](http://docs.datamesh.com/projects/me-live/en/latest/user-guide/") for MeshExpert Live!
+As for more details usage about MeshExpert, please refer to [User Guide](http://docs.datamesh.com/projects/me-live/en/latest/user-guide/ "User Guide") for MeshExpert Live!
 
 Upon finished, your email info and optional free trail info will be displayed on the upper banner. 
 

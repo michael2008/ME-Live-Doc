@@ -13,6 +13,7 @@ Download the latest installer from one of the Mirrors:
 **Checksum**
 
 MD5: 9bad0dae181268850b06e8ff62061adc
+
 SHA1: 974f8f3fd5b3185f11df36b1dca7de600e497179
 
 ## v1.0.7
@@ -29,6 +30,7 @@ Download the latest installer from one of the Mirrors:
 **Checksum**
 
 MD5: 80b7d5a5286ac2e219d8a726c735fd7a
+
 SHA1: 8e9d4ba6af9b3867df1173a4fbf80f4df2e98933
 
 ## v1.0.0
