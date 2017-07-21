@@ -16,7 +16,7 @@ pages:
     - ['METoolkit-overview.md', 'METoolkit Developer Manual', 'Overview']
     - ['toolkit/toolkit-man-configure-your-project.md', 'METoolkit Developer Manual', 'Config Your Project']
     - ['toolkit/toolkit-man-integrated-METoolkit.md', 'METoolkit Developer Manual', 'Integrate METoolkit']
-    - ['toolkit/toolkit-man--write-your-first-app.md', 'METoolkit Developer Manual', 'First App by METookit']
+    - ['toolkit/toolkit-man-write-your-first-app.md', 'METoolkit Developer Manual', 'First App by METookit']
     - ['toolkit/toolkit-man-world-anchor-module.md', 'METoolkit Developer Manual', 'World Anchor Module']
     - ['toolkit/toolkit-man-multi-input-module.md', 'METoolkit Developer Manual', 'Multi-Input Module']
     - ['toolkit/toolkit-man-speech-module.md', 'METoolkit Developer Manual', 'Speech Module']
