@@ -38,19 +38,19 @@ For Version information, please see our [release notes](release-notes.md).
     - [Overview][dev_guide_overview]
     - [Development Environment][dev_guide_devEnv]
     - [App Development with METoolkit][dev_guide_appDev]
-* [METoolkit-Developer-Manual](METoolkit/METoolkit-overview.md)
-    - [Configure your project](METoolkit/Manuals/0-configure-your-project.md)
-    - [Integrated with your project](METoolkit/Manuals/1-integrated-METoolkit.md)
-    - [Write your first App](METoolkit/Manuals/1.1-write-your-first-app.md)
-    - [World Anchor Module](METoolkit/Manuals/2-world-anchor-module.md)
-    - [Multi-Input Module](METoolkit/Manuals/3-multi-input-module.md)
-    - [Speech Module](METoolkit/Manuals/4-speech-module.md)
-    - [UI Module](METoolkit/Manuals/5-ui-module.md)
-    - [Collaboration Module](METoolkit/Manuals/6-collaboration-module.md)
-    - [Storage Module](METoolkit/Manuals/7-storage-module.md)
-    - [Live Controller Module](METoolkit/Manuals/8-live-module.md)
-    - [Utility: Config Files](METoolkit/Manuals/9-utility-config-file.md)
-    - [MEHoloSDK Docs](METoolkit/SDKs/me-holo-sdk.md)
+* [METoolkit-Developer-Manual](METoolkit-overview.md)
+    - [Configure your project](toolkit-man-configure-your-project.md)
+    - [Integrated with your project](toolkit-man-integrated-METoolkit.md)
+    - [Write your first App](toolkit-man-write-your-first-app.md)
+    - [World Anchor Module](toolkit-man-world-anchor-module.md)
+    - [Multi-Input Module](toolkit-man-multi-input-module.md)
+    - [Speech Module](toolkit-man-speech-module.md)
+    - [UI Module](toolkit-man-ui-module.md)
+    - [Collaboration Module](toolkit-man-collaboration-module.md)
+    - [Storage Module](toolkit-man-storage-module.md)
+    - [Live Controller Module](toolkit-man-live-module.md)
+    - [Utility: Config Files](toolkit-man-utility-config-file.md)
+    - [MEHoloSDK Docs](me-holo-sdk.md)
 * [Trouble Shooting][trouble_shooting]
     - [Project Environment][project_enviroment]
     - [Unity App Release][unity_app_release]
@@ -85,7 +85,7 @@ For Version information, please see our [release notes](release-notes.md).
 [dev_guide_appDev_start]: developer-guide.md#start-using-metoolkit
 
 
-[METoolkit_manual]: metoolkit-manual.md
+[METoolkit_manual]: metoolkit-manual.md                                           
 [Integrated-Entrypoint]: metoolkit-manual.md#integrated-entrypoint
 [WorldAnchor-Controller-Module]: metoolkit-manual.md#worldanchor-controller-module
 [Multi-Input-Manager-Module]: metoolkit-manual.md#multi-input-manager-module

@@ -44,21 +44,21 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### METoolkit Manual
 
-- [Configure your project](METoolkit/Manuals/0-configure-your-project.md)
-- [Integrated with your project](Manuals/1-integrated-METoolkit.md)
-- [Write your first App](Manuals/1.1-write-your-first-app.md)
-- [World Anchor Module](Manuals/2-world-anchor-module.md)
-- [Multi-Input Module](Manuals/3-multi-input-module.md)
-- [Speech Module](Manuals/4-speech-module.md)
-- [UI Module](Manuals/5-ui-module.md)
-- [Collaboration Module](Manuals/6-collaboration-module.md)
-- [Storage Module](Manuals/7-storage-module.md)
-- [Live Controller Module](Manuals/8-live-module.md)
-- [Utility: Config Files](Manuals/9-utility-config-file.md)
+- [Configure your project](toolkit-man-configure-your-project.md)
+- [Integrated with your project](toolkit-man-integrated-METoolkit.md)
+- [Write your first App](toolkit-man-write-your-first-app.md)
+- [World Anchor Module](toolkit-man-world-anchor-module.md)
+- [Multi-Input Module](toolkit-man-multi-input-module.md)
+- [Speech Module](toolkit-man-speech-module.md)
+- [UI Module](toolkit-man-ui-module.md)
+- [Collaboration Module](toolkit-man-collaboration-module.md)
+- [Storage Module](toolkit-man-storage-module.md)
+- [Live Controller Module](toolkit-man-live-module.md)
+- [Utility: Config Files](toolkit-man-utility-config-file.md)
 
 ### MEHoloSDK Docs
 
-- [MEHoloSDK Docs](SDKs/me-holo-sdk.md)
+- [MEHoloSDK Docs](me-holo-sdk.md)
 
 ### METoolkit Reference
 
