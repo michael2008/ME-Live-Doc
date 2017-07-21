@@ -103,12 +103,4 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 [Configure_your_project]: toolkit/toolkit-man-configure-your-project.md
 [Integrated_with_your_project]: toolkit/toolkit-man-integrated-METoolkit.md
-[Write your first App](toolkit-man-write-your-first-app.md)
-[World Anchor Module](toolkit-man-world-anchor-module.md)
-[Multi-Input Module](toolkit-man-multi-input-module.md)
-[Speech Module](toolkit-man-speech-module.md)
-[UI Module](toolkit-man-ui-module.md)
-[Collaboration Module](toolkit-man-collaboration-module.md)
-[Storage Module](toolkit-man-storage-module.md)
-[Live Controller Module](toolkit-man-live-module.md)
-[Utility: Config Files](toolkit-man-utility-config-file.md)
+
