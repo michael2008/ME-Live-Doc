@@ -17,8 +17,8 @@ Next, let us create a demo app following the procedures below.
 
 ### Prepare Your Project
 
-* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project](0-configure-your-project.md)" ).
-* Set up METoolkit modules (refer to doc "[Integrated METoolkit](1-integrated-METoolkit.md)" ).
+* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
+* Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
 * Create three objects: Cube, Sphere, Cylinder, and place them in a position where the camera can capture.
 * Confirm to check **Anchor**, **Input** and **Cursor** Modules in HoloEntrance.
 
@@ -135,7 +135,7 @@ Now you can build and install the app to HoloLens to see the results.
 
 ### Upload Anchor
 
-- Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation](https://github.com/DataMesh-OpenSource/MeshExpert-Live/wiki/User-Guide#workstation-installation "Workstation Guide")).
+- Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation][User_Guide_for_workstation]).
 - In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
 - Check Inspector View and set the parameters:
     <p align="center">
@@ -237,7 +237,9 @@ private IEnumerator WaitForInit()
 
 
 
-### See Also
 
-[Anchor Module Reference](../References/Anchor/SceneAnchorController.md)
-[Anchor Definition Reference](../References/Anchor/AnchorDefinistion.md)
+
+[Configure_your_project]: toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
+[Utility_Config_Files]: toolkit-man-utility-config-file.md
+[User_Guide_for_workstation]: ../user-guide.md#workstation-installation

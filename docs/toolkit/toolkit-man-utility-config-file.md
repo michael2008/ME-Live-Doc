@@ -54,6 +54,3 @@ Save this file and put it in "**StreamingAssets**" folder.
 
 
 
-### See Also
-
-[AppConfig Reference](../References/Utility/AppConfig.md)

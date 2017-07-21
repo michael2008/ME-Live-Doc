@@ -6,8 +6,8 @@ SpeechManager offers voice control of Hololens. Developers could add keywords as
 
 ### Use of SpeechManager
 
-* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project](0-configure-your-project.md)" ).
-* Set up METoolkit modules (refer to doc "[Integrated METoolkit](1-integrated-METoolkit.md)" ).
+* Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
+* Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
 * Do not check the "**Auto Turn On**" box, and we need to enable or disable voice control manually.
    <p align="center">
    <img src="https://cloud.githubusercontent.com/assets/7636848/26667234/beab6a98-46d6-11e7-8b32-44c49ef880ea.png" width="320">
@@ -30,3 +30,6 @@ public void OpenMenuAction ()
 > Note: The codes above add a voice command "**Open Menu**", and in its action part, we print a log message. 
 
 
+[Configure_your_project]: toolkit-man-configure-your-project.md
+[Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
+[Utility_Config_Files]: toolkit-man-utility-config-file.md
