@@ -45,7 +45,7 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
 ### METoolkit Manual
 
-- [Configure your project](Manuals/0-configure-your-project.md)
+- [Configure your project](METoolkit/Manuals/0-configure-your-project.md)
 - [Integrated with your project](Manuals/1-integrated-METoolkit.md)
 - [Write your first App](Manuals/1.1-write-your-first-app.md)
 - [World Anchor Module](Manuals/2-world-anchor-module.md)
