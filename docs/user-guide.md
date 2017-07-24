@@ -114,9 +114,31 @@ Workstation access steps are as follows:
 1. Connect everything to the WIFI router. Make sure they all have `192.168.8.x` IP address, and the workstation has the fixed IP `192.168.8.250`. This is very important since we fixed the network settings to ensure there's no surprise.
 2. Install the `SpectatorView Test App` onto your spectator view HoloLens on the Rig. You can download the `SpectatorView Test App` from [here]().
 
-### Usage Guide for MeshExpert Center
 
-#### Installation
+
+
+## DataMesh Live Agent
+
+**DataMesh Live Agent** is a App of HoloLens, which can synchronize real world information to workstation. Follow that, the Live program running on workstation can retrieve the position, rotation of all anchors and camera, so that Live program can merge the Hologram and real world video continually.
+
+Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you change to another Live program.\
+
+### Installation
+
+We suggest you install this app by MeshExpert Center, like others app, so that center can set the config automatic. If you install this app by youself, remember you must modify the config file manually.
+
+[You can get Live Agent here](https://meshexpert-us.s3.amazonaws.com/DataMeshLiveAgent_2.0.3.20.zip)
+
+### How to use
+
+Please refer to [**METoolkit Live module**][toolkit-man-live-module].
+
+
+
+
+## Usage Guide for MeshExpert Center
+
+### Installation
 Find the MeshExpert Installer.exe, double click it, and proceed according to the installation guide.  If you have installed an older version, please uninstall the old version first.
 
 <p align="center">
@@ -124,7 +146,7 @@ Find the MeshExpert Installer.exe, double click it, and proceed according to the
 <p align="center"><em>Start Menu Icon</em></p>
 </p>
 
-#### Dashboard Panel
+### Dashboard Panel
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28349003-d1cc567a-6c72-11e7-8b07-206702bb009d.png" width=500>
@@ -147,7 +169,7 @@ Dashboard panel provides the following main functionalities:
 <p align="center"><em>Dashborad Error Alert</em></p>
 </p>
 
-#### Devices Panel
+### Devices Panel
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28309508-29776082-6bdc-11e7-88bd-79c3f458d764.png" width=500>
 <p align="center"><em>Devices Panel</em></p>
@@ -162,16 +184,22 @@ Devices Panel provides the following main functionalities:
 
 You can add HoloLens in the `Add HoloLens` section. Before you start the adding operation, you should make sure that the HoloLens the MeshExpert Server are in the same network segment (usually connected to same router) and can communicate with each other.
 
-#### My Apps Panel
+### My Apps Panel
 In My Apps Panel, you can upload your applications to HoloLens and view basic infos of the applications which are already uploaded.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28312356-7335e794-6be5-11e7-804e-de84d065976c.png" width=500>
 <p align="center"><em>My Apps Panel</em></p>
 </p>
 
-#### Account Panel
+### Account Panel
 In Account Panel, you can view and manage your account and license infos.
 <p align="center">
 <img src="https://user-images.githubusercontent.com/17921380/28312295-3f546626-6be5-11e7-8278-f212d9272dae.png" width=500>
 <p align="center"><em>Account Panel</em></p>
 </p>
+
+
+
+
+
+[toolkit-man-live-module]: toolkit/toolkit-man-live-module.md

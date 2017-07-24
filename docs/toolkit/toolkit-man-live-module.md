@@ -5,9 +5,9 @@
 
 LiveController provides the following functions:
 
-* Communicate with the [**SpectatorView**](https://github.com/Microsoft/HoloLensCompanionKit/tree/master/SpectatorView "SpectatorView GitHub") of the HoloLens on the Rig to synchronize spacial anchors in real-time.
+* Communicate with the  [**DataMesh Live Agent**][DataMesh_Live_Agent]  of the HoloLens on the Rig to synchronize spacial anchors in real-time.
 * Use of keyboards to adjust the position and angle of the Anchor, if the automatical synchronization failed.
-* Control the upload and download of SpectatorView WorldAnchor via the Workstation.
+* Control the upload and download WorldAnchor from Live Agent via the Workstation.
 * Compose the images captured by the camera on the Rig with virtual scenes, and cast it out.
 * Record the composed video stream as MPEG-4 file with a maximum resolution of 4K.
 
@@ -50,7 +50,7 @@ Live_Port_UDP = 8098
 Use_UDP = TRUE
 
 #### HologramCapture Config
-Out_Put_Path = C:\\HologramCapture\\
+Out_Put_Path = C:/HologramCapture/
 ```
 
 > Usually, you don't need to change **Live Port**. 
@@ -75,7 +75,7 @@ It will create a **exe** file and some folders. You can deploy them to your Work
 
 ### Start to Use
 
-* Start SpectatorView App on the Hololens of the Rig.
+* Start [**DataMesh Live Agent**][DataMesh_Live_Agent] App on the Hololens of the Rig.
 
 * Start "**.exe**" program on the Workstation.
 
@@ -150,3 +150,4 @@ It will create a **exe** file and some folders. You can deploy them to your Work
 [Configure_your_project]: toolkit-man-configure-your-project.md
 [Integrated_with_your_project]: toolkit-man-integrated-METoolkit.md
 [Utility_Config_Files]: toolkit-man-utility-config-file.md
+[DataMesh_Live_Agent]: ../user-guide.md#DataMesh_Live_Agent

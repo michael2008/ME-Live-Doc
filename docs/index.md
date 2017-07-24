@@ -33,6 +33,7 @@ For Version information, please see our [release notes](release-notes.md).
     - [How It Works][user_guide_how_it_works]
     - [RIG Installation][user_guide_rig_installation]
     - [Workstation Installation][user_guide_workstation_installation]
+    - [DataMesh Live Agent][datamesh-live-agent]
     - [Usage Guide for MeshExpert Center][user_guide_meshexpert_center]
 * [Developer Guide][dev_guide]
     - [Overview][dev_guide_overview]
@@ -82,6 +83,8 @@ For Version information, please see our [release notes](release-notes.md).
 [dev_guide_appDev_structure]: developer-guide.md#toolkit-structure
 [dev_guide_appDev_setting]: developer-guide.md#development-project-setting
 [dev_guide_appDev_start]: developer-guide.md#start-using-metoolkit
+
+[datamesh-live-agent]: user-guide.md#DataMesh_Live_Agent
 
 [METoolkit_Overview]: METoolkit-overview.md
 [Configure_your_project]: toolkit/toolkit-man-configure-your-project.md
