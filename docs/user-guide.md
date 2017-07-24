@@ -117,24 +117,6 @@ Workstation access steps are as follows:
 
 
 
-## DataMesh Live Agent
-
-**DataMesh Live Agent** is a App of HoloLens, which can synchronize real world information to workstation. Follow that, the Live program running on workstation can retrieve the position, rotation of all anchors and camera, so that Live program can merge the Hologram and real world video continually.
-
-Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you change to another Live program.\
-
-### Installation
-
-We suggest you install this app by MeshExpert Center, like others app, so that center can set the config automatic. If you install this app by youself, remember you must modify the config file manually.
-
-[You can get Live Agent here](https://meshexpert-us.s3.amazonaws.com/DataMeshLiveAgent_2.0.3.20.zip)
-
-### How to use
-
-Please refer to [**METoolkit Live module**][toolkit-man-live-module].
-
-
-
 
 ## Usage Guide for MeshExpert Center
 
@@ -197,6 +179,25 @@ In Account Panel, you can view and manage your account and license infos.
 <img src="https://user-images.githubusercontent.com/17921380/28312295-3f546626-6be5-11e7-8278-f212d9272dae.png" width=500>
 <p align="center"><em>Account Panel</em></p>
 </p>
+
+
+
+## DataMesh Live Agent
+
+**DataMesh Live Agent** is a App of HoloLens, which can synchronize real world information to workstation. Follow that, the Live program running on workstation can retrieve the position, rotation of all anchors and camera, so that Live program can merge the Hologram and real world video continually.
+
+Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you change to another Live program.\
+
+### Installation
+
+We suggest you install this app by MeshExpert Center, like others app, so that center can set the config automatic. If you install this app by youself, remember you must modify the config file manually.
+
+> [You can get Live Agent here](https://meshexpert-us.s3.amazonaws.com/DataMeshLiveAgent_2.0.3.20.zip)
+
+### How to use
+
+Please refer to [**METoolkit Live module**][toolkit-man-live-module].
+
 
 
 
