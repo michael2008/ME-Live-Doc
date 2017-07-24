@@ -186,7 +186,7 @@ In Account Panel, you can view and manage your account and license infos.
 
 **DataMesh Live Agent** is a App of HoloLens, which can synchronize real world information to workstation. Follow that, the Live program running on workstation can retrieve the position, rotation of all anchors and camera, so that Live program can merge the Hologram and real world video continually.
 
-Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you change to another Live program.\
+Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you change to another Live program.
 
 ### Installation
 
@@ -203,4 +203,4 @@ Please refer to [**METoolkit Live module**][toolkit-man-live-module].
 
 
 
-[toolkit-man-live-module]: toolkit/toolkit-man-live-module.md
+[toolkit-man-live-module]: toolkit/toolkit-man-live-module.md#start-to-use
