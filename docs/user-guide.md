@@ -184,15 +184,15 @@ In Account Panel, you can view and manage your account and license infos.
 
 ## DataMesh Live Agent
 
-**DataMesh Live Agent** is a App of HoloLens, which can synchronize real world information to workstation. Follow that, the Live program running on workstation can retrieve the position, rotation of all anchors and camera, so that Live program can merge the Hologram and real world video continually.
+**DataMesh Live Agent** is an App of HoloLens, which can synchronize real world information to the workstation. Follow that, the Live program running on the workstation can retrieve the position, rotation of all anchors and camera, so that Live program can record the Hologram and real world images continually.
 
-Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you change to another Live program.
+Live Agent can support any Live program built by METoolkit. You don't need to restart Live Agent even when you switch to another Live program.
 
 ### Installation
 
-We suggest you install this app by MeshExpert Center, like others app, so that center can set the config automatic. If you install this app by youself, remember you must modify the config file manually.
+The DataMesh LiveAgent is just a HoloLens app. We suggest you install it by MeshExpert Center, like other HoloLens apps, so that center can set the configurations automatic. If you install this app manually, you need to configure the workstation IP yourself using HoloLens portal.
 
-> [You can get Live Agent here](https://meshexpert-us.s3.amazonaws.com/DataMeshLiveAgent_2.0.3.20.zip)
+To download the latest DataMesh LiveAgent, visit our [Download Center](https://www.datamesh.com/download "Download Center").
 
 ### How to use
 
