@@ -26,7 +26,7 @@ MeshExpert Live! contains two main parts, collaboration, and live streaming. The
 
 The Rig is used for obtaining the real-world images and location information and further delivering them to the workstation in order to carry out real-time synthesis.
 
-ME-Live! Rig consists of the following **main components**:
+MeshExpert Live! Rig consists of the following **main components**:
 
 * Digital camera/video camera
 * HoloLens
