@@ -1,6 +1,6 @@
 ## Overview
 
-This guide walks you through the process of building your one-stop app using MeshExpert Live!, which is composed of two main products, MeshExpert Center and METoolkit
+This guide walks you through the process of building your one-stop app using MeshExpert Live!, which is composed of two main products, MeshExpert Center and METoolkit.
 MeshExpert Center provides you with a way to use the following amazing features of MeshExpert Live!:
 
 + Uploading resources synchronously
@@ -32,9 +32,9 @@ Live Workstation can directly, without MeshExpert Center, serve as the developme
 |     Memory      | 8GB+                                     |
 | Hard disk space | 100GB+, SSD recommended                  |
 
-The complete documentation for Live RIG hardware configuration and installation configuration is available at [RIG Installation in Usage Guide for ME Live!](user-guide.md#rig-installation)
+The complete documentation for Live RIG hardware configuration and installation configuration is available at [RIG Installation in Usage Guide for MeshExpert Live!](user-guide.md#rig-installation)
 
-> **Note:** The devices (Surface, IPhone/IPad and Android) and its quantity are determined by your needs.
+> **Note:** The devices (Surface, iPhone/iPad and Android) and its quantity are determined by your needs.
 
 ### Software Requirement
 
