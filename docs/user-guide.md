@@ -1,10 +1,10 @@
 ## Overview
 
-ME-Live! includes a complete set of hardware, support software, and application software. This guide will first provide you the detailed description of hardware specifications and their assembly methods; then it will introduce you how to use the system, including license installation and management, management of HoloLens device and app installation and management; lastly, it will show some built-in demo apps.
+MeshExpert Live! includes a complete set of hardware, support software, and application software. This guide will first provide you the detailed description of hardware specifications and their assembly methods; then it will introduce you how to use the system, including license installation and management, management of HoloLens device and app installation and management; lastly, it will show some built-in demo apps.
 
 ## System Structure
 
-ME-Live! is made up of two parts:
+MeshExpert Live! is made up of two parts:
 
 * **Live Rig**: a set of movable video device with the function of getting video and location information of the real world.
 * **Live WorkStation**: a high performance graphics workstation used for running holographic program and synthesizing real-time holographic video.
@@ -20,7 +20,7 @@ ME-Live! is made up of two parts:
 <img src="https://cloud.githubusercontent.com/assets/17921380/26623110/4165487c-461f-11e7-8182-a06471b19726.png" width="500">
 </p>
 
-ME-Live! contains two main parts, collaboration, and live streaming. The collaboration within multiple devices which is achieved by delivering messages between these devices through HoloServer makes real-time synchronization of scenes on these devices a reality.  Through camera shooting and capturing real scenes, while getting the mapping of spatial position by HoloLens on the tripod, live streaming is achieved by putting them into Live Controller in Workstation to carry out real-time 3D synthesis and then output onto screens through HDMI interface.
+MeshExpert Live! contains two main parts, collaboration, and live streaming. The collaboration within multiple devices which is achieved by delivering messages between these devices through HoloServer makes real-time synchronization of scenes on these devices a reality.  Through camera shooting and capturing real scenes, while getting the mapping of spatial position by HoloLens on the tripod, live streaming is achieved by putting them into Live Controller in Workstation to carry out real-time 3D synthesis and then output onto screens through HDMI interface.
 
 ## RIG Installation
 
@@ -67,7 +67,7 @@ The assembly processes of Rig Suite depicted in the picture below, and the steps
 
 ### Hardware Requirements
 
-The workstation requires a certain amount of computing power, which could be satisfied by hardware sets of the given specifications, to meet the demands of ME-Live!. There would also be some restrictions regarding the hardware and software choices.
+The workstation requires a certain amount of computing power, which could be satisfied by hardware sets of the given specifications, to meet the demands of MeshExpert Live!. There would also be some restrictions regarding the hardware and software choices.
 Below is a list of recommended requirements for the workstation:
 
 |         Item         |              Specification               | Remark                                   |
