@@ -1,6 +1,6 @@
 
 ## Welcome
-MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product developed by DataMesh. It is intensively designed on top of HoloLens, so that mixed-reality could be perceived by more people. Leveraging on our solution, HoloLens users can see amazing MR images, while those who do not wear HoloLens can also experience MR scenes through ME Live! in real-time. Meanwhile, the gap among different devices of sharing the same MR experiences can be well bridged by incorporating the collaboration feature offered by ME Live!, where you could easily interact with mixed realities via all sorts of VR/AR glasses and even mobiles and tablets, which creates various possibilities for immersive mixed-reality experiences.
+MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product developed by DataMesh. It is intensively designed on top of HoloLens, so that mixed-reality could be perceived by more people. Leveraging on our solution, HoloLens users can see amazing MR images, while those who do not wear HoloLens can also experience MR scenes through ME Live! in real-time. Meanwhile, the gap among different devices of sharing the same MR experiences can be well bridged by incorporating the collaboration feature offered by MeshExpert Live!, where you could easily interact with mixed realities via all sorts of VR/AR glasses and even mobiles and tablets, which creates various possibilities for immersive mixed-reality experiences.
 
 ## Main Features
 * **Real-time MR Show**
