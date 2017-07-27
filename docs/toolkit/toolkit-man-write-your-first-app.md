@@ -1,6 +1,6 @@
 ### Write your first App
 
-Now let's make a App step by step. It's simple, no use, but it can show you some core function of MeshExpert. 
+Now let's make an app step by step. Through it's simple, it can show you some core functionalities of MeshExpert. 
 
 #### Coding
 
