@@ -38,11 +38,11 @@ The complete documentation for Live RIG hardware configuration and installation 
 
 ### Software Requirement
 
-MeshExpert Live! Development environment can be directly set up on Live Workstation host so that you can easily debug your app using MeshExpert Center.
+MeshExpert Live! development environment can be directly set up on Live Workstation host so that you can easily debug your applications using MeshExpert Center.
 
 #### Supported operating systems
 
-ME-Live! only supports Windows 10 now. The detailed requirement is as follows:
+MeshExpert Live! only supports Windows 10 now. The detailed requirement is as follows:
 
 |    Operating system     |            Version            |
 | :---------------------: | :---------------------------: |
