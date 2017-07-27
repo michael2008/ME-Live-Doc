@@ -75,7 +75,7 @@ Q: **Stuck shortly after the start**
 
 Please check the Quality setting and whether the vertical sync has been turned off in all operating modes. When you turn on vertical sync, starting the Live module will cause stuck at startup, in both the Editor environment and the Standalone environment.
 
-Q: **MeshExpert Live! cannot connect to MeshExpertLiveAgent which runs on HoloLens**
+Q: **MeshExpert Live! cannot connect to DataMesh Live Agent which runs on HoloLens**
 
 The possible solutions are:
 
@@ -83,7 +83,7 @@ Check whether HoloLens and Live Workstation are in the same network segment.
 
 Check whether the MeshExpertLiveAgent application is started on HoloLens and restart the application if necessary.
 
-Check whether the MeshExpertLiveAgent listening port set in the Live program in Live Workstation is consistent with the port set in the MeshExpertLiveAgent application in HoloLens.
+Check whether the DataMesh Live Agent listening port set in the Live program in Live Workstation is consistent with the port set in the DataMesh Live Agent application in HoloLens.
 
 ## Project Environment
 Q: **Stuck when starting program inside Unity**

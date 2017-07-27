@@ -1,13 +1,13 @@
 ## Overview
 
-This guide walks you through the process of building your one-stop app using MeshExpert Live!, which is composed of two main products, MeshExpert Center and METoolkit
+This guide walks you through the process of building your one-stop app using MeshExpert Live!, which is composed of two main products, MeshExpert Center and METoolkit.
 MeshExpert Center provides you with a way to use the following amazing features of MeshExpert Live!:
 
 + Uploading resources synchronously
 + Collaboration between multi-user and multi-device
 + Simplified application installation and management
 
-METoolkit provides not only multiple APIs could be used to communicate with MeshExpert, but also common modules. METoolkit will give you an idea of how things are working internally, which helps you to design and develop your own collaborated application.
+METoolkit provides not only multiple APIs which could be used to communicate with MeshExpert, but also common modules. METoolkit will give you an idea of how things are working internally, which helps you to design and develop your own collaborated applications.
 
 ## Development Environment
 
@@ -18,7 +18,7 @@ The MeshExpert Live! development environment, which can be installed on a single
 |        Device         |     Quantity     |                 Purpose                  | Required |
 | :-------------------: | :--------------: | :--------------------------------------: | :------: |
 | Live Workstation host |     One set      | Install MeshExpert suite and establish Live Workstation |   Yes    |
-|       Live Rig        |     One set      |        Synthesize the 3D hologrms        |   Yes    |
+|       Live Rig        |     One set      |        Synthesize the 3D holograms        |   Yes    |
 |       HoloLens        | At least one set | Debug and release your mix-reality apps  |   Yes    |
 |        Surface        |     Optional     |        Debug and release UWP apps        |    No    |
 |      IPhone/IPad      |     Optional     | Debug and release iOS virtual-reality apps |    No    |
@@ -32,17 +32,17 @@ Live Workstation can directly, without MeshExpert Center, serve as the developme
 |     Memory      | 8GB+                                     |
 | Hard disk space | 100GB+, SSD recommended                  |
 
-The complete documentation for Live RIG hardware configuration and installation configuration is available at [RIG Installation in Usage Guide for ME Live!](user-guide.md#rig-installation)
+The complete documentation for Live RIG hardware configuration and installation configuration is available at [RIG Installation in Usage Guide for MeshExpert Live!](user-guide.md#rig-installation)
 
-> **Note:** The devices (Surface, IPhone/IPad and Android) and its quantity are determined by your needs.
+> **Note:** The devices (Surface, iPhone/iPad and Android) and its quantity are determined by your needs.
 
 ### Software Requirement
 
-MeshExpert Live! Development environment can be directly set up on Live Workstation host so that you can easily debug your app using MeshExpert Center.
+MeshExpert Live! development environment can be directly set up on Live Workstation host so that you can easily debug your applications using MeshExpert Center.
 
 #### Supported operating systems
 
-ME-Live! only supports Windows 10 now. The detailed requirement is as follows:
+MeshExpert Live! only supports Windows 10 now. The detailed requirement is as follows:
 
 |    Operating system     |            Version            |
 | :---------------------: | :---------------------------: |
@@ -64,7 +64,7 @@ You also need to install the "UnitySetup-Metro-Support-for-Edito". Download the 
 
 What you'll need is Visual Studio 2015 Community V3 or later. Check out [Windows Dev Center](https://developer.microsoft.com/en-us/windows/mixed-reality/install_the_tools#immersive_headset_development_.28minimum.29) for details.
 
-> **Note:** Making sure you have the latest Windows 10 SDK installed. Otherwise you cannot use the HoloLens to debug your app.
+> **Note:** Make sure you have the latest Windows 10 SDK installed, otherwise you cannot use the HoloLens to debug your applications.
 
 
 

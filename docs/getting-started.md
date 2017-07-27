@@ -1,34 +1,34 @@
 
 ## Welcome
-MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product developed by DataMesh. It is intensively designed on top of HoloLens, so that mixed-reality could be perceived by more people. Leveraging on our solution, HoloLens users can see amazing MR images, while those who do not wear HoloLens can also experience MR scenes through ME Live! in real-time. Meanwhile, the gap among different devices of sharing the same MR experiences can be well bridged by incorporating the collaboration feature offered by ME Live!, where you could easily interact with mixed realities via all sorts of VR/AR glasses and even mobiles and tablets, which creates various possibilities for immersive mixed-reality experiences.
+MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product developed by DataMesh. It is intensively designed on top of HoloLens, so that mixed-reality could be perceived by more people. Leveraging on our solution, HoloLens users can see amazing MR images, while those who do not wear HoloLens can also experience MR scenes through MeshExpert Live! in real-time. Meanwhile, the gap among different devices of sharing the same MR experiences can be well bridged by incorporating the collaboration feature offered by MeshExpert Live!, where you could easily interact with mixed realities via all sorts of VR/AR glasses and even mobiles and tablets, which creates various possibilities for immersive mixed-reality experiences.
 
 ## Main Features
 * **Real-time MR Show**
-> Our solution supports real-time casting of mixed-reality scenes. Through a set of equipment of paired HoloLens and ME-Live!, you can immediately cast MR scenes to any screen such that those who do not wear HoloLens can also enjoy the fantastic MR show.
+> Our solution supports real-time casting of mixed-reality scenes. Through a set of equipment of paired HoloLens and MeshExpert Live!, you can immediately cast MR scenes to any screen such that those who do not wear HoloLens can also enjoy the fantastic MR show.
 
 * **4K MR Recording**
-> Besides real-time casting, you can record the show with ME-Live! for a resolution up to 4K. Moving cameras is supported and by adding Anti-shake tech, videos captured by moving camera will be ultra smooth.
+> Besides real-time casting, you can record the show with MeshExpert Live! for a resolution up to 4K. Moving cameras is supported and by adding anti-shake tech, videos captured by moving camera will be ultra smooth.
 
 * **Muti-Player & Multi-Device Collaboration**
-> Collaborations of teams across devices are made easy with ME-Live!. Using our management portal, you can distribute apps and scenes to a bunch of HoloLens, which would automatically set them to synchronize with one another through ME-Live! workstation. This, therefore, enables people to work at the very same scene, and seamlessly collaborate with each other, in situations like Training, Gaming, Design and Innovation, etc.. Meanwhile, the creative process can be captured and cast by ME-Live!, where everything is vividly alive!
+> Collaborations of teams across devices are made easy with MeshExpert Live!. Using our management portal, you can distribute apps and scenes to a bunch of HoloLens, which would automatically set them to synchronize with one another through MeshExpert Live! workstation. This, therefore, enables people to work at the very same scene, and seamlessly collaborate with each other, in situations like Training, Gaming, Design and Innovation, etc.. Meanwhile, the creative process can be captured and cast by MeshExpert Live!, where everything is vividly alive!
 
 * **Cross-platform Support**
-> ME-Live! is widely applicable as it offers a comprehensive cross-platform solution. No matter what devices you have: HoloLens, Surface, Pad, iPhone, Android Mobile, etc., you can have them connected to ME-Live! so that they can share the same scenes of mixed reality.
+> MeshExpert Live! is widely applicable as it offers a comprehensive cross-platform solution. No matter what devices you have: HoloLens, Surface, iPad, iPhone, Android, etc., you can have them connected to MeshExpert Live! so that they can share the same scenes of mixed reality.
 
 * **Content Storage & Distribution over Cloud**
-> Through the MeshExpert Cloud, your apps and creative contents can be easily managed, and distributed to multiple ME-Live! deployments across regions. Thus ideas and innovations in your enterprise can flow fluently across offices and departments.
+> Through the MeshExpert Cloud, your apps and creative contents can be easily managed, and distributed to multiple MeshExpert Live! deployments across regions. Thus ideas and innovations in your enterprise can flow fluently across offices and departments.
 
 * **Multi-language Voice Interaction**
-> ME-Live! adds multi-language voice recognition to HoloLens apps. You can customize your own voice commands to enable a more powerful and friendly human-machine interactions.
+> MeshExpert Live! adds multi-language voice recognition to HoloLens apps. You can customize your own voice commands to enable a more powerful and friendly human-machine interactions.
 
 * **Social Networking and Sharing**
-> By connecting to our social cloud services, you can share your photos and videos of the captured mixed-reality shows to a wide range of social networks such as Facebook, Twitter, Wechat, Weibo, etc., either to promote your brand or to amaze your friends.
+> By connecting to our social cloud services, you can share your photos and videos of the captured mixed-reality shows to a wide range of social networks such as Facebook, Twitter, WeChat, Weibo, etc., either to promote your brand or to amaze your friends.
 
 - **Easy Management**
 > With our MeshExpert Center, you can easily manage your devices, your apps and the content you created. This is the one-stop solution for your best experience.
 
 * **Developer Support**
-> With the aid of the free opensource METoolkit and SDKs, anyone who wants to create his/her apps can easily make it work and enjoy the powerful features of ME-Live!. All developers can access our technical guidance materials, seek help from our forums, and gain our technical support.
+> With the aid of the free opensource METoolkit and SDKs, anyone who wants to create his/her apps can easily make it work and enjoy the powerful features of MeshExpert Live!. All developers can access our technical guidance materials, seek help from our forums, and gain our technical support.
 
 ## Quick Installation
 
@@ -70,9 +70,9 @@ Steps to connect the Workstation with the Rig and a display are as follows (see 
 
 ### Add License
 
-You need to make a subscription or add a license to activate full corresponding functionalities of MeshExpert-Live! before use.
+You need to make a subscription or add a license to activate full corresponding functionalities of MeshExpert Live! before use.
 
-> Note: if haven't installed the MeshExpert-Live! software, please visit our [Download Center](https://www.datamesh.com/download "Download MeshExpert") to get the MeshExpert Installer and install it before start.
+> Note: if haven't installed the MeshExpert Live! software, please visit our [Download Center](https://www.datamesh.com/download "Download MeshExpert") to get the MeshExpert Installer and install it.
 
 Once you have MeshExpert installed, you will have a shortcut **"MeshExpert Center"** on your Desktop and in the DataMesh folder at your Windows Start Menu. Double click to start the  **"MeshExpert Center"** and you will get:
 
@@ -81,9 +81,9 @@ Once you have MeshExpert installed, you will have a shortcut **"MeshExpert Cente
 <p align="center"><em>Sign In</em></p>
 </p>
 
-You can now **Sign In** or **Upload License** to activate MeshExpert services. (Please make sure the MeshExpert Services are started. If not, you can see warnings on the Dashboard page)
+You can now **Sign In** or **Upload License** to activate MeshExpert services. (Please make sure the MeshExpert Services are started. If not, you can see warnings on the Dashboard panel)
 
-For **Sign In**, you need to have Internet access. Also you need to create an online account at our [Subscription Center](https://license.datamesh.com/ "Subscribe") and make a subscription or start a free-trail.
+For **Sign In**, you need to have itnternet access. Also you need to create an online account at our [Subscription Center](https://license.datamesh.com/ "Subscribe") and make a subscription or start a free-trail.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/27760601/28446624-804567d2-6dfe-11e7-9376-3a5db004a1cd.png" width="600">
@@ -98,14 +98,14 @@ For **Upload License**, you need to contact us by email service@datamesh.com and
 
 As for more details usage about MeshExpert, please refer to [User Guide](http://docs.datamesh.com/projects/me-live/en/latest/user-guide/ "User Guide") for MeshExpert Live!
 
-Upon finished, your email info and optional free trail info will be displayed on the upper banner. 
+Upon finished, your email info and optional free trial info will be displayed on the upper banner. 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/7636848/28236528-cb208c80-695a-11e7-814b-7567c476739a.png" width="600">
 <p align="center"><em>Adding License</em></p>
 </p>
 
-Also you can see your subscription or license information in the "**Account**" page as demonstrated below, which reveals the detailed information about your licensing.
+Also you can see your subscription or license information in the "**Account**" panel as demonstrated below, which reveals the detailed information about your licensing.
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/7636848/28236510-8a01aa5e-695a-11e7-9c86-7d7f20230f09.png" width="600">
@@ -114,7 +114,7 @@ Also you can see your subscription or license information in the "**Account**" p
 
 ## Experience Mixed-Reality
 
-Now everything is ready, you can begin enjoy the amazing mixed-reality shows with MeshExpert-Live!
+Now everything is ready, you can begin enjoy the amazing mixed-reality shows with MeshExpert Live!
 
 > Note: If you use your own Rig and Workstation, please see our detailed [configuration guide](user-guide.md#configurations) to make sure all the necessary configurations are correct.
 
@@ -148,8 +148,8 @@ For **Recording and simple Collaboration**, start the **"SolarSystemExplorer.exe
 
 A preview window of the camera is on the right upper corner. You can preview the Mixed-Reality shooting at real-time.
 
-The control buttons are at the downer bar. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under "C:\HologrameCapture". Other options are for you to explore.
+The control buttons are at the downer bar. You can take high-quality photos of the MR scenes. You can also record the whole scenes as videos with a resolution up to 4K. The recordings will be stored under "C:\HologramCapture". Other options are for you to explore.
 
 There are also a vertical and a horizontal zoom-in and zoom-out bars for you to control your scenes.
 
-When you click **"Start Follow"**, the scene on HoloLens and PC workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to do collaborations with multiple devices.
+When you click **"Start Follow"**, the scene on HoloLens and PC workstation (and other devices like a Surface if you have and configured to connect) will all be synchronized in real-time fashion, which enables multiple players to collaborate with multiple devices.

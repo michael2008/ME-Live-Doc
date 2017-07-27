@@ -2,7 +2,7 @@
 
 ### Overview
 
-The aim of MEHolo SDK is to provide methods and APIs that developers can use to build their own application. In addition, based on Xamarin's cross-platform solution, MEHolo SDK can be integrated with the different platforms such as iOS, Android, UWP and .Net Framework.
+The main aim of the MEHolo SDK is to provide elegantly crafted APIs to help developers build their own applications easily and efficiently. In addition, based on Xamarin's cross-platform solution, the MEHolo SDK can be integrated with the different platforms, including iOS, Android, UWP and .Net Framework.
 
 ### Basic Usage
 
