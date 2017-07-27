@@ -18,7 +18,7 @@ The MeshExpert Live! development environment, which can be installed on a single
 |        Device         |     Quantity     |                 Purpose                  | Required |
 | :-------------------: | :--------------: | :--------------------------------------: | :------: |
 | Live Workstation host |     One set      | Install MeshExpert suite and establish Live Workstation |   Yes    |
-|       Live Rig        |     One set      |        Synthesize the 3D hologrms        |   Yes    |
+|       Live Rig        |     One set      |        Synthesize the 3D holograms        |   Yes    |
 |       HoloLens        | At least one set | Debug and release your mix-reality apps  |   Yes    |
 |        Surface        |     Optional     |        Debug and release UWP apps        |    No    |
 |      IPhone/IPad      |     Optional     | Debug and release iOS virtual-reality apps |    No    |
