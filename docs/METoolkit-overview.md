@@ -1,10 +1,10 @@
 ### METoolkit Overview
 
-METoolkit is an ME-DataMix (MeshExpert: DataMix - MR Data Integration Platform) client development toolkit that provides a growing range of functional modules and SDK to help developers develop AR apps based on HoloLens and ME-HoloServer.
+METoolkit is an ME-DataMix (MeshExpert: DataMix - MR Data Integration Platform) client development toolkit that provides a wide range of functional modules and SDKs to help developers develop AR apps based on HoloLens and ME-HoloServer.
 
-METoolkit is also a development engine based on Unity 3D platform. Relying on powerful features of Unity3D, METoolkit is able to run on different devices or platforms, including HoloLens, Surface, iOS, Android, and PC.
+METoolkit is also a development engine based on Unity 3D platform. Relying on powerful features of Unity3D, METoolkit is able to run on different devices and platforms, such as HoloLens, Surface, iOS, Android, and PC.
 
-> **Note:** Platform related features, such as spatial anchors, gesture recognition, may be unavailable on some platforms. Please read the [METoolkit Features](#metoolkit-features) for details.
+> **Note:** Platform related features, such as spatial anchors, gesture recognition, may not be available on some platforms. Please read the [METoolkit Features](#metoolkit-features) for details.
 
 ### METoolkit Features
 
