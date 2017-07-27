@@ -64,7 +64,7 @@ You also need to install the "UnitySetup-Metro-Support-for-Edito". Download the 
 
 What you'll need is Visual Studio 2015 Community V3 or later. Check out [Windows Dev Center](https://developer.microsoft.com/en-us/windows/mixed-reality/install_the_tools#immersive_headset_development_.28minimum.29) for details.
 
-> **Note:** Making sure you have the latest Windows 10 SDK installed. Otherwise you cannot use the HoloLens to debug your app.
+> **Note:** Make sure you have the latest Windows 10 SDK installed, otherwise you cannot use the HoloLens to debug your applications.
 
 
 
