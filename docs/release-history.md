@@ -1,3 +1,22 @@
+## v2.1.0
+
+For version information, see the [release note](release-notes.md#v210).
+
+For docs, see [v2 documentation](http://docs.datamesh.com/projects/me-live/en/v2 "v2 doc").
+
+Download the latest installer from one of the Mirrors:
+
+* GitHub Mirror: [MeshExpert.Installer.v2.1.0.exe](https://github.com/DataMesh-OpenSource/MeshExpert-Live/releases/download/v2.1.0/MeshExpert.Installer.v2.1.0.exe "MeshExpert Installer v2.1.0")
+
+- AWS Mirror: [MeshExpert Installer 2.1.0.exe](https://meshexpert-us.s3.amazonaws.com/MeshExpert%20Installer%202.1.0.exe)
+
+**Checksum**
+
+MD5: 156540419e7000064d13c606980e2bee
+
+SHA1: 43ddc44c54079f2a1d0ef9a353087c527406cd7b
+
+
 ## v2.0.0
 
 For version information, see the [release note](release-notes.md#v200).
@@ -15,6 +34,7 @@ Download the latest installer from one of the Mirrors:
 MD5: 9bad0dae181268850b06e8ff62061adc
 
 SHA1: 974f8f3fd5b3185f11df36b1dca7de600e497179
+
 
 ## v1.0.7
 
