@@ -1,5 +1,17 @@
 ## Version 2.x
 
+### v2.1.0
+
+**Release date:** 2017-08-21
+
+**Release Note v2.1.0**
+
+- Add storage module to store user contents, which can be viewed on HoloLens and used as building blocks for HoloLens Apps.
+- Add Storage tab in MeshExpert Center.
+- Fixed known issues in MeshExpert Center.
+- Fixed video drift in some extreme cases.
+
+
 ### v2.0.0
 
 **Release date:** 2017-07-20

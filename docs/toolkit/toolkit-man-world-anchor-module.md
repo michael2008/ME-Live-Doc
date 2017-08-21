@@ -3,10 +3,10 @@
 
 ### Overview
 
-SceneAnchorController provides the following functions:
+SceneAnchorController provides the following functionalities:
 
 + Manage the spatial scenes scanned by HoloLens.
-+ Manage the spatial anchor, including creation, modification, deletion, storage, etc.
++ Manage the spatial anchor, including creation, modification, deletion and storage.
 + Include a set of user interfaces to operate spatial anchors where users can adjust the position and angle of each Anchor by gesture.
 + Anchor upload and download (through the workstation).
 + All functions can simulate on PC, include save & load anchor. It's very useful in Live! application, that you can locate holographic without HoloLens.
