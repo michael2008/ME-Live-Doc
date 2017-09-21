@@ -1,5 +1,15 @@
 ## Version 2.x
 
+### v2.2.0
+
+**Release date:** 2017-09-21
+
+**Release Note v2.2.0**
+
+- Change server port from 80 to 8848 to resolve possible collisions with third-party applications and services.
+- Add social module for sharing MR photos and videos to social networks (need to work with DataMesh Cloud Service).
+- Fixed known issues in MeshExpert Center.
+
 ### v2.1.0
 
 **Release date:** 2017-08-21
