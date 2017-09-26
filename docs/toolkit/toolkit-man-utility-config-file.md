@@ -17,18 +17,13 @@ Below is an example config file.
 
 ```
 ###############################################
-# config for app
+# config for network
 ###############################################
 
-#### Colaberation Server Config ####
-Server_Url = 192.168.1.48
-Server_Port = 8823
+Server_Host = 192.168.2.31
 
-#### Storage Config
-License = 3ACE54EFC4B267908AB5210EDFB16A3F
+Server_Port = 8848
 
-#### HologramCapture Config
- Out_Put_Path = C:\\HologramCapture\\HoloReady\\
 ```
 Save this file and put it in "**StreamingAssets**" folder.
 
