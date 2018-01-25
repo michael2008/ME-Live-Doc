@@ -19,7 +19,12 @@
 
    + Set **Architecture** to **x86-64**
 
+   <p align="center">
+
    <img src="https://user-images.githubusercontent.com/7381020/28236077-e7aa7156-694e-11e7-8923-cf1502c8be27.png" width="400">
+
+   <p align="center"><em>PC Standalone Setting</em></p>
+   </p>
 
 2. Open `Other Setting` and change `API Compatibility level` to `.Net 4.6` in `Optimization`.
 

@@ -67,7 +67,11 @@ Out_Put_Path = C:/HologramCapture/
 
 Build a **PC Standalone** program, and select Architecture to **x86_64**.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28109547-027fd90a-6722-11e7-89a9-baa47c714576.png" width="500">
+
+</p>
 
 It will create a **exe** file and some folders. You can deploy them to your Workstation.
 
@@ -114,20 +118,42 @@ Here are three buttons:
 Click the Settings panel button to open the Settings panel:
 
 - The first area is the Holographic settings area, you can adjust the content as follows:
+
   - Video delay
   - Software anti-shake time
   -  Mixed reality transparency
   - Black Filter
   - Apply the overall volume size
+
 -  The second area is the advanced configuration content:
+
   - Set the default photo, video save address (click address to change)
   - Open the program's configuration file path, modify the configuration file
   - Open the program log file
   - Clear the anchor information and camera information saved by the program (that is, reset camera and space anchor data)
+
 - The third area is the Social Settings area, you can set the content as follows
+
   - Album used
   - Recording time limit (15s, 30s, 60s, unlimited, etc.)
+
 - The fourth area is the HoloLens advanced settings, they will change to a clickable state  when connected to the HoloLens , you can download the anchor spatial data on the HoloLens
+
+  - If you want to synchronize with another HoloLens, you need to:
+
+    - First click "Stop Follow" to stop synchronization.
+    - Then Click "Download Anchor".
+    - Upon success, the position of the Holographics would change and the synchronization would start automatically.
+    - If an alert of anchor not positioned appears, it means the spacial information scanned by the two HoloLens is different. You need to move the HoloLens to do a rescan until the alert disappears.
+
+  - You can download the spatial mapping information (Meshes) from HoloLens, so you can simulate spatial mapping on your workstation.
+
+    - Click button Download Spatial, and when download finished, you can see tips on right-top
+    - Spatial mapping meshes will only appear in Anchor Move mode. Start to move anchor, click an anchor, and select Gaze button in the middle, so you can see the meshes
+
+    <p align="center">
+    <img src="https://user-images.githubusercontent.com/7381020/28115007-c433e9fc-6735-11e7-8ed1-8db0bcb75843.png" width="400">
+    </p>
 
 
 
@@ -216,36 +242,34 @@ PS:
 
 
 
-预览窗口将会显示当前状态下的混合现实场景，点击右上角的按钮对预览窗口的大小进行切换，按顺序切换为：
+The preview window will display the mixed reality scene in the current state. Click the button in the upper right corner to switch the size of the preview window, and then switch to:
 
-1.      默认状态（小窗口模式）
+- Default state (small window mode)
+- Full screen mode
+- Hidden mode
 
 
-2.      全屏模式
 
-3.      隐藏模式
-
-#### 全屏模式
+#### Full screen mode
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26785911/35392487-0660969a-021d-11e8-901b-d2f205dd6e38.png" width="300">
+<img src="https://user-images.githubusercontent.com/26785911/35392674-98a83e18-021d-11e8-8485-47c1fea0b923.png" width="800">
 </p>
 
 
 
-当预览窗口处于全屏模式时，左上角功能区及左下角信息区将被隐藏
-
-此时面板仅显示媒体操作区及右上角预览窗口大小切换按钮
+- When the preview window is in full screen mode, the upper left corner of the ribbon and the lower left corner of the information areas will be hidden
+- At this time, the panel only displays the media operation area and the preview window size switching button in the upper right corner
 
 ### Information window
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26785911/35392487-0660969a-021d-11e8-901b-d2f205dd6e38.png" width="300">
+<img src="https://user-images.githubusercontent.com/26785911/35393391-cbb86ae2-021f-11e8-8116-5489a9b189f5.png" width="300">
 </p>
 
 
 
-此窗口将会显示程序运行的状态提示，可在设置面板中关闭
+This window will show the status of the program running tips, you can close it in the settings panel
 
 
 
