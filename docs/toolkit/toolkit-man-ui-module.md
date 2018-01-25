@@ -197,7 +197,11 @@ Block List provide a metro-style list panel which has pages flip support.
 - each item can show name and icon
 - if total items more than 12, page up and page down buttons will appear
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28235715-21fbb210-6946-11e7-9cca-1185739ab27b.jpg" width="300">
+
+</p>
 
 ### How to use
 
@@ -298,7 +302,11 @@ Moreover, CursorController can show a temporary information at the gaze point. T
 
 - Select **CursorController** object under **UIManager** object
 
+  <p align="center">
+
   <img src="https://user-images.githubusercontent.com/7381020/28013320-3a295ee0-659b-11e7-93b1-4f2241a4325b.png" width="400">
+
+  </p>
 
   - You can set the prefab of all kinds of cursor here as you like.
     - By default, the prefab of Info Prefab is null. You can put your own prefab here, if you need.

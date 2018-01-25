@@ -20,15 +20,19 @@ Through an integrated entrypoint provided by METoolkit, users are able to import
 
 - Select MEHoloEntrance object again, input your App name in the text field, and then push the button "Set App Name". 
 
+  <p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28106778-ca7fab16-6717-11e7-8e75-567f39b026d3.png" width="400">
 
-
+</p>
 
 - Then app name will appear in inspector panel by Green.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28106850-194d144a-6718-11e7-8dab-3abc4c451471.png" width="400">
 
-
+</p>
 
 > **Important:** You must set a **different App Name to every app**, because many of ME functions (such as collaboration, storage, and so on) will depend on this name.
 

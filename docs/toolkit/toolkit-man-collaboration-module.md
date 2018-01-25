@@ -33,7 +33,7 @@ CollaborationManager provides the following functions:
 # config for network
 ###############################################
 
-Server_Host = 192.168.2.31
+Server_Host = 192.168.8.250
 Server_Port = 8848
 ```
 You can change the host to your own server IP.

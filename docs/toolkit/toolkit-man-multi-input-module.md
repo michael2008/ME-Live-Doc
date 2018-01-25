@@ -29,7 +29,11 @@ Please refer to the following procedure to create a demo app
 
   You can use layer mask to tell InputManager which layers should interactive. 
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28011297-6bb0c2d4-6594-11e7-96c3-ee379da167d2.png" width=300>
+
+</p>
 
 You can also set layer mask with code.
 
@@ -185,7 +189,11 @@ private void OnManipulationUpdate(Vector3 delta)
 
 + To use XBOX Game Controller, you need to add key mapping to Unity config **Input** 
 
+  <p align="center">
+
   <img src="https://user-images.githubusercontent.com/7381020/28008234-4be3b7b4-6589-11e7-9ace-834630e21cb4.png" width="300">
+
+</p>
 
 + For convenience, we provide a complete Input set file, and you can copy it to you Unity project simply. 
 

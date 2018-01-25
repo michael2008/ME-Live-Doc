@@ -20,12 +20,14 @@ Please follow the instructions below to create a demo app.
 It's very easy to integrate Live! function to any project which made by METookit. 
 
 * Open any project which made by METoolkit.
-
 * Open **Player Settings**, and open **Other Settings** panel.
-
 * Add a compilation parameter "**ME_LIVE_ACTIVE;CROSS_PLATFORM_INPUT**" into Scripting Define Symbols field.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/26785911/35388942-c575e7fe-0210-11e8-9420-311e371e4cd3.png" width="500">
+
+</p>
 
 * Now your project will became a Live! project.
 
@@ -121,7 +123,7 @@ Click the Settings panel button to open the Settings panel:
 
   - Video delay
   - Software anti-shake time
-  -  Mixed reality transparency
+  - Mixed reality transparency
   - Black Filter
   - Apply the overall volume size
 
@@ -176,7 +178,7 @@ Click the button to open the anchor adjustment panel, click the anchor you want 
 - Use the six buttons below "Rotate" or the corresponding location of the keyboard button to rotate the virtual object
 - You can reset the anchor to the pre-adjustment state by click "Anchor Reset" button
 - You can reset the main camera to the pre-adjustment state by click "Camera Reset" button
--  You can adjust the speed of movement and rotation by using  speed slider
+- You can adjust the speed of movement and rotation by using  speed slider
 
 
 

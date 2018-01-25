@@ -20,14 +20,18 @@ Below is an example config file.
 # config for network
 ###############################################
 
-Server_Host = 192.168.2.31
+Server_Host = 192.168.8.250
 
 Server_Port = 8848
 
 ```
 Save this file and put it in "**StreamingAssets**" folder.
 
+<p align="center">
+
 <img src="https://cloud.githubusercontent.com/assets/7636848/26676698/73aaa76e-46fb-11e7-8d4b-f4ce31389a03.png" width="500">
+
+</p>
 
 ### Use AppConfig
 

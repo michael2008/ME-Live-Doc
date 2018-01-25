@@ -17,20 +17,30 @@ MeshExpert has a asset file type, include Unity AssetBundle and some other infor
 - Find your prefab which you want to build in Unity **Project** panel.
 - Select all prefabs you want to build.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28152736-93f0b6f4-67d4-11e7-9053-cbdb1e89f87a.png" width="200">
+
+</p>
 
 - Right Click select item, select "**DataMesh/Build Storage Asset (PC and WSA)**" from Content Menu.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28153300-4c766938-67d7-11e7-8812-99eab17fe391.png" width="500">
+
+</p>
 
 - Select a folder.
 
+<p align="center">
+
 <img src="https://user-images.githubusercontent.com/7381020/28153321-5b95ce04-67d7-11e7-9f60-088c0b296169.png" width="400">
+
+</p>
 
 - Go to this folder, you can find the assets, with extension name "**.medb**" .
 
-
-<img src="" width="300">
 
 
 ### Upload Asset to Cloud
