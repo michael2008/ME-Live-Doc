@@ -31,7 +31,7 @@ Next, let us create a demo app following the procedures below.
 In the Hierachy View, find **MEHolo/AnchorManager** object and choose it, and you will see the following panel in the Inspector View. Leave the parameters as defaults, later in this section you will get to know their meanings and then adjust them accordingly.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/7636848/26660962/f8ae44e6-46ad-11e7-8a20-782b4fc42eb2.png" width="500">
+<img src="https://user-images.githubusercontent.com/26785911/35388638-8cc781a2-020f-11e8-84e0-4fdb8da1a7ea.png" width="500">
 </p>
 
 ### Setting up Anchor
@@ -132,106 +132,6 @@ Now you can build and install the app to HoloLens to see the results.
 > Note:
 > * when an object is selected, you can air-tap at a blank area to unselect the object.
 > * when no object is selected, you can air-tap at a blank area to exit the **Anchor Editing Mode**, where the surrounding boxes and crystalline would all disappear, and the positions of objects will be saved so that on next boot all the positions would be automatically restored if the space matches.
-
-### Upload Anchor
-
-- Please make sure the **MeshExpert Suite** services are started on the Workstation (About how, refer to [User Guide for workstation][User_Guide_for_workstation]).
-- In the Hierarchy View, find and select the **MEHolo/AnchorManager** object.
-- Check Inspector View and set the parameters:
-    <p align="center">
-    <img src="https://cloud.githubusercontent.com/assets/7636848/26664154/f9494bee-46c1-11e7-821e-89b888d693ac.png" width="320">
-    </p>
-    * **App Id:** the unique ID of the app in 4-bytes integer.
-      * **Room Id:** the unique ID of the room in string. A room in ME-Live! is where players get together and collaborate with each other. Scenes in a room are synchronized via the Workstation.
-      * **Server Host:** the workstation's IP address.
-      * **Server Port:** the port number of the service on the workstation, defaults to 8823.
-- Open class **SceneAnchorSample** to add the **OnTapUpload()** method:
-```C#
-private void OnTapUpload(int count)
-{
-    CursorController.Instance.isBusy = true;
-    SceneAnchorController.Instance.UploadAnchor((bool success, string error) =>
-    {
-        CursorController.Instance.isBusy = false;
-        if (success)
-        {
-            CursorController.Instance.ShowInfo("Upload Anchor Success!");
-        }
-        else
-        {
-            CursorController.Instance.ShowInfo("Upload Error! reason is: " + error);
-        }
-    });
-}
-```
-- In the **WaitForInit()** method, modify the processor method of air-tap to **OnTapUpload()**:
-```C#
-private IEnumerator WaitForInit()
-{
-    MEHoloEntrance entrance = MEHoloEntrance.Instance;
-    while (!entrance.HasInit)
-    {
-        yield return null;
-    }
-
-    // Todo: Begin your logic
-    inputManager = MultiInputManager.Instance;
-    inputManager.cbTap += OnTapUpload;
-}
-```
-- Build and then install the app on HoloLens to check the results.
-- After the app started, follow the steps below to **upload an Anchor**:
-    * First check if the positions of objects are desirable.
-    * air-tap at any place.
-    * Now the uploading process should have begun, and the focal icon would turn into "Loading" status.
-    * Upon success, the focal icon would restore to normal and a success hint will appear.
-
-
-### Download Anchor
-
-* To download an anchor from the workstation, you need to make sure you have already uploaded an anchor following the instructions in previous section.
-* Open "**SceneAnchorSample**" class to add the "**OnTapDownload()**" method below:
-```C#
-private void OnTapDownload(int count)
-{
-    CursorController.Instance.isBusy = true;
-    SceneAnchorController.Instance.DownloadAnchor((bool success, string error) =>
-    {
-        CursorController.Instance.isBusy = false;
-        if (success)
-        {
-            CursorController.Instance.ShowInfo("Download Anchor Success!");
-        }
-        else
-        {
-            CursorController.Instance.ShowInfo("Download Error! reason is: " + error);
-        }
-    });
-}
-```
-* In the **WaitForInit()** method, modify the processor method of air-tap to **OnTapDownload()**:
-```C#
-private IEnumerator WaitForInit()
-{
-    MEHoloEntrance entrance = MEHoloEntrance.Instance;
-    while (!entrance.HasInit)
-    {
-        yield return null;
-    }
-
-    // Todo: Begin your logic
-    inputManager = MultiInputManager.Instance;
-    inputManager.cbTap += OnTapDownload;
-}
-```
-* Build and then install the app to HoloLens.
-* After the app started, follow the steps below to **download an Anchor**:
-  * Air-tap at any place.
-  * The downloading process would automatically start, and the focal icon will turn into "Loading" status.
-  * After finished, the focal icon would restore to normal status and a success hint would show up.
-  * If the anchor is successfully downloaded, and the scenes scanned by HoloLens match the downloaded data, the Anchor objects would appear at where the previously uploaded Anchors positioned.
-
-> Note: in order to actually see the objects re-positioning by the downloaded Anchors, you may need to upload a moved Anchor and then download it. If so, you need to move the Anchor and upload it following the instructions in the previous two sections.
 
 
 

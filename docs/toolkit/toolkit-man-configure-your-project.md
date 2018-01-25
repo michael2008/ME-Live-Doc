@@ -21,12 +21,11 @@
 
    <img src="https://user-images.githubusercontent.com/7381020/28236077-e7aa7156-694e-11e7-8923-cf1502c8be27.png" width="400">
 
-2. Open `Other Setting` and change `API Compatibility level` to `.Net 2.0` in `Optimization`.
+2. Open `Other Setting` and change `API Compatibility level` to `.Net 4.6` in `Optimization`.
 
-   > **Note:** Do not choose .Net 2.0 Subset.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/4099195/26622845/55ac8e2c-461e-11e7-922f-51a7effea618.png" width="500">
+<img src="https://user-images.githubusercontent.com/26785911/35387876-8248162c-020c-11e8-9ce8-29c858cd289e.jpg" width="400">
 <p align="center"><em>PC Standalone Setting</em></p>
 </p>
 

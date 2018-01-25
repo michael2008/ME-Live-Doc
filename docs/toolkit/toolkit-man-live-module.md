@@ -23,9 +23,9 @@ It's very easy to integrate Live! function to any project which made by METookit
 
 * Open **Player Settings**, and open **Other Settings** panel.
 
-* Add a compilation parameter "**ME_LIVE_ACTIVE**" into Scripting Define Symbols field.
+* Add a compilation parameter "**ME_LIVE_ACTIVE;CROSS_PLATFORM_INPUT**" into Scripting Define Symbols field.
 
-<img src="https://user-images.githubusercontent.com/7381020/28108773-3ee73c4c-671f-11e7-8aed-4c602ec366b4.png" width="500">
+<img src="https://user-images.githubusercontent.com/26785911/35388942-c575e7fe-0210-11e8-9420-311e371e4cd3.png" width="500">
 
 * Now your project will became a Live! project.
 
@@ -73,76 +73,180 @@ It will create a **exe** file and some folders. You can deploy them to your Work
 
 
 
-### Start to Use
+### Start to use
 
-* Start [**DataMesh Live Agent**][DataMesh_Live_Agent] App on the Hololens of the Rig.
+- Start [**DataMesh Live Agent**][DataMesh_Live_Agent] App on the HoloLens of the Rig.
+- Start "**.exe**" program on the Workstation.
+- There will be some buttons on the screen:
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/26785911/35389668-8f0d8d72-0213-11e8-8935-f16da3a1915b.png" width="800">
+  </p>
 
-* Start "**.exe**" program on the Workstation.
+There will be four functional areas:
 
-* There will be an operation panel on the screen:
-   <p align="center">
-   <img src="https://user-images.githubusercontent.com/7381020/28112129-81c9bd2c-672a-11e7-97bc-4cb0e5e30333.png" width="700">
-   </p>
-
-### Connect to HoloLens Spectator View
-
-* Click the "**Connect HoloLens Spectator View**" button on the right-side panel. Then the program would try to connect to the HoloLens on the Rig.
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26675735/9e7cf0fe-46f7-11e7-85cf-b5425560f28d.png" width="120">
-   </p>
-
-* If the connection succeeded, an echo text "**HoloLens connected**" would show up. Otherwise, "**HoloLens offline**" would appear. When connection failed, retry from the first step.
-   <p align="center">
-   <img src="https://user-images.githubusercontent.com/7381020/28112383-687b5a1e-672b-11e7-867d-f415b107e1e0.png" width="300">
-   </p>
+- The top left is the panel's functional area, which provides application configuration, anchor adjustment and HoloLens connectivity.
+- The middle is the media operation area, taking pictures and video recording, and you can open the automatic upload function at the same time.
+- The upper right corner is a preview window, you can preview the mixed reality screen.
+- The lower left corner is the information window, it will print the program running information.
 
 
 
-* With a successful connection, the program will try to synchronize automatically, and the "**Start Follow**" button would turn blue. You will see from the monitor screen that the real-time Holographics are captured.
+### Functional area
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35390701-4bc255f8-0217-11e8-83a2-b2711dbc4fd1.png" width="100">
+</p>
 
-<img src="https://user-images.githubusercontent.com/7381020/28114294-cc64a0d8-6732-11e7-9f9d-c4f04681b7aa.png" width="550">
+Here are three buttons:
 
-* If you want to synchronize with another HoloLens, you need to:
-    - First click "**Stop Follow**" to stop synchronization.
-    - Then Click "**Download Anchor**".
-    - Upon success, the position of the Holographics would change and the synchronization would start automatically.
-    - If an alert of anchor not positioned appears, it means the spacial information scanned by the two HoloLens is different. You need to move the HoloLens to do a rescan until the alert disappears.
-* You can download the spatial mapping information (Meshes) from HoloLens, so you can simulate spatial mapping on your workstation.
-    * Click button **Download Spatial**, and when download finished, you can see tips on right-top
-    * Spatial mapping meshes will only appear in **_Anchor Move_** mode. Start to move anchor, click an anchor, and select **Gaze** button in the middle, so you can see the meshes
-
-
-<img src="https://user-images.githubusercontent.com/7381020/28115007-c433e9fc-6735-11e7-8ed1-8db0bcb75843.png" width="400">
+- Settings panel
+- Move anchor
+- Connect with HoloLens
 
 
 
-### HoloLens Status Panel
+#### Settings panel
 
-- If **Config holoLens** Button shows blue, you can see the HoloLens Status Panel. If you connected HoloLens with USB line, there will show the information of HoloLens. You can check following information here.
-  - IP of this HoloLens 
-  - Which wifi network this HoloLens joined
-  - Spectator View App version
-  - If the spectator view App is running
-  - Remaining battery capacity
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35390861-c682fc3e-0217-11e8-95c2-f08c25d684bc.png" width="400">
+</p>
 
-<img src="https://user-images.githubusercontent.com/7381020/28114218-6100b886-6732-11e7-9eda-2f4e82993135.png" width="300">
+Click the Settings panel button to open the Settings panel:
 
-> Note:
->
-> - You need input your account and password of HoloLens when you login first time.
-> - Some information you may need to keep the HoloLens turn on.
-> - These information based on Windows Device Portal by USB, so you need to install Visual Studio in your computer.
+- The first area is the Holographic settings area, you can adjust the content as follows:
+  - Video delay
+  - Software anti-shake time
+  -  Mixed reality transparency
+  - Black Filter
+  - Apply the overall volume size
+-  The second area is the advanced configuration content:
+  - Set the default photo, video save address (click address to change)
+  - Open the program's configuration file path, modify the configuration file
+  - Open the program log file
+  - Clear the anchor information and camera information saved by the program (that is, reset camera and space anchor data)
+- The third area is the Social Settings area, you can set the content as follows
+  - Album used
+  - Recording time limit (15s, 30s, 60s, unlimited, etc.)
+- The fourth area is the HoloLens advanced settings, they will change to a clickable state  when connected to the HoloLens , you can download the anchor spatial data on the HoloLens
 
- 
 
-### Snap and Record
 
-- There is a MR preview window in the upper right corner. You can click the "**Full Screen**" button to make it display in Full-Screen Mode, and to exit press the "**Esc**" key on the keyboard. You can also click "**hide/show Preview**" to hide or show the Preview window.
+#### Move anchor
 
-- To record a MR video, click "**Begin Capture**". And a red "**REC**" sign would appear on the window as an indication. To finish recording, click "**Stop Capture**", and you can see the video file at the path you configured previously.
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35391404-91b1fb2a-0219-11e8-83b0-6a4a7f96a213.png" width="800">
+</p>
 
-- To capture a screenshot, click "**Take Snap**" to save the captured picture to the same path for video recordings.
+Click the button to open the anchor adjustment panel, click the anchor you want to move while the virtual object change to the anchor adjustment status:
+
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35391560-07852020-021a-11e8-895b-7245020a00db.png" width="400">
+</p>
+
+- When the virtual object can not be seen, an arrow appears to direct the position of the virtual object
+- Use the six buttons below "Move" or the corresponding location of the keyboard button to move the virtual object
+- Use the six buttons below "Rotate" or the corresponding location of the keyboard button to rotate the virtual object
+- You can reset the anchor to the pre-adjustment state by click "Anchor Reset" button
+- You can reset the main camera to the pre-adjustment state by click "Camera Reset" button
+-  You can adjust the speed of movement and rotation by using  speed slider
+
+
+
+#### Connect with HoloLens
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35391826-c79a26d0-021a-11e8-9eae-2d111aae13ee.png" width="300">
+</p>
+
+There are three states for this button:
+
+- Connecting
+- Connected
+- Disconnected
+
+
+
+When doing the first follow-up:
+
+- The application will first establish a connection with HoloLens (button status becomes connecting)
+- Start the synchronization of the location information after connected (button status changes to connected)
+- You can then click the button to disconnect the follow state (do not disconnect with the HoloLens)
+
+### Media operation area
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35392487-0660969a-021d-11e8-901b-d2f205dd6e38.png" width="300">
+</p>
+
+
+
+There are three buttons in the media operation area:
+
+- Automatic upload switch button
+- Shooting button
+- Recording button
+
+
+
+#### Shooting button
+
+Click the shooting button will take a picture of the current mixed reality scene and saved in the media resource path
+
+PS:
+
+- When auto upload is on, photos will be automatically uploaded to "Social" server
+- When the recording status is activated, this button can not be clicked
+
+#### Recording button
+
+Click the recording button will start recording for the current mixed reality scene and saved in the media resource path
+
+PS:
+
+- When auto upload is on, photos will be automatically uploaded to "Social" server
+- The button has two states, start and stop
+
+### Preview window
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35392633-7e419f92-021d-11e8-9727-22e85ce1ff8c.png" width="400">
+</p>
+
+
+
+预览窗口将会显示当前状态下的混合现实场景，点击右上角的按钮对预览窗口的大小进行切换，按顺序切换为：
+
+1.      默认状态（小窗口模式）
+
+
+2.      全屏模式
+
+3.      隐藏模式
+
+#### 全屏模式
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35392487-0660969a-021d-11e8-901b-d2f205dd6e38.png" width="300">
+</p>
+
+
+
+当预览窗口处于全屏模式时，左上角功能区及左下角信息区将被隐藏
+
+此时面板仅显示媒体操作区及右上角预览窗口大小切换按钮
+
+### Information window
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/26785911/35392487-0660969a-021d-11e8-901b-d2f205dd6e38.png" width="300">
+</p>
+
+
+
+此窗口将会显示程序运行的状态提示，可在设置面板中关闭
+
 
 
 
