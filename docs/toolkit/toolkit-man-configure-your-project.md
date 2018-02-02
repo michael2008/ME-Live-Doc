@@ -13,30 +13,26 @@
 <p align="center"><em>General Settings</em></p>
 </p>
 
-
-
 #### PC Standalone Setting
 
 1. Open `File` -> `Build Settings` -> `Player Settings` and then choose `PC, Mac & Linux`.
 
    + Set **Architecture** to **x86-64**
 
-<p align="center">
+   <p align="center">
 
-<img src="https://user-images.githubusercontent.com/13318047/35611287-89530d90-069f-11e8-9c90-4de7ce8d6677.png" width="400">
+   <img src="https://user-images.githubusercontent.com/13318047/35611287-89530d90-069f-11e8-9c90-4de7ce8d6677.png" width="400">
 
-<p align="center"><em>PC Standalone Setting</em></p>
-</p>
+   <p align="center"><em>PC Standalone Setting</em></p>
+   </p>
 
-1. Open `Other Setting` and change `Scripting Runtime Version` to `Experimental(.Net 4.6 Equivalent)` in `Optimization`. The Unity application may require a restart after this change.
+2. Open `Other Setting` and change `Scripting Runtime Version` to `Experimental(.Net 4.6 Equivalent)` in `Optimization`. The Unity application may require a restart after this change.
 
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/13318047/35611491-1f904034-06a0-11e8-93d0-fdc4bb711e0f.png" width="500">
 <p align="center"><em>PC Standalone Setting</em></p>
 </p>
-
-
 
 #### Windows Store Setting
 

@@ -10,8 +10,6 @@ Storage Module provides the following functions:
 * Download asset data in App runtime, and use it in App.
 * Provide a list UI as default.
 
-
-
 ### Make Asset
 
 MeshExpert has a asset file type, include Unity AssetBundle and some other information. METoolkit provide a tool to create this kind of asset file from Unity prefab. You can do it as follow:
@@ -45,7 +43,6 @@ MeshExpert has a asset file type, include Unity AssetBundle and some other infor
 
 
 
-
 ### Upload Asset to Cloud
 
 You can upload assets (.medb file) to MeshExpert Cloud. 
@@ -65,7 +62,6 @@ First, you need to prepare your App by METoolkit.
 * Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
 * Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
 * Confirm to check **Storage** Module in HoloEntrance.
-
 
 
 

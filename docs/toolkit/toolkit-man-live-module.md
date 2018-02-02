@@ -25,7 +25,7 @@ It's very easy to integrate Live! function to any project which made by METookit
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/26785911/35388942-c575e7fe-0210-11e8-9420-311e371e4cd3.png" width="400">
+<img src="https://user-images.githubusercontent.com/26785911/35388942-c575e7fe-0210-11e8-9420-311e371e4cd3.png" width="500">
 
 </p>
 
@@ -84,10 +84,9 @@ It will create a **exe** file and some folders. You can deploy them to your Work
 - Start [**DataMesh Live Agent**][DataMesh_Live_Agent] App on the HoloLens of the Rig.
 - Start "**.exe**" program on the Workstation.
 - There will be some buttons on the screen:
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/26785911/35389668-8f0d8d72-0213-11e8-8935-f16da3a1915b.png" width="800">
-</p>
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/26785911/35389668-8f0d8d72-0213-11e8-8935-f16da3a1915b.png" width="800">
+  </p>
 
 There will be four functional areas:
 
@@ -95,7 +94,6 @@ There will be four functional areas:
 - The middle is the media operation area, taking pictures and video recording, and you can open the automatic upload function at the same time.
 - The upper right corner is a preview window, you can preview the mixed reality screen.
 - The lower left corner is the information window, it will print the program running information.
-
 
 
 
@@ -110,7 +108,6 @@ Here are three buttons:
 - Settings panel
 - Move anchor
 - Connect with HoloLens
-
 
 
 
@@ -130,7 +127,7 @@ Click the Settings panel button to open the Settings panel:
   - Black Filter
   - Apply the overall volume size
 
-- The second area is the advanced configuration content:
+-  The second area is the advanced configuration content:
 
   - Set the default photo, video save address (click address to change)
   - Open the program's configuration file path, modify the configuration file
@@ -150,15 +147,15 @@ Click the Settings panel button to open the Settings panel:
     - Then Click "Download Anchor".
     - Upon success, the position of the Holographics would change and the synchronization would start automatically.
     - If an alert of anchor not positioned appears, it means the spacial information scanned by the two HoloLens is different. You need to move the HoloLens to do a rescan until the alert disappears.
+
   - You can download the spatial mapping information (Meshes) from HoloLens, so you can simulate spatial mapping on your workstation.
 
     - Click button Download Spatial, and when download finished, you can see tips on right-top
     - Spatial mapping meshes will only appear in Anchor Move mode. Start to move anchor, click an anchor, and select Gaze button in the middle, so you can see the meshes
 
-
-<p align="center">
-<img src="https://user-images.githubusercontent.com/7381020/28115007-c433e9fc-6735-11e7-8ed1-8db0bcb75843.png" width="400">
-</p>
+    <p align="center">
+    <img src="https://user-images.githubusercontent.com/7381020/28115007-c433e9fc-6735-11e7-8ed1-8db0bcb75843.png" width="400">
+    </p>
 
 
 
@@ -170,6 +167,8 @@ Click the Settings panel button to open the Settings panel:
 
 Click the button to open the anchor adjustment panel, click the anchor you want to move while the virtual object change to the anchor adjustment status:
 
+
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26785911/35391560-07852020-021a-11e8-895b-7245020a00db.png" width="400">
 </p>
@@ -180,7 +179,6 @@ Click the button to open the anchor adjustment panel, click the anchor you want 
 - You can reset the anchor to the pre-adjustment state by click "Anchor Reset" button
 - You can reset the main camera to the pre-adjustment state by click "Camera Reset" button
 - You can adjust the speed of movement and rotation by using  speed slider
-
 
 
 
@@ -204,8 +202,6 @@ When doing the first follow-up:
 - Start the synchronization of the location information after connected (button status changes to connected)
 - You can then click the button to disconnect the follow state (do not disconnect with the HoloLens)
 
-
-
 ### Media operation area
 
 <p align="center">
@@ -222,7 +218,6 @@ There are three buttons in the media operation area:
 
 
 
-
 #### Shooting button
 
 Click the shooting button will take a picture of the current mixed reality scene and saved in the media resource path
@@ -232,8 +227,6 @@ PS:
 - When auto upload is on, photos will be automatically uploaded to "Social" server
 - When the recording status is activated, this button can not be clicked
 
-
-
 #### Recording button
 
 Click the recording button will start recording for the current mixed reality scene and saved in the media resource path
@@ -242,8 +235,6 @@ PS:
 
 - When auto upload is on, photos will be automatically uploaded to "Social" server
 - The button has two states, start and stop
-
-
 
 ### Preview window
 
@@ -261,7 +252,6 @@ The preview window will display the mixed reality scene in the current state. Cl
 
 
 
-
 #### Full screen mode
 
 <p align="center">
@@ -273,15 +263,17 @@ The preview window will display the mixed reality scene in the current state. Cl
 - When the preview window is in full screen mode, the upper left corner of the ribbon and the lower left corner of the information areas will be hidden
 - At this time, the panel only displays the media operation area and the preview window size switching button in the upper right corner
 
-
-
 ### Information window
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/26785911/35393391-cbb86ae2-021f-11e8-8116-5489a9b189f5.png" width="300">
 </p>
 
+
+
 This window will show the status of the program running tips, you can close it in the settings panel
+
+
 
 
 
