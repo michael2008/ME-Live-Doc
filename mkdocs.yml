@@ -22,7 +22,6 @@ pages:
     - ['toolkit/toolkit-man-speech-module.md', 'METoolkit Developer Manual', 'Speech Module']
     - ['toolkit/toolkit-man-ui-module.md', 'METoolkit Developer Manual', 'UI Module']
     - ['toolkit/toolkit-man-collaboration-module.md', 'METoolkit Developer Manual', 'Collaboration Module']
-    - ['toolkit/toolkit-man-storage-module.md', 'METoolkit Developer Manual', 'Storage Module']
     - ['toolkit/toolkit-man-live-module.md', 'METoolkit Developer Manual', 'Live Module']
     - ['toolkit/toolkit-man-utility-config-file.md', 'METoolkit Developer Manual', 'Utility: Config Files']
     - ['trouble-shooting.md', 'Trouble Shooting']
