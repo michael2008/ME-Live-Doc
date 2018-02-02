@@ -105,6 +105,8 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
 
 The **GettingStartedSample** inherits **DealMessage(SyncProto proto)** method from **IMessageHandler**. This Method will be called when application recieve message from server. 
 
+
+
 #### Object Property
 
 - Click object `App` in the scene and check its `Inspector Panel`
@@ -114,6 +116,8 @@ The **GettingStartedSample** inherits **DealMessage(SyncProto proto)** method fr
 <img src="https://cloud.githubusercontent.com/assets/4099195/26623909/d198c5f2-4621-11e7-92c8-6594245976af.png" width="500">
 <p align="center"><em>Object Property Setting</em></p>
 </p>
+
+
 
 #### Runtime Tests
 

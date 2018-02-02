@@ -113,13 +113,16 @@ It's easy to add a menu to the scene, as you can drag the previously saved menu 
 
 * Find and choose "**MEHolo/UIManager/BlockMenuManager**" in the Hierarchy View.
 * Locate the saved menu data from the Project view, and drag it to the "**Menu Data List**" property in the Inspector view of BlockMenuManager.
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26671007/92102f72-46e6-11e7-9cce-16f5d737a88a.png" width="600">
-   </p>
+
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26671007/92102f72-46e6-11e7-9cce-16f5d737a88a.png" width="600">
+</p>
+
 * Now you can see that the menu data have been imported.
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26671008/92e2dd0a-46e6-11e7-9f7e-d166beca32fc.png" width="320">
-   </p>
+
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26671008/92e2dd0a-46e6-11e7-9f7e-d166beca32fc.png" width="320">
+</p>
 
   > **Note: you can also create Menu with code in runtime.**
 
@@ -185,8 +188,6 @@ public class MenuSample : MonoBehaviour
 
 
 
-
-
 ##Block List
 
 ### Overview
@@ -202,6 +203,8 @@ Block List provide a metro-style list panel which has pages flip support.
 <img src="https://user-images.githubusercontent.com/7381020/28235715-21fbb210-6946-11e7-9cca-1185739ab27b.jpg" width="300">
 
 </p>
+
+
 
 ### How to use
 
@@ -234,8 +237,6 @@ for (int i = 0;i < 30;i ++)
 /* set items into UI. the second param is current page, and the third is total item count */
 ui.SetData(dataList, 1, 30);	
 ```
-
-
 
 - Then, you need to bind callback function to Block List
 
@@ -272,13 +273,13 @@ ui.cbClose = OnUIClose;
 
 
 
-
-
 ## Cursor
 
 ### Overview
 
 Cursor helps users to get accurate gazing positions, much like a mouse cursor. It could also be used to carry some context information.
+
+
 
 ### Cursor type
 
@@ -292,29 +293,29 @@ CursorController also provide a special cursor called **Info cursor**. Info curs
 
 Moreover, CursorController can show a temporary information at the gaze point. This kind of information will float up slowly, and disappear after a while. It can use to show some temporary status of apps, like error information.
 
+
+
 ### Use CursorController
 
 - Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).
-
 - Set up METoolkit modules (refer to doc "[Integrated METoolkit][Integrated_with_your_project]" ).
-
 - Confirm to check **UI** and **Input** Modules in HoloEntrance.
-
 - Select **CursorController** object under **UIManager** object
 
-  <p align="center">
 
-  <img src="https://user-images.githubusercontent.com/7381020/28013320-3a295ee0-659b-11e7-93b1-4f2241a4325b.png" width="400">
+<p align="center">
 
-  </p>
+<img src="https://user-images.githubusercontent.com/7381020/28013320-3a295ee0-659b-11e7-93b1-4f2241a4325b.png" width="400">
 
-  - You can set the prefab of all kinds of cursor here as you like.
-    - By default, the prefab of Info Prefab is null. You can put your own prefab here, if you need.
-    - Info Prefab is the temporary information container. You don't need to change it in common, unless you want to make your own info UI. 
-  - By default, the cursor will fitting the surface of hit object. If you want your cursor always face to camera, check **Cursor Face To Camera**, or set this variable to true in your code.
-  - You can select the layer mask which you want to interactive.
-    - Note: This layer mask is different from **MultiInputManager.layerMask**. It means, you can make a object can be gazed, but the cursor show _normal_ not _hand_.
-  - You can set the distance between cursor and hit object, and default is 0.01 meter (1cm).
+</p>
+
+- You can set the prefab of all kinds of cursor here as you like.
+  - By default, the prefab of Info Prefab is null. You can put your own prefab here, if you need.
+  - Info Prefab is the temporary information container. You don't need to change it in common, unless you want to make your own info UI. 
+- By default, the cursor will fitting the surface of hit object. If you want your cursor always face to camera, check **Cursor Face To Camera**, or set this variable to true in your code.
+- You can select the layer mask which you want to interactive.
+  - Note: This layer mask is different from **MultiInputManager.layerMask**. It means, you can make a object can be gazed, but the cursor show _normal_ not _hand_.
+- You can set the distance between cursor and hit object, and default is 0.01 meter (1cm).
 
 - Until now, the cursor will work fine, without any coding work.
 
@@ -342,8 +343,6 @@ Moreover, CursorController can show a temporary information at the gaze point. T
 ```
 
 > Note: The code above sets the Cursor to a "busy" status. However, this status is merely a visual display and the app is **not interrupted** at all, which means users could still operate under the busy status. To actually block user operations, you need extra codes to do it.
-
-
 
 
 

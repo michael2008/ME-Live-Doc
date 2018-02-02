@@ -11,6 +11,8 @@ The use of configuration file adds dynamical aspects to the apps. We recommend y
 >
 > For more information about **PersistentDataPath** , please refer to Unity document: [Application.persistentDataPath](https://docs.unity3d.com/ScriptReference/Application-persistentDataPath.html)
 
+
+
 ### Use Configuration File
 
 Below is an example config file.
@@ -32,6 +34,8 @@ Save this file and put it in "**StreamingAssets**" folder.
 <img src="https://cloud.githubusercontent.com/assets/7636848/26676698/73aaa76e-46fb-11e7-8d4b-f4ce31389a03.png" width="500">
 
 </p>
+
+
 
 ### Use AppConfig
 

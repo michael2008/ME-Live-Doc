@@ -117,9 +117,11 @@ public class InputSample : MonoBehaviour
 }
 ```
 * Drag the "**Cube**" in the scene to the "**Target Object**" Column of "**InputSample**" of "**App**" in the Hierarchy View.
-   <p align="center">
-   <img src="https://cloud.githubusercontent.com/assets/7636848/26666376/2005d95e-46d2-11e7-85f3-9dfce47fe2b2.png" width="320">
-   </p>
+
+<p align="center">
+<img src="https://cloud.githubusercontent.com/assets/7636848/26666376/2005d95e-46d2-11e7-85f3-9dfce47fe2b2.png" width="320">
+</p>
+
 * Release the Project to HoloLens or start it directly in Unity.
 > Note: If you run the app in Unity on PC, the **Alt+J/K/L/I/U/O** keys on PC would be mapped to the Navigation gesture on HoloLens. And if you have bound the **Manipulation** gesture, the corresponding keys on PC would be **Shift+J/K/L/I/U/O**.
 >
@@ -189,9 +191,10 @@ private void OnManipulationUpdate(Vector3 delta)
 
 + To use XBOX Game Controller, you need to add key mapping to Unity config **Input** 
 
-  <p align="center">
 
-  <img src="https://user-images.githubusercontent.com/7381020/28008234-4be3b7b4-6589-11e7-9ace-834630e21cb4.png" width="300">
+<p align="center">
+
+<img src="https://user-images.githubusercontent.com/7381020/28008234-4be3b7b4-6589-11e7-9ace-834630e21cb4.png" width="300">
 
 </p>
 
@@ -214,6 +217,7 @@ You don't need any code work.  Once your connect the XBOX Controller to HoloLens
 + use **Button A** as Air Tap.
 + use **left stick** as Manipulation. (When you push left stick, Input system will switch to manipulation mode automatically).
 + use **right stick** as Navigation. (When you push left stick, Input system will switch to navigation mode automatically).
+
 
 
 
