@@ -48,7 +48,6 @@ For Version information, please see our [release notes](release-notes.md).
     - [Speech Module][Speech_Module]
     - [UI Module][UI_Module]
     - [Collaboration Module][Collaboration_Module]
-    - [Storage Module][Storage_Module]
     - [Live Controller Module][Live_Controller_Module]
     - [Utility: Config Files][Utility_Config_Files]
 * [Trouble Shooting][trouble_shooting]
@@ -95,7 +94,6 @@ For Version information, please see our [release notes](release-notes.md).
 [Speech_Module]: toolkit/toolkit-man-speech-module.md
 [UI_Module]: toolkit/toolkit-man-ui-module.md
 [Collaboration_Module]: toolkit/toolkit-man-collaboration-module.md
-[Storage_Module]: toolkit/toolkit-man-storage-module.md
 [Live_Controller_Module]: toolkit/toolkit-man-live-module.md
 [Utility_Config_Files]: toolkit/toolkit-man-utility-config-file.md
 [MEHoloSDK_Docs]: me-holo-sdk.md

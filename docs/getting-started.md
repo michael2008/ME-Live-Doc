@@ -15,7 +15,7 @@ MeshExpert Live!  is a real-time Mixed-Reality (MR) filming and show product dev
 * **Cross-platform Support**
 > MeshExpert Live! is widely applicable as it offers a comprehensive cross-platform solution. No matter what devices you have: HoloLens, Surface, iPad, iPhone, Android, etc., you can have them connected to MeshExpert Live! so that they can share the same scenes of mixed reality.
 
-* **Content Storage & Distribution over Cloud**
+* **Content Library & Distribution over Cloud**
 > Through the MeshExpert Cloud, your apps and creative contents can be easily managed, and distributed to multiple MeshExpert Live! deployments across regions. Thus ideas and innovations in your enterprise can flow fluently across offices and departments.
 
 * **Multi-language Voice Interaction**

@@ -30,7 +30,7 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 
      > **Note:** Basically, you will create and initialize what are called `Rooms` in which  user can collaborate with others. 
 
-   - **_Storage_**: Make specific asset by Unity, upload by Website, and download from Cloud in Runtime.
+   - **_Library_**: Make specific asset by Unity, upload by Website, and download from Cloud in Runtime.
 
    - **_Live!_**: Providing a control panel and relevant functions so that you can easily migrate other AR application to Live!.
 
@@ -52,7 +52,6 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 - [Speech Module][Speech_Module]
 - [UI Module][UI_Module]
 - [Collaboration Module][Collaboration_Module]
-- [Storage Module][Storage_Module]
 - [Live Controller Module][Live_Controller_Module]
 - [Utility: Config Files][Utility_Config_Files]
 
@@ -81,8 +80,6 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
   - CursorController
 - DataMesh.AR.Network
   - CollaborationManager
-- DataMesh.AR.Storage
-  - StorageManager
 - DataMesh.AR.MRC
   - MixedRealityCapture
   - PhotoCapture
@@ -109,7 +106,6 @@ METoolkit is also a development engine based on Unity 3D platform. Relying on po
 [Speech_Module]: toolkit/toolkit-man-speech-module.md
 [UI_Module]: toolkit/toolkit-man-ui-module.md
 [Collaboration_Module]: toolkit/toolkit-man-collaboration-module.md
-[Storage_Module]: toolkit/toolkit-man-storage-module.md
 [Live_Controller_Module]: toolkit/toolkit-man-live-module.md
 [Utility_Config_Files]: toolkit/toolkit-man-utility-config-file.md
 [MEHoloSDK_Docs]: me-holo-sdk.md
