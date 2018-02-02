@@ -219,26 +219,26 @@ The SyncProto type parameter of **DealMessage** method contains two types of mes
 
   **Send Broadcast**
 
-  ```c#
-  private void SendBroadcastMessage(int[] data,string msgContent)
-  {
-      BroadcastMsg msg = new BroadcastMsg();
-      msg.Sender = selfUserId;
-      msg.Content = msgContent;
-          
-      ComplexContent content = new ComplexContent();  	
-      for (int i = 0; i < data.Length; i++)
-      {
-        //of course you can use datas in other format like: 
-        //ontent.MsgFloat64
-        //content.MsgString
-        //content.MsgBytes
-          content.MsgInt64.Add(data[i]);
-      }
-      msg.ComplexContent = content;
-      collaborationManager.SendCommand(msg);
-  }
-  ```
+```c#
+private void SendBroadcastMessage(int[] data,string msgContent)
+{
+    BroadcastMsg msg = new BroadcastMsg();
+    msg.Sender = selfUserId;
+    msg.Content = msgContent;
+        
+    ComplexContent content = new ComplexContent();  	
+    for (int i = 0; i < data.Length; i++)
+    {
+      //of course you can use datas in other format like: 
+      //ontent.MsgFloat64
+      //content.MsgString
+      //content.MsgBytes
+        content.MsgInt64.Add(data[i]);
+    }
+    msg.ComplexContent = content;
+    collaborationManager.SendCommand(msg);
+}
+```
 
 - **Synchronization Message** (SyncProto.SyncMsg):
 
@@ -248,23 +248,23 @@ The SyncProto type parameter of **DealMessage** method contains two types of mes
 
   **Send Synchronization**
 
-  ```c#
-  private void SendSyncMessage(string sid, float[] data)
-  {
-      SyncMsg msg = new SyncMsg();
-      msg.Sender = selfUserId;
-      MsgEntry msgEntry = new MsgEntry();
-      //set msgEntry data
-      msgEntry.ShowId = sid;
-      for (int i = 0; i < data.Length; i++)
-      {
-          msgEntry.Pr.Add(data[i]);
-      }
-      //......
-      msg.MsgEntry.Add(msgEntry);
-      collaborationManager.SendMessage(msg);
-  }
-  ```
+```c#
+private void SendSyncMessage(string sid, float[] data)
+{
+    SyncMsg msg = new SyncMsg();
+    msg.Sender = selfUserId;
+    MsgEntry msgEntry = new MsgEntry();
+    //set msgEntry data
+    msgEntry.ShowId = sid;
+    for (int i = 0; i < data.Length; i++)
+    {
+        msgEntry.Pr.Add(data[i]);
+    }
+    //......
+    msg.MsgEntry.Add(msgEntry);
+    collaborationManager.SendMessage(msg);
+}
+```
 
 Both type of message would be sent to everyone in the 'room', which means the client which sends the message (or raise the status update) will get update message from server. In some case it may lead to an infinite loop, so it is recommended that functions which really change local object status be called after the application get 'confirmation' from server, **or** check whether the sender of message is itself.
 
