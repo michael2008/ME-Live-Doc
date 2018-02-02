@@ -103,6 +103,8 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
 
 ```
 
+The **GettingStartedSample** inherits **DealMessage(SyncProto proto)** method from **IMessageHandler**. This Method will be called when application recieve message from server. 
+
 #### Object Property
 
 - Click object `App` in the scene and check its `Inspector Panel`
@@ -117,13 +119,13 @@ public class GettingStartedSample : MonoBehaviour, IMessageHandler
 
 - Deploy the app to HoloLens (check out [Microsoft Doc](https://docs.microsoft.com/en-us/hololens/hololens-install-apps))
 - Check if the HoloLens and the machine on which **_MeshExpert_** has been installed are in the same LAN environment.
-- Check if **_MeshExpert Server_** is running.
+- Ensure that **_MeshExpert Server_** is running.
 - Launch the app on HoloLens. You will see a cube in front of your eyes.
-- Launch the app in Unity and then **_move_** or **_revolve_** the cube in `Scene`.
+- Launch the app in Unity and **_move_** or **_revolve_** the cube in `Scene`.
 
 <p align="center">
 <img src="https://cloud.githubusercontent.com/assets/4099195/26624011/29ee5596-4622-11e7-95dc-afedabdd64fc.png" width="300">
 <p align="center"><em>Cube</em></p>
 </p>
 
-- Check the cube in HoloLens and you will see the cube, in Unity, is moving synchronously.
+- Check the cube in HoloLens and you will see the cube transforms in the same way as in Unity.

@@ -52,6 +52,14 @@ In the Hierachy View, find **MEHolo/AnchorManager** object and choose it, and yo
 
 * Now the Anchor of one object is set, please set the Anchors of the other two objects yourself with the same procedures.
 
+### Limit Rotate Axis
+
+- In some case you may want some axis not to rotate, you can lock specific axis by switching the option of specific axis to 'Lock'.
+
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/13318047/35616118-407c332a-06af-11e8-95f3-6903a6faba54.png" width="500">
+  </p>
+
 ### Write a Test Demo
 
 + Create an object of name "**App**" in Hierarchy view.

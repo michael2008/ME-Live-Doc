@@ -9,6 +9,65 @@ CollaborationManager provides the following functions:
 * Let a wide range of devices to communicate through the Workstation.
 * Wrap a generic message format and communication channels to facilitate collaborations.
 
+The SyncProto type parameter of **DealMessage** method contains two types of message from server:
+
+- **Broadcast Message **(SyncProto.BrdMsg):
+
+  When one client send broadcast message to server , server will automatically transmit it to everyone in the 'room'. It can be used to inform some one-time event such as 'playing a sound effect', in case missing such a message doesn't lead to a bad result and you don't want it to execute after it misses the correct moment.
+
+  The server won't save anything about broadcast message, which is different from Synchronize Message.
+
+- **Synchronization Message** (SyncProto.SyncMsg):
+
+  The synchronization message is based on 'objects' data maintained by server. When recieving object status data from clients, the server will rapidly update the data on server and send a **final** status data to clients after it reaches the synchronization interval. Such synchronization **may not** reserve all the small changes during a synchronization interval, which means it cannot ensure that every change sent by client during a synchronization interval will be trasmit to others. So it is not fit to informs events which need to be counted. 
+
+  It can be used to synchronize status based on object which you want clients to get the latest status, such as object transformation;
+
+  Send Broadcast
+
+  ```c#
+  private void SendBroadcastMessage(int[] data,string msgContent)
+  {
+      BroadcastMsg msg = new BroadcastMsg();
+      msg.Sender = selfUserId;
+      msg.Content = msgContent;
+          
+      ComplexContent content = new ComplexContent();  	
+      for (int i = 0; i < data.Length; i++)
+      {
+        //of course you can use datas in other format like: 
+        //ontent.MsgFloat64
+        //content.MsgString
+        //content.MsgBytes
+          content.MsgInt64.Add(data[i]);
+      }
+      msg.ComplexContent = content;
+      collaborationManager.SendCommand(msg);
+  }
+  ```
+
+  Send Synchronization
+
+  ```c#
+  private void SendSyncMessage(string sid, float[] data)
+  {
+      SyncMsg msg = new SyncMsg();
+      msg.Sender = selfUserId;
+      MsgEntry msgEntry = new MsgEntry();
+      //set msgEntry data
+      msgEntry.ShowId = sid;
+      for (int i = 0; i < data.Length; i++)
+      {
+          msgEntry.Pr.Add(data[i]);
+      }
+      //......
+      msg.MsgEntry.Add(msgEntry);
+      collaborationManager.SendMessage(msg);
+  }
+  ```
+
+  Both type of message would be sent to everyone in the 'room', which means the client which sends the message (or raise the status update) will get update message from server. In some case it may lead to an infinite loop, so it is recommended that functions which really change local object status be called after the application get 'confirmation' from server, **or** check whether the sender of message is itself.
+
 ### Prepare Your Project
 
 * Create a Unity project and set it up accordingly for HoloLens apps (refer to doc "[Configure Your Project][Configure_your_project]" ).

@@ -7,7 +7,7 @@
 3. Open `Edit` -> `Project Setting` -> `Quality`, subsequently check all Levels and close `V Sync Count` of each level.
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/4099195/26622678/c8717432-461d-11e7-81a0-1d61b2f61c51.png" width="300">
+<img src="https://user-images.githubusercontent.com/13318047/35611131-12a1f382-069f-11e8-8aa0-4adfa86f0175.png" width="240">
 
 <img src="https://cloud.githubusercontent.com/assets/4099195/26622679/cbbffb2c-461d-11e7-92cb-e9d145c5ed43.png" width="400">
 <p align="center"><em>General Settings</em></p>
@@ -21,44 +21,42 @@
 
    <p align="center">
 
-   <img src="https://user-images.githubusercontent.com/7381020/28236077-e7aa7156-694e-11e7-8923-cf1502c8be27.png" width="400">
+   <img src="https://user-images.githubusercontent.com/13318047/35611287-89530d90-069f-11e8-9c90-4de7ce8d6677.png" width="400">
 
    <p align="center"><em>PC Standalone Setting</em></p>
    </p>
 
-2. Open `Other Setting` and change `API Compatibility level` to `.Net 4.6` in `Optimization`.
+2. Open `Other Setting` and change `Scripting Runtime Version` to `Experimental(.Net 4.6 Equivalent)` in `Optimization`. The Unity application may require a restart after this change.
 
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/26785911/35387876-8248162c-020c-11e8-9ce8-29c858cd289e.jpg" width="400">
+<img src="https://user-images.githubusercontent.com/13318047/35611491-1f904034-06a0-11e8-93d0-fdc4bb711e0f.png" width="500">
 <p align="center"><em>PC Standalone Setting</em></p>
 </p>
 
 #### Windows Store Setting
 
-1. Switch to `Windows Store` in `Build Settings`
-    + Choose `Universal 10` in `SDK`
-
-    + Choose `HoloLens` in `Target` 
+1. Switch to `Universal Windows Platform` in `Build Settings`
+    + Choose `HoloLens` in `Target Device` 
 
       > **Note:** Choose the proper device if your application is targeted to other platform.
 
-    + Choose `D3D` in `UWP Build Type`
+    + Choose `D3D` in `Build Type`
 
     + Making sure that you have ``Unity C# Projects` checked.
 
     + Click `Build And Run`
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/4099195/26623025/e7518f08-461e-11e7-8a83-1bc7a6ecb436.png" width="400">
+<img src="https://user-images.githubusercontent.com/13318047/35612069-5cc0d9d0-06a2-11e8-96f3-ca16774246ca.png" width="550">
 <p align="center"><em>Windows Store Setting</em></p>
 </p>
 
-2. Open `Other Setting` and check `Virtual Reality Supported`
+2. Open `XR Settings` and check `Virtual Reality Supported`
 3. Choose `Windows Holographic`
 
 <p align="center">
-<img src="https://cloud.githubusercontent.com/assets/4099195/26623099/346c882e-461f-11e7-9a13-a2966c2f6c5f.png" width="600">
+<img src="https://user-images.githubusercontent.com/13318047/35612193-d08c12c6-06a2-11e8-9644-05bc7e717fa8.png" width="500">
 <p align="center"><em>Windows Store Setting</em></p>
 </p>
 

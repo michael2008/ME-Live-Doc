@@ -71,7 +71,7 @@ Build a **PC Standalone** program, and select Architecture to **x86_64**.
 
 <p align="center">
 
-<img src="https://user-images.githubusercontent.com/7381020/28109547-027fd90a-6722-11e7-89a9-baa47c714576.png" width="500">
+<img src="https://user-images.githubusercontent.com/13318047/35611287-89530d90-069f-11e8-9c90-4de7ce8d6677.png" width="500">
 
 </p>
 
