@@ -49,7 +49,7 @@
 
     + Making sure that you have ``Unity C# Projects` checked.
 
-    + Click `Build And Run`
+    + Click `Player Settings...`
 
 <p align="center">
 <img src="https://user-images.githubusercontent.com/13318047/35612069-5cc0d9d0-06a2-11e8-96f3-ca16774246ca.png" width="550">
